@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character x="-360" y="-30" camx="90" camy="180" icon="garb" color="#64B4EB" holdTime="3">
+	<anim name="idle" anim="garb idle" x="-218" y="-141" fps="6" loop="true"/>
+	<anim name="singLEFT" anim="garb left" x="-204" y="-145" fps="12"/>
+	<anim name="blink" anim="garb blink" x="-217" y="-141" fps="12"/>
+	<anim name="singDOWN" anim="garb down" x="-209" y="-144" fps="12"/>
+	<anim name="singUP" anim="garb up" x="-227" y="-140" fps="12"/>
+	<anim name="singRIGHT" anim="garb right" x="-249" y="-138" fps="12"/>
+</character>

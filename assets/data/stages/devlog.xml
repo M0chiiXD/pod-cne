@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/devlogsquasher/" name="devlog" zoom="0.65">
+	<boyfriend x="1148.00296033294" y="55.1521914415536"/>
+	<sprite x="-667.508801440101" sprite="joembgdevlog thing" y="53.7401153701775" type="none" scalex="1.93233338556449" scaley="1.683536555147" name="bag"/>
+	<sprite x="-1201" sprite="bfdiaigimage" y="15" scale="0.78" name="bfdiaigimage"/>
+	<girlfriend x="-560" y="190"/>
+	<dad x="81.8787487237676" y="317.455015314783"/>
+	<sprite x="714.848497349173" sprite="pack of doom explained" y="699.015183864401" type="none" scale="0.611669363789083" name="podvideo"/>
+	<sprite x="389.606940353907" sprite="devlog" y="-81.5456327656788" type="none" scale="3" name="devlog"/>
+	<sprite x="667" sprite="cube" y="765" type="none" alpha="0.5" scale="0.56" name="cube"/>
+</stage>

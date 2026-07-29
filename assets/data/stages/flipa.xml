@@ -1,0 +1,7 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/flipa/" name="flipa" zoom="0.7">
+	<sprite x="-160" sprite="stuffy" y="-50" type="none" scale="2.08696065533603" name="bg"/>
+	<girlfriend x="1920" y="500"/>
+	<dad x="-19.8851570629206" y="162.613446226113"/>
+	<boyfriend x="891.177912224319" y="163.275184249241"/>
+</stage>

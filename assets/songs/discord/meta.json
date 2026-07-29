@@ -1,0 +1,16 @@
+{
+	"customValues": {},
+	"color": "#1EE913",
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"normal",
+		"evil"
+	],
+	"icon": "Icon",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Discord",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 164
+}

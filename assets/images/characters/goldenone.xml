@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="goldenone.png"><SubTexture name="goldenone idle0000" x="0" y="0" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="goldenone up0000" x="962" y="0" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="goldenone up0001" x="1924" y="0" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="goldenone up0002" x="2886" y="0" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="goldenone up0003" x="0" y="724" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="goldenone up0004" x="962" y="724" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="goldenone down0000" x="1924" y="724" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="goldenone down0001" x="2886" y="724" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="goldenone down0002" x="0" y="1448" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="goldenone down0003" x="962" y="1448" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="goldenone down0004" x="1924" y="1448" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="goldenone right0000" x="2886" y="1448" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="goldenone right0001" x="0" y="2172" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="goldenone right0002" x="962" y="2172" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="goldenone right0003" x="1924" y="2172" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="goldenone right0004" x="2886" y="2172" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="goldenone left0000" x="0" y="2896" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="goldenone left0001" x="962" y="2896" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="goldenone left0002" x="1924" y="2896" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="goldenone left0003" x="2886" y="2896" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="goldenone left0004" x="0" y="3620" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+</TextureAtlas>

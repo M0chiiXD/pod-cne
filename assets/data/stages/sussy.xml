@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/sussys/" name="sussy" zoom="0.7">
+	<sprite x="-99.503915040742" sprite="1sky" y="109.248098993925" type="none" scalex="1.75874818736301" scrollx="0.25" scaley="1.70881751051113" name="sky"/>
+	<sprite x="-266.449791103849" y="47.6508101031554" type="none" angle="0.35" scrollx="0.6" name="clouds" scrolly="0.75" sprite="1cloud" scalex="1.85870998864698" scaley="2.07796949110134"/>
+	<sprite x="-261" sprite="fts" y="289" type="none" alpha="0" scale="2.62" name="wiaeouw"/>
+	<sprite x="-65.8207169492572" sprite="1mainland" y="-50.7758328048299" type="none" scalex="2.09237125549291" scaley="2.01955166560966" name="mainland"/>
+	<girlfriend alpha="0" x="479" y="184"/>
+	<dad x="299.538830027871" y="105.838270403855"/>
+	<boyfriend x="1355.37985673937" y="358.746070612699"/>
+</stage>

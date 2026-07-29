@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="burnedpencil_end.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="idle0000" x="1989" y="0" width="296" height="549" frameX="-141" frameY="-61" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="idle0001" x="1989" y="549" width="294" height="547" frameX="-142" frameY="-62" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="right0000" x="477" y="0" width="419" height="535" frameX="-102" frameY="-73" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="right0001" x="896" y="0" width="401" height="541" frameX="-102" frameY="-69" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="up0000" x="1297" y="0" width="346" height="587" frameX="-91" frameY="-23" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="up0001" x="1643" y="0" width="346" height="576" frameX="-101" frameY="-36" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="down0000" x="1643" y="576" width="295" height="529" frameX="-142" frameY="-84" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="down0001" x="1989" y="1096" width="296" height="541" frameX="-140" frameY="-71" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="left0000" x="0" y="0" width="477" height="549" frameX="-20" frameY="-61" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="left0001" x="0" y="549" width="431" height="557" frameX="-51" frameY="-55" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="boo0000" x="303" y="1106" width="298" height="548" frameX="-139" frameY="-62" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="boo0001" x="0" y="1106" width="303" height="565" frameX="-137" frameY="-42" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="boo0002" x="477" y="535" width="393" height="557" frameX="-111" frameY="-50" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="boo0003" x="896" y="541" width="372" height="559" frameX="-120" frameY="-48" frameWidth="640" frameHeight="640"/>
+</TextureAtlas>

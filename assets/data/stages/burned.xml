@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/burned/" name="burned">
+	<sprite x="-836" y="-287" type="none" scrollx="0.25" name="stars" scrolly="0.9" sprite="stars" scalex="1.91" scaley="1.89"/>
+	<sprite x="-797" sprite="back" y="-159" type="none" scale="2" scrollx="0.5" name="back"/>
+	<sprite x="-837" sprite="ground" y="-216" type="none" scale="2" scrollx="0.97" name="ground"/>
+	<girlfriend/>
+	<dad x="-250.887347999896" y="436.578147219286"/>
+	<boyfriend x="1154.76183532069" y="441.108412739019"/>
+	<sprite scrolly="1.1" x="-566" sprite="front" y="-389" type="none" scale="2.15" scrollx="1.4" name="front"/>
+</stage>

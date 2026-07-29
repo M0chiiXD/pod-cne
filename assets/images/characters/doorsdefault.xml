@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="doorsdefault.png"><SubTexture name="doorsdefault idle0000" x="0" y="0" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="doorsdefault idle0001" x="962" y="0" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="doorsdefault left0000" x="1924" y="0" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="doorsdefault left0001" x="0" y="724" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="doorsdefault right0000" x="962" y="724" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="doorsdefault right0001" x="1924" y="724" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="doorsdefault up0000" x="0" y="1448" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="doorsdefault up0001" x="962" y="1448" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="doorsdefault down0000" x="1924" y="1448" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="doorsdefault down0001" x="0" y="2172" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="doorsdefault scary0000" x="962" y="2172" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+</TextureAtlas>

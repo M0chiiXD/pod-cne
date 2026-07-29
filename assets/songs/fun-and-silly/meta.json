@@ -1,0 +1,15 @@
+{
+	"customValues": {},
+	"color": "#95F5FF",
+	"opponentModeAllowed": false,
+	"icon": "garb",
+	"difficulties": [
+		"normal"
+	],
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Fun and Silly",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 120
+}

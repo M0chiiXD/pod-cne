@@ -1,0 +1,21 @@
+<!DOCTYPE codename-engine-character>
+<character x="90" camx="100" y="50" scale="0.5" camy="200" color="#00FF00">
+	<anim x="-10" y="-10" fps="0" anim="skibidi idle" name="idle"/>
+	<anim x="90" y="180" fps="12" anim="skibidi down" name="singDOWN"/>
+	<anim x="-10" y="200" fps="12" anim="skibidi up" name="singUP"/>
+	<anim x="-100" y="200" fps="12" anim="skibidi right" name="singRIGHT"/>
+	<anim x="14" y="38" fps="12" anim="BF NOTE LEFT MISS" name="singLEFTmiss"/>
+	<anim x="-30" y="-38" fps="12" anim="BF NOTE DOWN MISS" name="singDOWNmiss"/>
+	<anim x="-72" y="54" anim="BF NOTE UP MISS" name="singUPmiss"/>
+	<anim x="-88" y="44" anim="BF NOTE RIGHT MISS" name="singRIGHTmiss"/>
+	<anim x="-6" y="10" anim="BF HEY" name="hey"/>
+	<anim x="30" y="36" anim="BF hit" name="hurt"/>
+	<anim loop="true" x="-8" anim="BF idle shaking" name="scared"/>
+	<anim x="74" y="22" anim="BF dies" name="firstDeath"/>
+	<anim loop="true" x="74" y="10" anim="BF Dead Loop" name="deathLoop"/>
+	<anim x="74" y="138" anim="BF Dead confirm" name="deathConfirm"/>
+	<anim x="-20" y="-32" anim="boyfriend dodge" name="dodge"/>
+	<anim x="588" y="534" anim="boyfriend attack" name="attack"/>
+	<anim x="-80" y="-80" anim="bf pre attack" name="pre-attack"/>
+	<anim x="400" y="-10" fps="12" anim="skibidi left" name="singLEFT"/>
+</character>

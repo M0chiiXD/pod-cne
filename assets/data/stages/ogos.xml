@@ -1,0 +1,13 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/ogos/" name="ogos">
+	<sprite x="-1137.10851510263" sprite="bg" y="-135.909384978402" type="none" scaley="1.26007351368666" name="background"/>
+	<sprite x="918.493596317635" sprite="five" y="40.0705147336821" type="none" scalex="0.442028738402655" scaley="0.476147856611789" name="five"/>
+	<sprite x="-532.999999999682" sprite="kelp" y="-312.999999999852" type="beat" scalex="0.39" scaley="0.4" name="kelp"/>
+	<sprite x="120.952396861086" sprite="geary" y="65.199056893527" scalex="0.53861341389918" skewy="-0.0380952380952385" scaley="0.565753714288147" name="geary"/>
+	<girlfriend x="313.800316197964" y="-1103.73297441335"/>
+	<dad x="-45.2758516545302" y="-2.39522231497989"/>
+	<boyfriend x="688.454369256956" y="18.4543692569565"/>
+	<sprite x="-528.628910238225" sprite="trafficguy" y="470.485005104928" type="beat" scalex="0.846707021342551" angle="-0.63" scaley="0.867784987318466" name="trafficguy"/>
+	<sprite x="1028.52547390357" sprite="peachy" y="394.263728392042" type="beat" scalex="0.686212711581858" scaley="0.759483940026096" name="peachy"/>
+	<sprite x="601.399026729574" sprite="lemon" y="553.830742130237" type="beat" scalex="0.826885714815789" scaley="0.891436804206512" name="lemon"/>
+</stage>

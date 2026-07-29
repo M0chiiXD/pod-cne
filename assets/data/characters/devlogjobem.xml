@@ -1,0 +1,16 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" y="-80" scale="1.7" camx="-420" camy="0" color="#FF4B5F" icon="devlogjoem">
+	<anim name="idle" anim="idle0" fps="10"/>
+	<anim name="singDOWN" anim="down0" fps="10"/>
+	<anim name="singRIGHT" anim="right0" fps="10"/>
+	<anim name="singLEFT" anim="left0" fps="10"/>
+	<anim name="singUP" anim="up0" fps="10"/>
+	<anim name="talk" anim="yap0" fps="8" loop="true"/>
+	<anim name="talk2" anim="yap2" fps="8" loop="true"/>
+	<anim name="altswap" anim="altswap" fps="8"/>
+	<anim name="idle-alt" anim="idle-alt" fps="10"/>
+	<anim name="singLEFT-alt" anim="left-alt" fps="8"/>
+	<anim name="singDOWN-alt" anim="down-alt" fps="8"/>
+	<anim name="singRIGHT-alt" anim="right-alt" fps="8"/>
+	<anim name="singUP-alt" anim="up-alt" fps="8"/>
+</character>

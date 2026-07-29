@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="hearty.png"><SubTexture name="hearty idle0000" x="0" y="0" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="hearty idle0001" x="962" y="0" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="hearty idle0002" x="1924" y="0" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="hearty left0000" x="0" y="724" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="hearty left0001" x="962" y="724" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="hearty left0002" x="1924" y="724" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="hearty up0000" x="0" y="1448" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="hearty up0001" x="962" y="1448" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="hearty up0002" x="1924" y="1448" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="hearty right0000" x="0" y="2172" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="hearty right0001" x="962" y="2172" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="hearty right0002" x="1924" y="2172" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="hearty down0000" x="0" y="2896" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="hearty down0001" x="962" y="2896" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="hearty down0002" x="1924" y="2896" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+</TextureAtlas>

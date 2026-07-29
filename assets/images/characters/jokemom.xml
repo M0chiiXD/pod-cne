@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="jokemom.png">
+<SubTexture name="jokemom down0000" x="0" y="0" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="jokemom down0001" x="958" y="0" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="jokemom idle0000" x="0" y="720" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="jokemom left0000" x="958" y="720" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="jokemom left0001" x="1916" y="0" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="jokemom right0000" x="1916" y="720" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="jokemom right0001" x="0" y="1440" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="jokemom up0000" x="958" y="1440" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="jokemom up0001" x="1916" y="1440" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+</TextureAtlas>

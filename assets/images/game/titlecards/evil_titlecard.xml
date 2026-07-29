@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="evil_titlecard.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="evil0000" x="454" y="0" width="463" height="246" frameX="-58" frameY="-113" frameWidth="577" frameHeight="483"/>
+	<SubTexture name="evil0001" x="0" y="0" width="454" height="264" frameX="-64" frameY="-106" frameWidth="577" frameHeight="483"/>
+	<SubTexture name="evil0002" x="0" y="264" width="448" height="254" frameX="-68" frameY="-108" frameWidth="577" frameHeight="483"/>
+	<SubTexture name="evil0003" x="448" y="264" width="469" height="241" frameX="-60" frameY="-118" frameWidth="577" frameHeight="483"/>
+</TextureAtlas>

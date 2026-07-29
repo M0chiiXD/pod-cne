@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/dash/" name="gd" zoom="0.6">
+	<sprite x="100.171938437601" sprite="gdbg" y="270.903205027686" type="none" scale="4" scrollx="0.6" name="bg"/>
+	<sprite x="-304" sprite="flash" y="255" type="none" scale="2" name="light"/>
+	<sprite x="109" sprite="gdbg" y="1557" type="none" scalex="3.4" angle="180" scaley="3" name="floor"/>
+	<sprite x="-288.705330125004" sprite="white" y="-165.519206856067" type="none" scalex="2.06547048378466" scaley="0.00681230523055592" name="lining"/>
+	<girlfriend x="290" scroll="1" y="210"/>
+	<dad x="0" y="126"/>
+	<boyfriend x="900" y="90"/>
+</stage>

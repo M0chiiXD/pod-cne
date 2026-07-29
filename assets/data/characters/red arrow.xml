@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character x="-90" y="170" scale="1.4" antialiasing="false" camx="50" color="#FF1031">
+	<anim name="singLEFT" anim="red arrow left" x="7.14" y="-4.28" fps="12"/>
+	<anim name="singUP" anim="red arrow up" x="-0.72" y="1.43" fps="12"/>
+	<anim name="singRIGHT" anim="red arrow right" x="14.28" y="-1.43" fps="12"/>
+	<anim name="anim" anim="red arrow anim" x="-24.29" y="-20.71"/>
+	<anim name="idle" anim="red arrow idle" x="22.71" y="0.71" fps="12"/>
+	<anim name="singDOWN" anim="red arrow down" x="5.71" y="0.71" fps="12"/>
+</character>

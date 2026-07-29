@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/idk/" name="idk" zoom="0.9">
+	<sprite x="180.212522185735" sprite="IDK BG" y="121.648342103793" type="none" scalex="2.66618847499907" scaley="2.07120798286152" name="idkbg"/>
+	<girlfriend alpha="0" x="437" y="101"/>
+	<sprite x="0.024497384427832" sprite="sword" y="138.208112738574" type="beat" name="sword"/>
+	<sprite x="1276.21519460072" sprite="trampoline" y="621.469127931013" type="none" scalex="1.26742222356645" scaley="1.03102062030618" name="trampoline"/>
+	<sprite x="-545.555555555556" sprite="rocke" y="322.111111111111" type="none" scalex="1.05335189051264" scaley="1.03703703703704" name="rocke"/>
+	<sprite x="335.407562576178" sprite="greenflag" y="209.001072261426" type="beat" name="greenflag"/>
+	<dad x="-6.66650586354038" y="195.588073779289"/>
+	<boyfriend x="935.641835271961" y="187.664864739278"/>
+</stage>

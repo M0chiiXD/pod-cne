@@ -1,0 +1,16 @@
+{
+	"customValues": {},
+	"color": "#1C3818",
+	"opponentModeAllowed": false,
+	"icon": "face",
+	"difficulties": [
+		"normal",
+		"evil"
+	],
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Burned",
+	"beatsPerMeasure": 4,
+	"needsVoices": false,
+	"bpm": 128
+}

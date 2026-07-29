@@ -1,0 +1,7 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/connormaxxing/" name="connorsillytime" zoom="0.4">
+	<sprite x="444" sprite="connors" y="212" type="none" scale="4" name="bg"/>
+	<girlfriend x="1920" y="500"/>
+	<dad x="60" y="150"/>
+	<boyfriend x="750" y="140"/>
+</stage>

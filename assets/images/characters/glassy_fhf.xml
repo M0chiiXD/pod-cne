@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Glassy_FHF.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="down-alt0000" x="325" y="1779" width="313" height="395" frameX="-170" frameY="-210" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="down-alt0001" x="2406" y="0" width="299" height="404" frameX="-178" frameY="-198" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="idle-alt0000" x="0" y="1345" width="343" height="434" frameX="-135" frameY="-176" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="idle-alt0001" x="2076" y="0" width="330" height="435" frameX="-142" frameY="-173" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="left-alt0000" x="2076" y="1313" width="329" height="418" frameX="-112" frameY="-184" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="left-alt0001" x="0" y="1779" width="325" height="423" frameX="-119" frameY="-180" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="right-alt0000" x="2076" y="435" width="324" height="441" frameX="-215" frameY="-169" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="right-alt0001" x="2076" y="876" width="320" height="437" frameX="-208" frameY="-175" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="up-alt0000" x="2406" y="404" width="284" height="425" frameX="-168" frameY="-179" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="up-alt0001" x="2406" y="829" width="290" height="415" frameX="-167" frameY="-196" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="down0000" x="1218" y="894" width="459" height="302" frameX="-85" frameY="-315" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="down0001" x="767" y="894" width="451" height="321" frameX="-86" frameY="-289" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="hai0000" x="1324" y="0" width="411" height="446" frameX="-131" frameY="-170" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="hai0001" x="0" y="448" width="418" height="446" frameX="-131" frameY="-170" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="hai0002" x="1324" y="446" width="411" height="441" frameX="-131" frameY="-173" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="hai0003" x="418" y="448" width="420" height="442" frameX="-131" frameY="-173" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="idle0000" x="343" y="1345" width="358" height="386" frameX="-133" frameY="-227" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="idle0001" x="1735" y="0" width="341" height="440" frameX="-143" frameY="-176" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="idle0002" x="1735" y="880" width="334" height="446" frameX="-144" frameY="-170" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="idle0003" x="1735" y="440" width="341" height="440" frameX="-143" frameY="-176" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="left0000" x="898" y="0" width="426" height="435" frameX="-72" frameY="-180" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="left0001" x="898" y="435" width="424" height="433" frameX="-90" frameY="-181" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="right0000" x="0" y="0" width="456" height="448" frameX="-124" frameY="-177" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="right0001" x="456" y="0" width="442" height="441" frameX="-124" frameY="-182" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="up0000" x="0" y="894" width="379" height="451" frameX="-151" frameY="-152" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="up0001" x="379" y="894" width="388" height="431" frameX="-145" frameY="-175" frameWidth="640" frameHeight="640"/>
+</TextureAtlas>

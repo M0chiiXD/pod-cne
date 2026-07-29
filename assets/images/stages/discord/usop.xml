@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="usop.png">
+<SubTexture name="usop idle0000" x="0" y="0" width="422" height="394" frameX="-99" frameY="-109" frameWidth="640" frameHeight="640" />
+<SubTexture name="usop idle0001" x="422" y="0" width="431" height="393" frameX="-92" frameY="-111" frameWidth="640" frameHeight="640" />
+</TextureAtlas>

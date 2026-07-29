@@ -1,0 +1,44 @@
+{
+    "songs": [
+        {
+            "name": "discord",
+            "icon": "snow",
+            "type": "png"
+        },
+        {
+            "name": "powers",
+            "icon": "ash",
+            "type": "png"
+        },
+        {
+            "name": "no by vim",
+            "icon": "placeholder",
+            "type": "png"
+        },
+        {
+            "name": "meanie",
+            "icon": "ash",
+            "type": "mp3"
+        },
+        {
+            "name": "evil leaf5",
+            "icon": "ash",
+            "type": "png"
+        },
+        {
+            "name": "evil leaf7",
+            "icon": "snow",
+            "type": "png"
+        },
+        {
+            "name": "evil lea8f",
+            "icon": "placeholder",
+            "type": "mp4"
+        },
+        {
+            "name": "gregory",
+            "icon": "ash",
+            "type": "mp3"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+	"opponentModeAllowed": false,
+	"icon": "face",
+	"difficulties": [
+		"normal",
+		"evil"
+	],
+	"color": "#9271FD",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "The Revenge",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 125
+}

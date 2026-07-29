@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="az_legs2.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="run0000" x="0" y="220" width="253" height="209" frameX="-190" frameY="-433" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="run0001" x="582" y="194" width="212" height="199" frameX="-230" frameY="-428" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="run0002" x="253" y="220" width="265" height="176" frameX="-242" frameY="-416" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="run0003" x="0" y="0" width="299" height="220" frameX="-195" frameY="-422" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="run0004" x="299" y="0" width="283" height="215" frameX="-185" frameY="-427" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="run0005" x="582" y="0" width="234" height="194" frameX="-183" frameY="-432" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="run0006" x="0" y="429" width="260" height="170" frameX="-163" frameY="-426" frameWidth="640" frameHeight="640"/>
+</TextureAtlas>

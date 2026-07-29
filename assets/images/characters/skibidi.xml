@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="skibidi.png">
+<SubTexture name="skibidi right0000" x="1020" y="0" width="718" height="1277" frameX="0" frameY="0" frameWidth="718" frameHeight="1277" />
+<SubTexture name="skibidi up0000" x="1020" y="1277" width="500" height="500" frameX="0" frameY="0" frameWidth="500" frameHeight="500" />
+<SubTexture name="skibidi down0000" x="0" y="0" width="1020" height="1813" frameX="0" frameY="0" frameWidth="1020" frameHeight="1813" />
+<SubTexture name="skibidi left0000" x="1738" y="0" width="727" height="850" frameX="-15" frameY="-16" frameWidth="755" frameHeight="885" />
+<SubTexture name="skibidi idle0000" x="1738" y="850" width="512" height="512" frameX="0" frameY="0" frameWidth="512" frameHeight="512" />
+</TextureAtlas>

@@ -1,0 +1,19 @@
+<!DOCTYPE codename-engine-character>
+<character x="-300" y="190" sprite="hattyidk" scale="0.7" antialiasing="false" flipX="true" camx="-10" camy="-50" isPlayer="true" color="#FF7481">
+	<anim name="idle" anim="hattyidk idle" x="-0.74" y="2.86" fps="10"/>
+	<anim name="singLEFT" anim="hattyidk left" x="-2.77" y="8.06" fps="12"/>
+	<anim name="singDOWN" anim="hattyidk down" x="1.94" y="-4.16" fps="12"/>
+	<anim name="singUP" anim="hattyidk up" x="15.84" y="7.5" fps="12"/>
+	<anim name="singRIGHT" anim="hattyidk right" x="-33.61" y="-5.56" fps="12"/>
+	<anim name="singDOWN-alt" anim="hattyidk altdown" x="-91.11" y="3.33"/>
+	<anim name="singUP-alt" anim="hattyidk altup" x="-22.22" y="7.78" fps="12"/>
+	<anim name="singLEFT-alt" anim="hattyidk altleft" x="5.56" y="6.67" fps="12"/>
+	<anim name="singRIGHT-alt" anim="hattyidk altright" x="-24.45" y="11.11" fps="12"/>
+	<anim name="idle-alt" anim="hattyidk altidle" x="18.89" y="13.33" loop="true"/>
+	<anim name="happyidle" anim="hattyidk happyidle" fps="4" loop="true"/>
+	<anim name="changeofscene" anim="hattyidk changeofscene" y="2.86" fps="8"/>
+	<anim name="singUPmiss" anim="hattyidk miss" fps="20"/>
+	<anim name="singDOWNmiss" anim="hattyidk miss" fps="20"/>
+	<anim name="singLEFTmiss" anim="hattyidk miss" fps="20"/>
+	<anim name="singRIGHTmiss" anim="hattyidk miss" fps="20"/>
+</character>

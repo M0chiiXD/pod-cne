@@ -1,0 +1,70 @@
+{
+  "credits": [
+      {
+        "icon": "axi",
+        "name": "Axi",
+        "link": "https://www.youtube.com/@axi_lotl",
+        "desc": "Pack of DOOM Dev \nMod Owner, Composer, Artist/Animator, Coder, Charter"
+      },
+      {
+        "icon": "ash",
+        "name": "AshAzzy",
+        "link": "https://www.youtube.com/@AshAzzyy",
+        "desc": "Pack of DOOM Dev \nLead Artist, Composer, Animator, Charter"
+      },
+      {
+        "icon": "myra",
+        "name": "m0chimyra",
+        "link": "https://www.youtube.com/@joemfunni",
+        "desc": "Pack of DOOM Dev \nLead Coder, Composer, Artist/Animator, Charter"
+      },
+      {
+        "icon": "mat",
+        "name": "Matnimations11",
+        "link": "https://www.youtube.com/@Matnimations11",
+        "desc": "Pack of DOOM Dev \nArtist/Animator, Compser(?)"
+      },
+      {
+        "icon": "nug",
+        "name": "NugYT",
+        "link": "https://www.youtube.com/@Matnimations11",
+        "desc": "Pack of DOOM Dev \nArtist/Animator, Made the Main Menu BG"
+      },
+      {
+        "icon": "myra",
+        "name": "Connor",
+        "link": "https://www.youtube.com/@XX_C0NN0R_XX",
+        "desc": "Special Thanks \nHe's Connor!"
+      },
+      {
+        "icon": "gaming",
+        "name": "Gaming",
+        "link": "https://www.youtube.com/@Gaming23112",
+        "desc": "Special Thanks \nModeled the 'Greeeducation' BG"
+      },
+      {
+        "icon": "lj",
+        "name": "ItsLJCool",
+        "link": "https://x.com/ItsLJcool",
+        "desc": "Special Thanks \nMade OutlineModifier used in the Main Menu and other small things"
+      },
+      {
+        "icon": "myra",
+        "name": "[REDACTED]",
+        "link": "https://www.youtube.com/@Matnimations11",
+        "desc": "Special Thanks \n[PLEASE PUT SOMETHING HERE]"
+      },
+      {
+        "icon": "codename",
+        "name": "Codename Engine",
+        "link": "https://codename-engine.com/",
+        "desc": "Codename Developers \nClick to visit the CNE Website!"
+      },
+      {
+        "icon": "funkin",
+        "name": "The Funkin' Crew",
+        "link": "https://ninja-muffin24.itch.io/funkin",
+        "desc": "Funkin' Developers \nClick to visit the FNF itch.io page!"
+      }
+   ]
+}

@@ -1,0 +1,16 @@
+{
+	"customValues": {},
+	"color": "#21CBFF",
+	"opponentModeAllowed": false,
+	"icon": "face",
+	"difficulties": [
+		"normal",
+		"evil"
+	],
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Dash",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 155
+}

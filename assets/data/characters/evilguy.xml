@@ -1,0 +1,15 @@
+<!DOCTYPE codename-engine-character>
+<character x="-240" y="200" camx="10" camy="-140" color="#FF0000">
+	<anim name="idle" anim="evilguy idle" x="-1" y="230" fps="12"/>
+	<anim name="singLEFT" anim="evilguy left" x="34" y="234" fps="12"/>
+	<anim name="singRIGHT" anim="evilguy right" x="7" y="241" fps="12"/>
+	<anim name="singDOWN" anim="evilguy down" x="7" y="269" fps="12"/>
+	<anim name="singUP" anim="evilguy up" x="-20" y="185" fps="12"/>
+	<anim name="niss" anim="evilguy miss" y="190"/>
+	<anim name="pullgun" anim="evilguy pullgun" y="230" fps="12"/>
+	<anim name="shoot" anim="evilguy shoot" x="-180" y="213" fps="12"/>
+	<anim name="bruh" anim="evilguy bruh" x="-1" y="228" fps="12"/>
+	<anim name="imevil" anim="evilguy imevil" x="-1" y="227" fps="15"/>
+	<anim name="laughstart" anim="evilguy laughstart" x="-9" y="222" fps="12"/>
+	<anim name="laughloop" anim="evilguy laughloop" x="-22" y="222" fps="12"/>
+</character>

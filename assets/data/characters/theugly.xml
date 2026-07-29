@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character holdTime="6.1" x="-30" camx="-80" y="190" scale="0.8" color="#FFFFFF">
+	<anim x="92.5" y="88.75" fps="12" anim="uglydestin idle" name="idle"/>
+	<anim x="92.5" y="88.75" fps="12" anim="uglydestin left" name="singLEFT"/>
+	<anim x="92.5" y="87.5" fps="12" anim="uglydestin up" name="singUP"/>
+	<anim x="92.5" y="88.75" fps="12" anim="uglydestin down" name="singDOWN"/>
+	<anim x="91.25" y="87.5" fps="12" anim="uglydestin right" name="singRIGHT"/>
+</character>

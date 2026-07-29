@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="avery_final.png" width="2874" height="7920">
+	<SubTexture name="avery down0000.png" x="0" y="0" width="958" height="720" frameX="-2" frameY="-2" frameWidth="962" frameHeight="724"/>
+	<SubTexture name="avery down0001.png" x="0" y="720" width="958" height="720" frameX="-2" frameY="-2" frameWidth="962" frameHeight="724"/>
+	<SubTexture name="avery evil down0000.png" x="0" y="1440" width="958" height="720" frameX="-2" frameY="-2" frameWidth="962" frameHeight="724"/>
+	<SubTexture name="avery evil down0001.png" x="0" y="2160" width="958" height="720" frameX="-2" frameY="-2" frameWidth="962" frameHeight="724"/>
+	<SubTexture name="avery evil idle0001.png" x="0" y="2880" width="958" height="720" frameX="-2" frameY="-2" frameWidth="962" frameHeight="724"/>
+	<SubTexture name="avery evil idle0002.png" x="0" y="3600" width="958" height="720" frameX="-2" frameY="-2" frameWidth="962" frameHeight="724"/>
+	<SubTexture name="avery evil idle0003.png" x="0" y="4320" width="958" height="720" frameX="-2" frameY="-2" frameWidth="962" frameHeight="724"/>
+	<SubTexture name="avery evil idle0004.png" x="0" y="5040" width="958" height="720" frameX="-2" frameY="-2" frameWidth="962" frameHeight="724"/>
+	<SubTexture name="avery evil idle0005.png" x="0" y="5760" width="958" height="720" frameX="-2" frameY="-2" frameWidth="962" frameHeight="724"/>
+	<SubTexture name="avery evil left0000.png" x="0" y="6480" width="958" height="720" frameX="-2" frameY="-2" frameWidth="962" frameHeight="724"/>
+	<SubTexture name="avery evil left0001.png" x="0" y="7200" width="958" height="720" frameX="-2" frameY="-2" frameWidth="962" frameHeight="724"/>
+	<SubTexture name="avery evil left0002.png" x="958" y="0" width="958" height="720" frameX="-2" frameY="-2" frameWidth="962" frameHeight="724"/>
+	<SubTexture name="avery evil right0000.png" x="958" y="720" width="958" height="720" frameX="-2" frameY="-2" frameWidth="962" frameHeight="724"/>
+	<SubTexture name="avery evil right0001.png" x="958" y="1440" width="958" height="720" frameX="-2" frameY="-2" frameWidth="962" frameHeight="724"/>
+	<SubTexture name="avery evil right0002.png" x="958" y="2160" width="958" height="720" frameX="-2" frameY="-2" frameWidth="962" frameHeight="724"/>
+	<SubTexture name="avery evil up0000.png" x="958" y="2880" width="958" height="720" frameX="-2" frameY="-2" frameWidth="962" frameHeight="724"/>
+	<SubTexture name="avery evil up0001.png" x="958" y="3600" width="958" height="720" frameX="-2" frameY="-2" frameWidth="962" frameHeight="724"/>
+	<SubTexture name="avery evil up0002.png" x="958" y="4320" width="958" height="720" frameX="-2" frameY="-2" frameWidth="962" frameHeight="724"/>
+	<SubTexture name="avery idle0000.png" x="958" y="5760" width="958" height="720" frameX="-2" frameY="-2" frameWidth="962" frameHeight="724"/>
+	<SubTexture name="avery idle0001.png" x="958" y="6480" width="958" height="720" frameX="-2" frameY="-2" frameWidth="962" frameHeight="724"/>
+	<SubTexture name="avery idle0002.png" x="958" y="7200" width="958" height="720" frameX="-2" frameY="-2" frameWidth="962" frameHeight="724"/>
+	<SubTexture name="avery idle0003.png" x="1916" y="0" width="958" height="720" frameX="-2" frameY="-2" frameWidth="962" frameHeight="724"/>
+	<SubTexture name="avery idle0004.png" x="1916" y="720" width="958" height="720" frameX="-2" frameY="-2" frameWidth="962" frameHeight="724"/>
+	<SubTexture name="avery left0000.png" x="1916" y="1440" width="958" height="720" frameX="-2" frameY="-2" frameWidth="962" frameHeight="724"/>
+	<SubTexture name="avery left0001.png" x="1916" y="2160" width="958" height="720" frameX="-2" frameY="-2" frameWidth="962" frameHeight="724"/>
+	<SubTexture name="avery left0002.png" x="1916" y="2880" width="958" height="720" frameX="-2" frameY="-2" frameWidth="962" frameHeight="724"/>
+	<SubTexture name="avery right0000.png" x="1916" y="3600" width="958" height="720" frameX="-2" frameY="-2" frameWidth="962" frameHeight="724"/>
+	<SubTexture name="avery right0001.png" x="1916" y="4320" width="958" height="720" frameX="-2" frameY="-2" frameWidth="962" frameHeight="724"/>
+	<SubTexture name="avery right0002.png" x="1916" y="5040" width="958" height="720" frameX="-2" frameY="-2" frameWidth="962" frameHeight="724"/>
+	<SubTexture name="avery up0000.png" x="1916" y="5760" width="958" height="720" frameX="-2" frameY="-2" frameWidth="962" frameHeight="724"/>
+	<SubTexture name="avery up0001.png" x="1916" y="6480" width="958" height="720" frameX="-2" frameY="-2" frameWidth="962" frameHeight="724"/>
+	<SubTexture name="avery up0002.png" x="1916" y="7200" width="958" height="720" frameX="-2" frameY="-2" frameWidth="962" frameHeight="724"/>
+</TextureAtlas>

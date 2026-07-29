@@ -1,0 +1,16 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/pioraa/" name="pio bg" zoom="0.8">
+	<sprite x="-131.999999997772" sprite="sky" y="-560.000000000402" type="none" scalex="2.70133333333333" scaley="2.73827160493827" name="sprite_4"/>
+	<sprite x="-62" sprite="trees_back" y="247" type="none" scalex="2.03" scrollx="0.9" scaley="2.06" name="sprite_6"/>
+	<sprite x="-135.1156864388" sprite="ground" y="115.107964030256" type="none" scalex="2.48923545058581" scaley="2.50401159926241" name="sprite_3"/>
+	<sprite x="-273.86509970593" sprite="star 1" y="283.650067746447" type="beat" scalex="0.845210903759257" scaley="0.72006147783909" name="star1"/>
+	<sprite x="12.7563310186855" sprite="brown" y="352.189704556328" type="beat" scalex="0.922605461546053" scaley="0.84054135823861" name="brown"/>
+	<sprite x="259.539369418409" sprite="black triangle" y="377.771949558977" type="beat" scalex="0.766607914668387" scaley="0.731823558665976" name="blacktriangle"/>
+	<sprite x="1294.98912449638" sprite="texty" y="699.086935624501" type="none" scalex="1.18" scaley="1.15" name="texty"/>
+	<girlfriend alpha="0" x="328" y="167"/>
+	<dad x="-242.733539739316" y="285.93832893219"/>
+	<boyfriend x="848" y="286"/>
+	<sprite x="-830.814263957969" sprite="star 2" y="480.501756881907" type="beat" scalex="0.765455788405073" scaley="0.824146243254435" name="star2"/>
+	<sprite x="376.591461627456" sprite="lightinging" y="-113.064006387137" type="beat" scalex="0.810492409838376" scaley="0.815233401382037" name="lightinging"/>
+	<sprite x="-165.841091945653" sprite="trees_front" y="332.60648273807" type="none" scalex="2.32" scrollx="1.4" scaley="2.29" name="sprite_5"/>
+</stage>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="fakeairy.png">
+<SubTexture name="fakeairy idle0000" x="0" y="0" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="fakeairy idle0001" x="0" y="720" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="fakeairy idle0002" x="958" y="720" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="fakeairy idle0003" x="958" y="0" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+</TextureAtlas>

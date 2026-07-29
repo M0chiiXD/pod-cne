@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/generic/" name="generic" zoom="0.8">
+	<sprite x="-18.6162021141021" y="1.91950903634899" type="none" scrollx="0.15" name="Sky" scrolly="0.9" sprite="sky" scalex="1.79413624065848" scaley="1.84951811109836"/>
+	<sprite x="-130.407256760953" y="-12.254131030045" type="none" scrollx="0.4" name="sun" scrolly="0.95" sprite="sun" scalex="1.41032282399448" scaley="1.55085926761052"/>
+	<sprite x="-87.5685424950749" sprite="back bush" y="17.1715728752517" type="none" scalex="1.89579004294525" scrollx="0.7" scaley="2.00768758991152" name="bushback"/>
+	<sprite x="-15.8923522615134" sprite="house road" y="14.9314575050761" type="none" scalex="1.75347718241552" scaley="1.84463484026368" name="roadandhouse"/>
+	<girlfriend/>
+	<dad x="-2.50927728807176" y="7.10096745768493"/>
+	<sprite x="1916.03347066732" sprite="car" y="415.708109245799" type="none" scale="1.49378965160959" name="car"/>
+	<boyfriend x="814.46737914287" y="15.6185960944631"/>
+	<sprite x="-48.6247809133347" sprite="front bush" y="-266.817928305074" type="none" scalex="2.08248934428729" scrollx="1.5" scaley="2.67" name="bushfront"/>
+</stage>

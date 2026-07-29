@@ -1,0 +1,23 @@
+<!DOCTYPE codename-engine-character>
+<character x="-50" y="-10" scale="1.6" camx="-50" camy="200" isPlayer="true" color="#567CAE">
+	<anim name="idle" anim="tinytanker idle" x="-14" y="-128" indices="2..11"/>
+	<anim name="singDOWN" anim="tinytanker down" x="-11.67" y="-116"/>
+	<anim name="singLEFT" anim="tinytanker right" x="-11.67" y="-129"/>
+	<anim name="singRIGHT" anim="tinytanker left" x="-16" y="-128"/>
+	<anim name="singUP" anim="tinytanker up" x="-14" y="-119"/>
+	<anim name="shoot" anim="tinytanker gun0" x="-18.67" y="-120.66"/>
+	<anim name="laugh" anim="tinytanker laugh" x="-14" y="-127"/>
+	<anim name="proud" anim="tinytanker proud" x="-23" y="-130"/>
+	<anim name="point" anim="tinytanker point" x="-12" y="-138"/>
+	<anim name="singUP-alt" anim="tinytanker gunup" x="7" y="-135"/>
+	<anim name="singRIGHT-alt" anim="tinytanker gunleft" x="-28" y="-132"/>
+	<anim name="singDOWN-alt" anim="tinytanker gundown" x="21" y="-137"/>
+	<anim name="singLEFT-alt" anim="tinytanker gunright" x="-6" y="-131"/>
+	<anim name="ugh" anim="tinytanker ugh" x="-13.33" y="-127"/>
+	<anim name="youreugly" anim="tinytanker youreugly" x="-12" y="-134" fps="26"/>
+	<anim name="idle-alt" anim="tinytanker gunidle" x="-13" y="-127"/>
+	<anim name="singUPmiss" anim="tinytanker dead" x="-45.67" y="-116"/>
+	<anim name="singDOWNmiss" anim="tinytanker dead" x="-45.33" y="-114.34"/>
+	<anim name="singLEFTmiss" anim="tinytanker dead" x="-45.66" y="-113"/>
+	<anim name="singRIGHTmiss" anim="tinytanker dead" x="-45.33" y="-112.33"/>
+</character>

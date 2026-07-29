@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character holdTime="6.1" x="-350" y="90" scale="0.8" color="#0F522E">
+	<anim x="162.5" y="100" fps="12" anim="tnagpgreenpencil idle" name="idle"/>
+	<anim x="185" y="100" fps="12" anim="tnagpgreenpencil left" name="singLEFT"/>
+	<anim x="177.5" y="91.25" fps="12" anim="tnagpgreenpencil up" name="singUP"/>
+	<anim x="150" y="96.25" fps="12" anim="tnagpgreenpencil down" name="singDOWN"/>
+	<anim x="155" y="100" fps="12" anim="tnagpgreenpencil right" name="singRIGHT"/>
+</character>

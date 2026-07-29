@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/myko/" name="myko" zoom="0.5">
+	<sprite x="-145.06956545318" scroll="0.3" sprite="backmint" y="193.542133989835" type="none" scalex="2.8" scaley="3" name="sky"/>
+	<sprite x="164" sprite="island" y="352" type="none" scale="2.3" name="island"/>
+	<girlfriend x="654" y="380" scale="0.75"/>
+	<dad x="100" y="320" scale="0.75"/>
+	<boyfriend x="1180" y="400" scale="0.75"/>
+	<sprite x="62" sprite="front props" y="339" type="none" scale="2.3" name="front props"/>
+	<sprite x="400" sprite="front clouds" y="0" type="none" scale="3.12" scrollx="1.4" scrolly="0.8" name="frontclouds"/>
+</stage>

@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="35" y="50" sprite="clovernew" scale="1.25" flipX="true" isPlayer="true" color="#EBD895">
+	<anim name="idle" anim="clovernew idle" fps="10"/>
+	<anim name="singLEFT" anim="clovernew left" fps="12"/>
+	<anim name="singUP" anim="clovernew up" fps="12"/>
+	<anim name="singDOWN" anim="clovernew down" fps="12"/>
+	<anim name="singRIGHT" anim="clovernew right" fps="12"/>
+	<anim name="singLEFTmiss" anim="clovernew miss" fps="12"/>
+	<anim name="singDOWNmiss" anim="clovernew miss" fps="12"/>
+	<anim name="singRIGHTmiss" anim="clovernew miss" fps="12"/>
+	<anim name="singUPmiss" anim="clovernew miss" fps="12"/>
+</character>

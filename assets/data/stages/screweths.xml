@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/" name="screweth" zoom="0.5">
+	<solid name="bgr" x="-1800" y="-900" color="0xFFFFFF" width="8000" height="4000"/>
+	<solid name="bgp" x="-1800" y="-900" color="0xFFFFFF" width="8000" height="4000"/>
+	<girlfriend x="1920" y="500"/>
+	<dad x="-20" y="150"/>
+	<boyfriend x="950" y="140"/>
+</stage>

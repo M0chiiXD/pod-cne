@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="cneSplash.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="splash0000" x="1747" y="488" width="607" height="459" frameX="2" frameY="-145" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="splash0001" x="1747" y="947" width="608" height="455" frameX="2" frameY="-130" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="splash0002" x="1162" y="1723" width="608" height="404" frameX="1" frameY="-153" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="splash0003" x="575" y="1723" width="587" height="463" frameX="-54" frameY="-109" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="splash0004" x="2356" y="0" width="561" height="480" frameX="-65" frameY="-92" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="splash0005" x="1747" y="0" width="609" height="488" frameX="2" frameY="-71" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="splash0006" x="0" y="1218" width="609" height="505" frameX="2" frameY="-54" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="splash0007" x="609" y="1218" width="603" height="501" frameX="-1" frameY="-56" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="splash0008" x="0" y="1723" width="575" height="477" frameX="-15" frameY="-68" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="splash0009" x="0" y="607" width="581" height="611" frameX="-25" frameY="-7" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="splash0010" x="585" y="601" width="570" height="611" frameX="-35" frameY="-11" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="splash0011" x="1168" y="601" width="573" height="602" frameX="-31" frameY="-18" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="splash0012" x="1168" y="0" width="579" height="601" frameX="-28" frameY="-18" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="splash0013" x="0" y="0" width="585" height="607" frameX="-25" frameY="-15" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="splash0014" x="585" y="0" width="583" height="601" frameX="-26" frameY="-18" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="splash0015" x="585" y="0" width="583" height="601" frameX="-26" frameY="-18" frameWidth="640" frameHeight="640"/>
+</TextureAtlas>

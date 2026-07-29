@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character>
+<character holdTime="3" camx="-340" camy="80" scale="0.9" color="#FFD76A">
+	<anim x="300" y="-244.444444444444" fps="12" anim="cube idle" name="idle"/>
+	<anim x="301.111111111111" y="-243.333333333333" fps="12" anim="cube left" name="singLEFT"/>
+	<anim x="301.111111111111" y="-244.444444444444" fps="12" anim="cube up" name="singUP"/>
+	<anim x="300" y="-244.444444444444" fps="12" anim="cube right" name="singRIGHT"/>
+	<anim x="302.222222222222" y="-245.555555555556" fps="12" anim="cube down" name="singDOWN"/>
+	<anim loop="true" x="300" y="-243.333333333333" fps="12" anim="cube altidle" name="idlealt"/>
+	<anim x="315.555555555556" y="-243.333333333333" fps="12" anim="cube mic" name="mic"/>
+</character>

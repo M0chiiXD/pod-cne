@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="1040" y="1600" scale="26" antialiasing="false" flipX="true" camx="110" camy="-300" icon="leafy" color="#EBD895" holdTime="2">
+	<anim name="idle" anim="leafy idle" x="38.3" y="55.6" fps="12" loop="true"/>
+	<anim name="singLEFT" anim="leafy left" x="38.7" y="55.5" fps="12"/>
+	<anim name="singUP" anim="leafy up" x="38.3" y="55.3" fps="12"/>
+	<anim name="singDOWN" anim="leafy down" x="38.2" y="55.4" fps="12"/>
+	<anim name="singRIGHT" anim="leafy right" x="38.2" y="55.2" fps="12"/>
+	<anim name="singLEFTmiss" anim="leafy miss" x="38.9" y="55.4" fps="12"/>
+	<anim name="singDOWNmiss" anim="leafy miss" x="38.9" y="55.4" fps="12"/>
+	<anim name="singRIGHTmiss" anim="leafy miss" x="38.9" y="55.4" fps="12"/>
+	<anim name="singUPmiss" anim="leafy miss" x="38.9" y="55.4" fps="12"/>
+</character>

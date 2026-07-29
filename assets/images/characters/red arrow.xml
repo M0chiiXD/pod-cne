@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="red arrow.png">
+<SubTexture name="red arrow idle0000" x="0" y="0" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="red arrow idle0001" x="958" y="720" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="red arrow idle0002" x="958" y="0" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="red arrow right0000" x="0" y="720" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="red arrow right0001" x="1916" y="720" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="red arrow left0000" x="1916" y="0" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="red arrow left0001" x="0" y="1440" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="red arrow up0000" x="958" y="1440" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="red arrow up0001" x="1916" y="1440" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="red arrow down0000" x="2874" y="0" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="red arrow down0001" x="2874" y="720" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="red arrow down0002" x="2874" y="1440" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="red arrow down0003" x="0" y="2160" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="red arrow anim0000" x="958" y="2160" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="red arrow anim0001" x="1916" y="2160" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="red arrow anim0002" x="2874" y="2160" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="red arrow anim0003" x="0" y="2880" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="red arrow anim0004" x="958" y="2880" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="red arrow anim0005" x="1916" y="2880" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="red arrow anim0006" x="2874" y="2880" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="red arrow down0004" x="3832" y="0" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+</TextureAtlas>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Tex-Packer-EX v0.7.1 https://kitzsh.github.io/tex-packer-ex
+-->
+<TextureAtlas imagePath="texture.png" width="2691" height="2408">
+  <SubTexture name="burned pencil down0000.png" x="2163" y="551"  width="324" height="512" frameX="-136" frameY="-103" frameWidth="644" frameHeight="644"/>
+  <SubTexture name="burned pencil down0001.png" x="2375" y="1063"  width="316" height="508" frameX="-140" frameY="-87" frameWidth="644" frameHeight="644"/>
+  <SubTexture name="burned pencil idle0000.png" x="668" y="0"  width="311" height="622" frameX="-121" frameY="-15" frameWidth="644" frameHeight="644"/>
+  <SubTexture name="burned pencil idle0001.png" x="673" y="622"  width="311" height="622" frameX="-121" frameY="-15" frameWidth="644" frameHeight="644"/>
+  <SubTexture name="burned pencil laugh0000.png" x="0" y="636"  width="313" height="624" frameX="-127" frameY="-18" frameWidth="644" frameHeight="644"/>
+  <SubTexture name="burned pencil laugh0001.png" x="313" y="636"  width="360" height="624" frameX="-99" frameY="-6" frameWidth="644" frameHeight="644"/>
+  <SubTexture name="burned pencil laugh0002.png" x="979" y="0"  width="360" height="619" frameX="-97" frameY="-9" frameWidth="644" frameHeight="644"/>
+  <SubTexture name="burned pencil laugh0003.png" x="984" y="619"  width="360" height="619" frameX="-97" frameY="-9" frameWidth="644" frameHeight="644"/>
+  <SubTexture name="burned pencil left0000.png" x="0" y="1848"  width="509" height="560" frameX="-107" frameY="-37" frameWidth="644" frameHeight="644"/>
+  <SubTexture name="burned pencil left0001.png" x="1344" y="566"  width="483" height="561" frameX="-123" frameY="-35" frameWidth="644" frameHeight="644"/>
+  <SubTexture name="burned pencil right0000.png" x="486" y="1260"  width="476" height="572" frameX="-80" frameY="-27" frameWidth="644" frameHeight="644"/>
+  <SubTexture name="burned pencil right0001.png" x="962" y="1244"  width="497" height="568" frameX="-61" frameY="-30" frameWidth="644" frameHeight="644"/>
+  <SubTexture name="burned pencil up0000.png" x="0" y="0"  width="339" height="636" frameX="-103" frameY="-6" frameWidth="644" frameHeight="644"/>
+  <SubTexture name="burned pencil up0001.png" x="339" y="0"  width="329" height="633" frameX="-114" frameY="-9" frameWidth="644" frameHeight="644"/>
+  <SubTexture name="fakeburnedpencil down0000.png" x="2086" y="1108"  width="289" height="535" frameX="-205" frameY="-46" frameWidth="644" frameHeight="644"/>
+  <SubTexture name="fakeburnedpencil down0001.png" x="1792" y="1127"  width="294" height="547" frameX="-198" frameY="-34" frameWidth="644" frameHeight="644"/>
+  <SubTexture name="fakeburnedpencil idle0000.png" x="509" y="1832"  width="229" height="560" frameX="-203" frameY="-20" frameWidth="644" frameHeight="644"/>
+  <SubTexture name="fakeburnedpencil idle0001.png" x="738" y="1832"  width="228" height="560" frameX="-204" frameY="-20" frameWidth="644" frameHeight="644"/>
+  <SubTexture name="fakeburnedpencil left0000.png" x="1491" y="1685"  width="287" height="555" frameX="-159" frameY="-25" frameWidth="644" frameHeight="644"/>
+  <SubTexture name="fakeburnedpencil left0001.png" x="1702" y="0"  width="301" height="554" frameX="-139" frameY="-27" frameWidth="644" frameHeight="644"/>
+  <SubTexture name="fakeburnedpencil reveal0000.png" x="1778" y="1685"  width="248" height="548" frameX="-192" frameY="-34" frameWidth="644" frameHeight="644"/>
+  <SubTexture name="fakeburnedpencil reveal0001.png" x="2026" y="1674"  width="287" height="543" frameX="-178" frameY="-41" frameWidth="644" frameHeight="644"/>
+  <SubTexture name="fakeburnedpencil reveal0002.png" x="1339" y="0"  width="363" height="566" frameX="-137" frameY="-8" frameWidth="644" frameHeight="644"/>
+  <SubTexture name="fakeburnedpencil reveal0003.png" x="966" y="1812"  width="525" height="560" frameX="-51" frameY="-26" frameWidth="644" frameHeight="644"/>
+  <SubTexture name="fakeburnedpencil reveal0004.png" x="2003" y="0"  width="511" height="551" frameX="-56" frameY="-31" frameWidth="644" frameHeight="644"/>
+  <SubTexture name="fakeburnedpencil right0000.png" x="1827" y="554"  width="336" height="554" frameX="-149" frameY="-23" frameWidth="644" frameHeight="644"/>
+  <SubTexture name="fakeburnedpencil right0001.png" x="1491" y="1127"  width="301" height="558" frameX="-169" frameY="-21" frameWidth="644" frameHeight="644"/>
+  <SubTexture name="fakeburnedpencil up0000.png" x="0" y="1260"  width="253" height="588" frameX="-200" frameY="-7" frameWidth="644" frameHeight="644"/>
+  <SubTexture name="fakeburnedpencil up0001.png" x="253" y="1260"  width="233" height="578" frameX="-201" frameY="-18" frameWidth="644" frameHeight="644"/>
+</TextureAtlas>

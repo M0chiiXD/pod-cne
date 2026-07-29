@@ -1,0 +1,15 @@
+{
+	"customValues": {},
+	"color": "#31FFBB",
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"normal"
+	],
+	"icon": "Icon",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Mint",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 160
+}

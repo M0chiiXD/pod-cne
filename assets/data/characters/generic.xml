@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character>
+<character camx="-80" camy="180" color="#D7C3FF" holdTime="3">
+	<anim name="idle" anim="generic idle" x="148" y="-173" fps="4" loop="true"/>
+	<anim name="singLEFT" anim="generic left" x="151" y="-175" fps="12"/>
+	<anim name="singUP" anim="generic up" x="155" y="-171" fps="12"/>
+	<anim name="singRIGHT" anim="generic right" x="149" y="-173" fps="12"/>
+	<anim name="singDOWN" anim="generic down" x="151" y="-173" fps="12"/>
+	<anim name="death" anim="generic dead" x="155" y="-182" fps="12"/>
+	<anim name="surprised" anim="generic surprise" x="148" y="-175" fps="9"/>
+</character>

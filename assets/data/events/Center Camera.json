@@ -1,0 +1,14 @@
+{
+    "params": [
+        {
+            "name": "Should Tween?",
+            "type": "Bool",
+            "defaultValue": true
+        },
+        {
+            "name": "Camera Offset (Subtracts from the current position if off)",
+            "type": "String",
+            "defaultValue": 0
+        }
+    ]
+}

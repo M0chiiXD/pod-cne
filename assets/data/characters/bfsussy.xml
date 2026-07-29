@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character y="270" scale="0.8" flipX="true" camx="-50" camy="-20" isPlayer="true" color="#30B0D1">
+	<anim name="idle" anim="bfsussy idle" x="-6.25" y="10" fps="12"/>
+	<anim name="singLEFT" anim="bfsussy left" x="-5" y="8.89" fps="12"/>
+	<anim name="singDOWN" anim="bfsussy down" x="-8.06" y="7.92" fps="12"/>
+	<anim name="singUP" anim="bfsussy up" x="-9.36" y="7.98" fps="12"/>
+	<anim name="singRIGHT" anim="bfsussy right" x="-3.19" y="8.33" fps="12"/>
+	<anim name="singLEFTmiss" anim="bfsussy miss"/>
+	<anim name="singDOWNmiss" anim="bfsussy miss"/>
+	<anim name="singUPmiss" anim="bfsussy miss"/>
+	<anim name="singRIGHTmiss" anim="bfsussy miss" fps="12"/>
+</character>

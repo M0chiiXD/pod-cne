@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="diffRating.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="10000" x="791" y="205" width="79" height="183" frameX="-19" frameY="-29" frameWidth="564" frameHeight="229"/>
+	<SubTexture name="20000" x="0" y="410" width="153" height="183" frameX="-19" frameY="-29" frameWidth="564" frameHeight="229"/>
+	<SubTexture name="30000" x="526" y="205" width="265" height="205" frameX="-19" frameY="-12" frameWidth="564" frameHeight="229"/>
+	<SubTexture name="40000" x="526" y="0" width="369" height="205" frameX="-19" frameY="-12" frameWidth="564" frameHeight="229"/>
+	<SubTexture name="50000" x="0" y="205" width="485" height="205" frameX="-19" frameY="-12" frameWidth="564" frameHeight="229"/>
+	<SubTexture name="60000" x="0" y="0" width="526" height="205" frameX="-19" frameY="-12" frameWidth="564" frameHeight="229"/>
+</TextureAtlas>

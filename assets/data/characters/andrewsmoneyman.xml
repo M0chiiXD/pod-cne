@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="-280" y="160" antialiasing="false" icon="andrewsmoneyman" color="#1D9B59">
+	<anim name="idle" anim="andrewsmoneyman idle" fps="12"/>
+	<anim name="singLEFT" anim="andrewsmoneyman left" x="20" y="-10" fps="12"/>
+	<anim name="singRIGHT" anim="andrewsmoneyman right" x="-17" y="13" fps="12"/>
+	<anim name="singUP" anim="andrewsmoneyman up" x="7" y="8" fps="12"/>
+	<anim name="singDOWN" anim="andrewsmoneyman down" x="10" y="19" fps="12"/>
+	<anim name="singRIGHTmiss" anim="andrewsmoneyman missright" x="-26" fps="12"/>
+	<anim name="singUPmiss" anim="andrewsmoneyman missup" x="4" y="27" fps="12"/>
+	<anim name="singLEFTmiss" anim="andrewsmoneyman missleft" x="17" y="-1" fps="12"/>
+	<anim name="singDOWNmiss" anim="andrewsmoneyman missdown" x="-5" y="-9" fps="12"/>
+</character>

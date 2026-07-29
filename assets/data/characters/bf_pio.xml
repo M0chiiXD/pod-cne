@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="-90" y="170" scale="1.4" antialiasing="false" flipX="true" camx="-60" isPlayer="true" color="#6DC4D1">
+	<anim name="idle" anim="bf_pio idle" x="30.71" y="0.71" fps="6"/>
+	<anim name="singLEFT" anim="bf_pio left" x="32.15" y="-0.72" fps="12"/>
+	<anim name="singDOWN" anim="bf_pio down" x="35" y="-2.14" fps="12"/>
+	<anim name="singUP" anim="bf_pio up" x="26.43" y="-3.57" fps="12"/>
+	<anim name="singRIGHT" anim="bf_pio right" x="20" y="-0.72" fps="12"/>
+	<anim name="singRIGHTmiss" anim="bf_pio miss" x="-295" y="-207.15"/>
+	<anim name="singLEFTmiss" anim="bf_pio miss" x="-295" y="-207.15"/>
+	<anim name="singUPmiss" anim="bf_pio miss" x="-295" y="-207.15"/>
+	<anim name="singDOWNmiss" anim="bf_pio miss" x="-295" y="-207.15"/>
+</character>

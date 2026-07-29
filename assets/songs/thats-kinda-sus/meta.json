@@ -1,0 +1,14 @@
+{
+	"opponentModeAllowed": true,
+	"icon": "face",
+	"difficulties": [
+		"normal"
+	],
+	"color": "#FF0000",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "That's Kinda Sus",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 145
+}

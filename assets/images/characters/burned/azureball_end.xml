@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="azureball_end.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="idle0000" x="1090" y="483" width="505" height="482" frameX="-43" frameY="-137" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="idle0001" x="1090" y="0" width="507" height="483" frameX="-42" frameY="-137" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="left0000" x="555" y="0" width="535" height="485" frameX="-11" frameY="-134" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="left0001" x="555" y="485" width="532" height="482" frameX="-12" frameY="-138" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="down0000" x="1444" y="1100" width="432" height="468" frameX="-121" frameY="-155" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="down0001" x="1597" y="508" width="436" height="476" frameX="-120" frameY="-146" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="up0000" x="1597" y="0" width="476" height="508" frameX="-76" frameY="-108" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="up0001" x="0" y="1100" width="482" height="501" frameX="-66" frameY="-118" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="right0000" x="482" y="1100" width="481" height="490" frameX="-67" frameY="-131" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="right0001" x="963" y="1100" width="481" height="486" frameX="-64" frameY="-137" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="miss0000" x="0" y="0" width="555" height="548" frameX="-15" frameY="-81" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="miss0001" x="0" y="548" width="544" height="552" frameX="-12" frameY="-75" frameWidth="640" frameHeight="640"/>
+</TextureAtlas>

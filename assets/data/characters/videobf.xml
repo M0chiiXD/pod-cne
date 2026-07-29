@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="-430" y="145" scale="0.62" flipX="true" camx="110" camy="0" isPlayer="true" icon="videobf" color="#00D7FF">
+	<anim name="idle" anim="videobf idle" fps="4" loop="true"/>
+	<anim name="singLEFT" anim="videobf left" fps="12"/>
+	<anim name="singUP" anim="videobf up" fps="12"/>
+	<anim name="singDOWN" anim="videobf down" fps="12"/>
+	<anim name="singRIGHT" anim="videobf right" fps="12"/>
+	<anim name="singLEFTmiss" anim="videobf miss" fps="12"/>
+	<anim name="singDOWNmiss" anim="videobf miss" fps="12"/>
+	<anim name="singRIGHTmiss" anim="videobf miss" fps="12"/>
+	<anim name="singUPmiss" anim="videobf miss" fps="12"/>
+</character>

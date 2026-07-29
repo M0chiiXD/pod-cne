@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="purpleball.png"><SubTexture name="purpleball debt0000" x="0" y="0" width="1114" height="838" frameX="0" frameY="0" frameWidth="1114" frameHeight="838" />
+<SubTexture name="purpleball debt0001" x="1114" y="0" width="1114" height="838" frameX="0" frameY="0" frameWidth="1114" frameHeight="838" />
+<SubTexture name="purpleball debt0002" x="2228" y="0" width="1114" height="838" frameX="0" frameY="0" frameWidth="1114" frameHeight="838" />
+<SubTexture name="purpleball debt0003" x="3342" y="0" width="1114" height="838" frameX="0" frameY="0" frameWidth="1114" frameHeight="838" />
+<SubTexture name="purpleball debt0004" x="4456" y="0" width="1114" height="838" frameX="0" frameY="0" frameWidth="1114" frameHeight="838" />
+<SubTexture name="purpleball debt0005" x="0" y="838" width="1114" height="838" frameX="0" frameY="0" frameWidth="1114" frameHeight="838" />
+<SubTexture name="purpleball altdown0000" x="1114" y="838" width="1114" height="838" frameX="0" frameY="0" frameWidth="1114" frameHeight="838" />
+<SubTexture name="purpleball altdown0001" x="2228" y="838" width="1114" height="838" frameX="0" frameY="0" frameWidth="1114" frameHeight="838" />
+<SubTexture name="purpleball altidle0000" x="3342" y="838" width="1114" height="838" frameX="0" frameY="0" frameWidth="1114" frameHeight="838" />
+<SubTexture name="purpleball altidle0001" x="4456" y="838" width="1114" height="838" frameX="0" frameY="0" frameWidth="1114" frameHeight="838" />
+<SubTexture name="purpleball altidle0002" x="0" y="1676" width="1114" height="838" frameX="0" frameY="0" frameWidth="1114" frameHeight="838" />
+<SubTexture name="purpleball altidle0003" x="1114" y="1676" width="1114" height="838" frameX="0" frameY="0" frameWidth="1114" frameHeight="838" />
+<SubTexture name="purpleball altidle0004" x="2228" y="1676" width="1114" height="838" frameX="0" frameY="0" frameWidth="1114" frameHeight="838" />
+<SubTexture name="purpleball altidle0005" x="3342" y="1676" width="1114" height="838" frameX="0" frameY="0" frameWidth="1114" frameHeight="838" />
+<SubTexture name="purpleball altleft0000" x="4456" y="1676" width="1114" height="838" frameX="0" frameY="0" frameWidth="1114" frameHeight="838" />
+<SubTexture name="purpleball altleft0001" x="0" y="2514" width="1114" height="838" frameX="0" frameY="0" frameWidth="1114" frameHeight="838" />
+<SubTexture name="purpleball altright0000" x="1114" y="2514" width="1114" height="838" frameX="0" frameY="0" frameWidth="1114" frameHeight="838" />
+<SubTexture name="purpleball altright0001" x="2228" y="2514" width="1114" height="838" frameX="0" frameY="0" frameWidth="1114" frameHeight="838" />
+<SubTexture name="purpleball altup0000" x="3342" y="2514" width="1114" height="838" frameX="0" frameY="0" frameWidth="1114" frameHeight="838" />
+<SubTexture name="purpleball altup0001" x="4456" y="2514" width="1114" height="838" frameX="0" frameY="0" frameWidth="1114" frameHeight="838" />
+<SubTexture name="purpleball down0000" x="0" y="3352" width="1114" height="838" frameX="0" frameY="0" frameWidth="1114" frameHeight="838" />
+<SubTexture name="purpleball down0001" x="1114" y="3352" width="1114" height="838" frameX="0" frameY="0" frameWidth="1114" frameHeight="838" />
+<SubTexture name="purpleball idle0000" x="2228" y="3352" width="1114" height="838" frameX="0" frameY="0" frameWidth="1114" frameHeight="838" />
+<SubTexture name="purpleball idle0001" x="3342" y="3352" width="1114" height="838" frameX="0" frameY="0" frameWidth="1114" frameHeight="838" />
+<SubTexture name="purpleball idle0002" x="4456" y="3352" width="1114" height="838" frameX="0" frameY="0" frameWidth="1114" frameHeight="838" />
+<SubTexture name="purpleball idle0003" x="0" y="4190" width="1114" height="838" frameX="0" frameY="0" frameWidth="1114" frameHeight="838" />
+<SubTexture name="purpleball idle0004" x="1114" y="4190" width="1114" height="838" frameX="0" frameY="0" frameWidth="1114" frameHeight="838" />
+<SubTexture name="purpleball idle0005" x="2228" y="4190" width="1114" height="838" frameX="0" frameY="0" frameWidth="1114" frameHeight="838" />
+<SubTexture name="purpleball left0000" x="3342" y="4190" width="1114" height="838" frameX="0" frameY="0" frameWidth="1114" frameHeight="838" />
+<SubTexture name="purpleball left0001" x="4456" y="4190" width="1114" height="838" frameX="0" frameY="0" frameWidth="1114" frameHeight="838" />
+<SubTexture name="purpleball right0000" x="0" y="5028" width="1114" height="838" frameX="0" frameY="0" frameWidth="1114" frameHeight="838" />
+<SubTexture name="purpleball right0001" x="1114" y="5028" width="1114" height="838" frameX="0" frameY="0" frameWidth="1114" frameHeight="838" />
+<SubTexture name="purpleball up0000" x="2228" y="5028" width="1114" height="838" frameX="0" frameY="0" frameWidth="1114" frameHeight="838" />
+<SubTexture name="purpleball up0001" x="3342" y="5028" width="1114" height="838" frameX="0" frameY="0" frameWidth="1114" frameHeight="838" />
+</TextureAtlas>

@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/doors/" name="doors">
+	<sprite x="164.856931195984" sprite="2d_doors" y="-66.8451306708323" type="none" skewx="0.480512237287736" scalex="2" scaley="1.85762600376658" name="2ddoors"/>
+	<girlfriend x="346.125197623882" skewy="-0.990667625566782" y="105.23330936083"/>
+	<dad x="95.7054457422191" y="49.9836534720646"/>
+	<boyfriend x="801.522252486523" y="60.6128340243914"/>
+	<sprite x="-224.782374459236" scroll="0" sprite="2d bars thing s" y="-145.667090408285" type="none" scale="1.52608350135724" name="spriteer"/>
+</stage>

@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/evil/" name="evil">
+	<sprite x="-801.199089194895" sprite="bgevil" y="-20.6697735892119" type="none" name="bgevil"/>
+	<sprite x="-593.040831669989" sprite="evilStage" y="-302.610038943144" type="none" scale="1.38535772665026" name="bgEvil2"/>
+	<girlfriend alpha="0" x="386" y="313"/>
+	<dad x="-18.5245652274594" y="83.8375592871647"/>
+	<boyfriend x="1025.90529953925" y="83.8375492214813"/>
+</stage>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="purple ball.png">
+<SubTexture name="purple ball down0000" x="0" y="0" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="purple ball down0001" x="958" y="0" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="purple ball down0002" x="0" y="720" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="purple ball idle0000" x="958" y="720" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="purple ball left0000" x="1916" y="0" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="purple ball left0001" x="1916" y="720" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="purple ball left0002" x="0" y="1440" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="purple ball right0000" x="958" y="1440" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="purple ball right0001" x="1916" y="1440" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="purple ball right0002" x="2874" y="0" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="purple ball up0000" x="2874" y="720" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="purple ball up0001" x="2874" y="1440" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="purple ball up0002" x="0" y="2160" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+</TextureAtlas>

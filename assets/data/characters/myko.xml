@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-75" y="50" scale="1.25" camx="0" camy="0" icon="myko" color="#5FFFBA">
+	<anim name="idle" anim="myko idle" x="-5.4" y="-49.6" fps="12"/>
+	<anim name="singLEFT" anim="myko left" x="-6.2" y="-48.07" fps="12"/>
+	<anim name="singRIGHT" anim="myko right" x="-12.53" y="-53.53" fps="12"/>
+	<anim name="singUP" anim="myko up" x="-2.07" y="-35.93" fps="12"/>
+	<anim name="singDOWN" anim="myko down" x="-7.82" y="-54.02" fps="12"/>
+</character>

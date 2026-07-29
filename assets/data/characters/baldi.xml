@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character scale="1.85" icon="baldi" color="#59FF00">
+	<anim name="idle" anim="baldi idle"/>
+	<anim name="singDOWN" anim="baldi down" x="-28" y="-39" fps="12"/>
+	<anim name="singRIGHT" anim="baldi right" x="-4" y="-1" fps="12"/>
+	<anim name="singLEFT" anim="baldi left" y="-0.54" fps="12"/>
+	<anim name="singUP" anim="baldi up" x="-7" y="-3" fps="12"/>
+</character>

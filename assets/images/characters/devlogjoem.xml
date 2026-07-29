@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="devlogjoem.png">
+<SubTexture name="devlogjoem down0000" x="2341" y="1718" width="1137" height="1660" frameX="-310" frameY="-386" frameWidth="2048" frameHeight="2048" />
+<SubTexture name="devlogjoem down0001" x="3492" y="1693" width="1142" height="1672" frameX="-321" frameY="-376" frameWidth="2048" frameHeight="2048" />
+<SubTexture name="devlogjoem idle0000" x="3492" y="0" width="1153" height="1693" frameX="-327" frameY="-355" frameWidth="2048" frameHeight="2048" />
+<SubTexture name="devlogjoem idle0001" x="0" y="1718" width="1157" height="1705" frameX="-331" frameY="-343" frameWidth="2048" frameHeight="2048" />
+<SubTexture name="devlogjoem idle0002" x="1164" y="0" width="1164" height="1706" frameX="-339" frameY="-342" frameWidth="2048" frameHeight="2048" />
+<SubTexture name="devlogjoem left0000" x="1164" y="3423" width="1186" height="1640" frameX="-285" frameY="-394" frameWidth="2048" frameHeight="2048" />
+<SubTexture name="devlogjoem left0001" x="2350" y="3423" width="1186" height="1640" frameX="-297" frameY="-394" frameWidth="2048" frameHeight="2048" />
+<SubTexture name="devlogjoem right0000" x="4645" y="1690" width="1157" height="1685" frameX="-418" frameY="-363" frameWidth="2048" frameHeight="2048" />
+<SubTexture name="devlogjoem right0001" x="0" y="3423" width="1164" height="1676" frameX="-413" frameY="-372" frameWidth="2048" frameHeight="2048" />
+<SubTexture name="devlogjoem talk0000" x="0" y="0" width="1164" height="1718" frameX="-339" frameY="-330" frameWidth="2048" frameHeight="2048" />
+<SubTexture name="devlogjoem talk0001" x="2328" y="0" width="1164" height="1706" frameX="-339" frameY="-342" frameWidth="2048" frameHeight="2048" />
+<SubTexture name="devlogjoem up0000" x="1157" y="1718" width="1184" height="1694" frameX="-354" frameY="-336" frameWidth="2048" frameHeight="2048" />
+<SubTexture name="devlogjoem up0001" x="4645" y="0" width="1184" height="1690" frameX="-354" frameY="-340" frameWidth="2048" frameHeight="2048" />
+</TextureAtlas>

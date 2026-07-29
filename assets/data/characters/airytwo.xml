@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character x="-330" y="60" scale="1.1" flipX="true" camx="160" camy="40" isPlayer="true" icon="airytwo" color="#FF00AF" holdTime="3">
+	<anim name="idle" anim="airytwo idle" x="-43.64" y="-32.73" fps="12"/>
+	<anim name="singLEFT" anim="airytwo left" x="-44.55" y="-31.82" fps="12"/>
+	<anim name="singDOWN" anim="airytwo down" x="-40" y="-17.27" fps="12"/>
+	<anim name="singUP" anim="airytwo up" x="-18.18" y="-4.55" fps="12"/>
+	<anim name="singRIGHT" anim="airytwo right" x="-22.73" y="-32.73" fps="12"/>
+	<anim name="meow" anim="airytwo meow" x="-42.73" y="-32.73" fps="12"/>
+</character>

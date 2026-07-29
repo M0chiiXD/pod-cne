@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character flipX="true" camx="-180" camy="180" isPlayer="true" icon="genericbf" color="#87ECFF">
+	<anim name="idle" anim="genericbf idle" x="111" y="-181" fps="4" loop="true"/>
+	<anim name="singLEFT" anim="genericbf left" x="111" y="-180" fps="12"/>
+	<anim name="singUP" anim="genericbf up" x="115" y="-175" fps="12"/>
+	<anim name="singRIGHT" anim="genericbf right" x="108" y="-180" fps="12"/>
+	<anim name="singDOWN" anim="genericbf down" x="112" y="-182" fps="12"/>
+	<anim name="singLEFTmiss" anim="genericbf miss" x="112" y="-198"/>
+	<anim name="singUPmiss" anim="genericbf miss" x="112" y="-198"/>
+	<anim name="singDOWNmiss" anim="genericbf miss" x="112" y="-198"/>
+	<anim name="singRIGHTmiss" anim="genericbf miss" x="112" y="-198"/>
+</character>

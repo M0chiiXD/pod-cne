@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character x="-100" y="100" icon="fakepencil" color="#009A1B">
+	<anim name="idle" anim="fakeburnedpencil idle" fps="6"/>
+	<anim name="singDOWN" anim="fakeburnedpencil down" x="9" y="1" fps="12"/>
+	<anim name="singRIGHT" anim="fakeburnedpencil right" fps="12"/>
+	<anim name="singLEFT" anim="fakeburnedpencil left" x="-9" y="1" fps="12"/>
+	<anim name="singUP" anim="fakeburnedpencil up" x="-15" y="4" fps="12"/>
+	<anim name="reveal" anim="fakeburnedpencil reveal" fps="10"/>
+</character>

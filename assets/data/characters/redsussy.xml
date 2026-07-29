@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-260" y="200" scale="0.6" antialiasing="false" camx="70" camy="20" color="#FF1000">
+	<anim name="idle" anim="redsussy idle" x="-50" y="1.67" fps="12"/>
+	<anim name="singLEFT" anim="redsussy left" x="-43.33" y="0.33" fps="12"/>
+	<anim name="singUP" anim="redsussy up" x="-45" y="15" fps="12"/>
+	<anim name="singRIGHT" anim="redsussy right" x="-61.67" y="6.67" fps="12"/>
+	<anim name="singDOWN" anim="redsussy down" x="-61.67" y="10" fps="12"/>
+</character>

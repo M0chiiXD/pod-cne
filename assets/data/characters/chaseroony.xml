@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character y="190" scale="0.94" flipX="true" camx="25" camy="-80" isPlayer="true" color="#0FC3FF">
+	<anim name="idle" anim="chaseroony idle" x="77.66" y="56.38" loop="true"/>
+	<anim name="singLEFT" anim="chaseroony left" x="93.62" y="48.94"/>
+	<anim name="singDOWN" anim="chaseroony down" x="58.51" y="-23.43"/>
+	<anim name="singUP" anim="chaseroony up" x="74.46" y="151.81"/>
+	<anim name="singRIGHT" anim="chaseroony right" x="53.2" y="62.77"/>
+</character>

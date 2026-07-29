@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character x="-580" y="-880" scale="0.6" camx="-690" camy="90" color="#FF4B5F">
+	<anim name="singLEFT" anim="devlogjoem left" x="22" y="42" fps="12"/>
+	<anim name="singUP" anim="devlogjoem up" x="44" y="32" fps="12"/>
+	<anim name="singDOWN" anim="devlogjoem down" x="30" y="54" fps="12"/>
+	<anim name="singRIGHT" anim="devlogjoem right" x="-10" y="62" fps="12"/>
+	<anim name="idle" anim="devlogjoem idle" x="34" y="46" fps="6"/>
+	<anim name="talk" anim="devlogjoem talk" x="24" y="54" fps="6" loop="true"/>
+</character>

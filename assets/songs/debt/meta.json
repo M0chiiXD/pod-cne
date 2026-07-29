@@ -1,0 +1,15 @@
+{
+	"customValues": {},
+	"color": "#733BFF",
+	"opponentModeAllowed": true,
+	"icon": "purple ball",
+	"difficulties": [
+		"normal"
+	],
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Debt",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 104
+}

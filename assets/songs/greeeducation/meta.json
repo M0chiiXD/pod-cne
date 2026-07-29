@@ -1,0 +1,15 @@
+{
+	"opponentModeAllowed": true,
+	"icon": "face",
+	"difficulties": [
+		"normal",
+		"evil"
+	],
+	"color": "#1CFF00",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Greeeducation",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 195
+}

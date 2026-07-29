@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="thornbf.png"><SubTexture name="thornbf idle0000" x="0" y="0" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="thornbf idle0001" x="962" y="0" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="thornbf idle0002" x="1924" y="0" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="thornbf idle0003" x="2886" y="0" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="thornbf idle0004" x="0" y="724" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="thornbf idle0005" x="962" y="724" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="thornbf idle0006" x="1924" y="724" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="thornbf miss0000" x="2886" y="724" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="thornbf miss0001" x="0" y="1448" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="thornbf down0000" x="962" y="1448" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="thornbf down0001" x="1924" y="1448" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="thornbf down0002" x="2886" y="1448" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="thornbf right0000" x="0" y="2172" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="thornbf right0001" x="962" y="2172" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="thornbf right0002" x="1924" y="2172" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="thornbf left0000" x="2886" y="2172" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="thornbf left0001" x="0" y="2896" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="thornbf left0002" x="962" y="2896" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="thornbf up0000" x="1924" y="2896" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="thornbf up0001" x="2886" y="2896" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="thornbf up0002" x="0" y="3620" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+</TextureAtlas>

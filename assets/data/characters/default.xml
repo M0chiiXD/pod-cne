@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character x="-280" y="140" sprite="doorsdefault" scale="0.9" antialiasing="false" camx="-70" camy="-10" icon="default" color="#FF1031">
+	<anim name="idle" anim="doorsdefault idle" x="-6.67" y="1.11" fps="12" loop="true"/>
+	<anim name="singLEFT" anim="doorsdefault left" x="-4.44" y="2.22" fps="12"/>
+	<anim name="singUP" anim="doorsdefault up" x="-7.78" y="-1.11" fps="12"/>
+	<anim name="singRIGHT" anim="doorsdefault right" x="-10" y="-2.22" fps="12"/>
+	<anim name="scary" anim="doorsdefault scary" x="-6.67" fps="12"/>
+	<anim name="singDOWN" anim="doorsdefault down" x="-10" fps="12"/>
+</character>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="robloxbf.png"><SubTexture name="robloxbf idle0000" x="0" y="0" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+<SubTexture name="robloxbf idle0001" x="772" y="0" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+<SubTexture name="robloxbf left0000" x="1544" y="0" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+<SubTexture name="robloxbf left0001" x="0" y="772" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+<SubTexture name="robloxbf right0000" x="772" y="772" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+<SubTexture name="robloxbf right0001" x="1544" y="772" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+<SubTexture name="robloxbf up0000" x="0" y="1544" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+<SubTexture name="robloxbf up0001" x="772" y="1544" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+<SubTexture name="robloxbf down0000" x="1544" y="1544" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+<SubTexture name="robloxbf down0001" x="0" y="2316" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+<SubTexture name="robloxbf hey0000" x="772" y="2316" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+<SubTexture name="robloxbf hey0001" x="1544" y="2316" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+<SubTexture name="robloxbf miss0000" x="0" y="3088" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+<SubTexture name="robloxbf miss0001" x="772" y="3088" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+</TextureAtlas>

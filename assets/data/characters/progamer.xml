@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-character>
+<character x="-280" y="430" flipX="true" camx="10" camy="-260" isPlayer="true" color="#FF0000">
+	<anim name="niss" anim="progamer miss" x="-6" y="220"/>
+	<anim name="singLEFT" anim="progamer left" x="5" y="234" fps="12"/>
+	<anim name="singRIGHT" anim="progamer right" x="-2" y="230" fps="12"/>
+	<anim name="singDOWN" anim="progamer down" x="1" y="230" fps="12"/>
+	<anim name="singUP" anim="progamer up" x="-3" y="230" fps="12"/>
+	<anim name="singDOWNmiss" anim="progamer miss" x="-6" y="219"/>
+	<anim name="singUPmiss" anim="progamer miss" x="-5" y="220"/>
+	<anim name="singRIGHTmiss" anim="progamer miss" x="-5" y="221"/>
+	<anim name="singLEFTmiss" anim="progamer miss" x="-5" y="222"/>
+	<anim name="idle" anim="progamer idle" y="230" fps="12"/>
+	<anim name="pog" anim="progamer pog" x="-1" y="236" fps="6" indices="0, 1, 2, 3, 4, 5, 5, 5, 5, 5, 5, 5, 5, 3, 2"/>
+</character>

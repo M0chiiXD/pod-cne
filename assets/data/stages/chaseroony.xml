@@ -1,0 +1,7 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/sussys/" name="chaseroony" zoom="0.5">
+	<girlfriend/>
+	<dad/>
+	<sprite x="453.255772185441" sprite="2Q" y="296.349042948133" type="none" scalex="11.2801991978186" scaley="9.76750443684268" name="2Q"/>
+	<boyfriend x="400.957603723592" y="-40.0744861779065"/>
+</stage>

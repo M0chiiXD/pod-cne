@@ -1,0 +1,14 @@
+{
+	"opponentModeAllowed": true,
+	"icon": "face",
+	"difficulties": [
+		"normal"
+	],
+	"color": "#9257FF",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "idk this world",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 148
+}

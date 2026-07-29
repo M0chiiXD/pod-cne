@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="rocke.png">
+<SubTexture name="rocke bored0000" x="0" y="0" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="rocke bored0001" x="958" y="0" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="rocke bored0002" x="0" y="720" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="rocke amused0000" x="958" y="720" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="rocke amused0001" x="1916" y="0" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+<SubTexture name="rocke amused0002" x="1916" y="720" width="958" height="720" frameX="0" frameY="0" frameWidth="958" frameHeight="720" />
+</TextureAtlas>

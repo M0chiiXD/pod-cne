@@ -1,0 +1,14 @@
+{
+	"opponentModeAllowed": false,
+	"icon": "face",
+	"difficulties": [
+		"normal"
+	],
+	"color": "#FFFFFF",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Do Stuff",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 172
+}

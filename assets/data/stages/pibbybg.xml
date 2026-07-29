@@ -1,0 +1,7 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/" name="pibbybg" zoom="0.8">
+	<sprite x="42.4986056801468" sprite="pibbybg" y="30" type="none" scalex="2.07374595497373" scaley="1.5" name="bg"/>
+	<girlfriend alpha="0" x="305" y="221"/>
+	<dad/>
+	<boyfriend x="1000"/>
+</stage>

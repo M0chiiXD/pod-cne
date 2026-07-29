@@ -1,0 +1,16 @@
+{
+	"customValues": {},
+	"color": "#FF0000",
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"normal",
+		"evil"
+	],
+	"icon": "face",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Red and Arrow",
+	"needsVoices": false,
+	"beatsPerMeasure": 4,
+	"bpm": 107
+}

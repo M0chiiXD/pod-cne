@@ -1,0 +1,16 @@
+<!DOCTYPE codename-engine-character>
+<character scale="0.7" flipX="true" isPlayer="true" color="#1900EB">
+	<anim name="idle" anim="sapphire idle" fps="6" loop="true"/>
+	<anim name="singDOWN" anim="sapphire down" fps="12"/>
+	<anim name="singRIGHT" anim="sapphire right" fps="12"/>
+	<anim name="singLEFT" anim="sapphire left" x="61" y="-10" fps="12"/>
+	<anim name="singUP" anim="sapphire up" x="9" fps="12"/>
+	<anim name="singUP-alt" anim="sapphire altup" x="20" y="2.86" fps="12"/>
+	<anim name="singDOWN-alt" anim="sapphire altdown" y="1" fps="12"/>
+	<anim name="singLEFT-alt" anim="sapphire altleft" x="64" y="-11" fps="12"/>
+	<anim name="singRIGHT-alt" anim="sapphire altright" x="-25" y="-1" fps="12"/>
+	<anim name="singLEFTmiss" anim="sapphire miss"/>
+	<anim name="singUPmiss" anim="sapphire miss" fps="12"/>
+	<anim name="singRIGHTmiss" anim="sapphire miss" fps="12"/>
+	<anim name="singDOWNmiss" anim="sapphire miss" fps="12"/>
+</character>

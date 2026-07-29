@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="swapernoob.png"><SubTexture name="swapernoob idle0000" x="0" y="0" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+<SubTexture name="swapernoob idle0001" x="772" y="0" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+<SubTexture name="swapernoob left0000" x="1544" y="0" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+<SubTexture name="swapernoob left0001" x="0" y="772" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+<SubTexture name="swapernoob right0000" x="772" y="772" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+<SubTexture name="swapernoob right0001" x="1544" y="772" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+<SubTexture name="swapernoob up0000" x="0" y="1544" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+<SubTexture name="swapernoob up0001" x="772" y="1544" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+<SubTexture name="swapernoob down0000" x="1544" y="1544" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+<SubTexture name="swapernoob down0001" x="0" y="2316" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+</TextureAtlas>

@@ -1,0 +1,16 @@
+{
+	"customValues": {},
+	"color": "#7C0CE1",
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"normal",
+		"evil"
+	],
+	"icon": "face",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "My Dog",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 200
+}

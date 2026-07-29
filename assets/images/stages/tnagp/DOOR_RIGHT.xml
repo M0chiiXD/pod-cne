@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="DOOR_RIGHT.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="close0000" x="0" y="0" width="163" height="500" frameX="2" frameY="2" frameWidth="159" frameHeight="496"/>
+	<SubTexture name="open0000" x="163" y="0" width="108" height="379" frameX="2" frameY="2" frameWidth="104" frameHeight="375"/>
+</TextureAtlas>

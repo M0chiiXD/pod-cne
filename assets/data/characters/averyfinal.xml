@@ -1,0 +1,13 @@
+<!DOCTYPE codename-engine-character>
+<character x="-360" y="120" sprite="avery_final" scale="1" camx="70" camy="10" icon="averyfinal" color="#9B509B" holdTime="3">
+	<anim name="idle" anim="avery idle" y="-1.82" fps="12"/>
+	<anim name="singDOWN" anim="avery down0" fps="12"/>
+	<anim name="singRIGHT" anim="avery right0" fps="12"/>
+	<anim name="singLEFT" anim="avery left0" y="-0.91" fps="12"/>
+	<anim name="singUP" anim="avery up0" fps="12"/>
+	<anim name="idle-alt" anim="avery evil idle" fps="12"/>
+	<anim name="singUP-alt" anim="avery evil up" fps="12"/>
+	<anim name="singDOWN-alt" anim="avery evil down" fps="12"/>
+	<anim name="singLEFT-alt" anim="avery evil left" fps="12"/>
+	<anim name="singRIGHT-alt" anim="avery evil right" fps="12"/>
+</character>

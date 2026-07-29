@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="phone.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="phoneRING0000" x="0" y="0" width="111" height="120" frameX="2" frameY="2" frameWidth="107" frameHeight="116"/>
+	<SubTexture name="phoneRING0001" x="111" y="0" width="118" height="110" frameX="2" frameY="2" frameWidth="114" frameHeight="106"/>
+	<SubTexture name="PHONEIDLE0000" x="0" y="120" width="91" height="33" frameX="2" frameY="2" frameWidth="87" frameHeight="29"/>
+</TextureAtlas>

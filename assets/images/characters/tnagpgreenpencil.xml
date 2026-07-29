@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="tnagpgreenpencil.png"><SubTexture name="tnagpgreenpencil idle0000" x="0" y="0" width="1426" height="949" frameX="0" frameY="0" frameWidth="1426" frameHeight="949" />
+<SubTexture name="tnagpgreenpencil idle0001" x="1426" y="0" width="1426" height="949" frameX="0" frameY="0" frameWidth="1426" frameHeight="949" />
+<SubTexture name="tnagpgreenpencil idle0002" x="2852" y="0" width="1426" height="949" frameX="0" frameY="0" frameWidth="1426" frameHeight="949" />
+<SubTexture name="tnagpgreenpencil idle0003" x="4278" y="0" width="1426" height="949" frameX="0" frameY="0" frameWidth="1426" frameHeight="949" />
+<SubTexture name="tnagpgreenpencil idle0004" x="0" y="949" width="1426" height="949" frameX="0" frameY="0" frameWidth="1426" frameHeight="949" />
+<SubTexture name="tnagpgreenpencil idle0005" x="1426" y="949" width="1426" height="949" frameX="0" frameY="0" frameWidth="1426" frameHeight="949" />
+<SubTexture name="tnagpgreenpencil idle0006" x="2852" y="949" width="1426" height="949" frameX="0" frameY="0" frameWidth="1426" frameHeight="949" />
+<SubTexture name="tnagpgreenpencil right0000" x="4278" y="949" width="1426" height="949" frameX="0" frameY="0" frameWidth="1426" frameHeight="949" />
+<SubTexture name="tnagpgreenpencil right0001" x="0" y="1898" width="1426" height="949" frameX="0" frameY="0" frameWidth="1426" frameHeight="949" />
+<SubTexture name="tnagpgreenpencil right0002" x="1426" y="1898" width="1426" height="949" frameX="0" frameY="0" frameWidth="1426" frameHeight="949" />
+<SubTexture name="tnagpgreenpencil right0003" x="2852" y="1898" width="1426" height="949" frameX="0" frameY="0" frameWidth="1426" frameHeight="949" />
+<SubTexture name="tnagpgreenpencil down0000" x="4278" y="1898" width="1426" height="949" frameX="0" frameY="0" frameWidth="1426" frameHeight="949" />
+<SubTexture name="tnagpgreenpencil down0001" x="0" y="2847" width="1426" height="949" frameX="0" frameY="0" frameWidth="1426" frameHeight="949" />
+<SubTexture name="tnagpgreenpencil down0002" x="1426" y="2847" width="1426" height="949" frameX="0" frameY="0" frameWidth="1426" frameHeight="949" />
+<SubTexture name="tnagpgreenpencil down0003" x="2852" y="2847" width="1426" height="949" frameX="0" frameY="0" frameWidth="1426" frameHeight="949" />
+<SubTexture name="tnagpgreenpencil up0000" x="4278" y="2847" width="1426" height="949" frameX="0" frameY="0" frameWidth="1426" frameHeight="949" />
+<SubTexture name="tnagpgreenpencil up0001" x="0" y="3796" width="1426" height="949" frameX="0" frameY="0" frameWidth="1426" frameHeight="949" />
+<SubTexture name="tnagpgreenpencil up0002" x="1426" y="3796" width="1426" height="949" frameX="0" frameY="0" frameWidth="1426" frameHeight="949" />
+<SubTexture name="tnagpgreenpencil up0003" x="2852" y="3796" width="1426" height="949" frameX="0" frameY="0" frameWidth="1426" frameHeight="949" />
+<SubTexture name="tnagpgreenpencil left0000" x="4278" y="3796" width="1426" height="949" frameX="0" frameY="0" frameWidth="1426" frameHeight="949" />
+<SubTexture name="tnagpgreenpencil left0001" x="0" y="4745" width="1426" height="949" frameX="0" frameY="0" frameWidth="1426" frameHeight="949" />
+<SubTexture name="tnagpgreenpencil left0002" x="1426" y="4745" width="1426" height="949" frameX="0" frameY="0" frameWidth="1426" frameHeight="949" />
+<SubTexture name="tnagpgreenpencil left0003" x="2852" y="4745" width="1426" height="949" frameX="0" frameY="0" frameWidth="1426" frameHeight="949" />
+</TextureAtlas>

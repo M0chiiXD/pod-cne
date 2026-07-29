@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="burned/azureball" y="126" scale="0.84" flipX="true" isPlayer="true" color="#000000">
+	<anim name="idle" anim="azureball idle" fps="6" loop="true"/>
+	<anim name="singDOWN" anim="azureball down" fps="12"/>
+	<anim name="singRIGHT" anim="azureball right" fps="12"/>
+	<anim name="singLEFT" anim="azureball left" fps="12"/>
+	<anim name="singUP" anim="azureball up" fps="12"/>
+	<anim name="singDOWNmiss" anim="azureball miss" fps="12"/>
+	<anim name="singRIGHTmiss" anim="azureball miss" fps="12"/>
+	<anim name="singLEFTmiss" anim="azureball miss" fps="12"/>
+	<anim name="singUPmiss" anim="azureball miss" fps="12"/>
+</character>

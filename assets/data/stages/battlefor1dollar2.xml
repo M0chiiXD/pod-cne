@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/grounded/" name="battlefor1dollar2" zoom="0.8">
+	<girlfriend x="245.734520633352" y="164.212189766669"/>
+	<sprite x="935.114712110047" sprite="line" y="276.682932359453" type="none" scalex="0.904711446773188" skewy="-0.428344014018208" scaley="0.791427311747371" name="line"/>
+	<sprite x="239.748737341529" sprite="bigheaddanielson" y="129" type="none" scale="0.72" name="bhd"/>
+	<dad x="-312.673165696919" y="84.6824343570577"/>
+	<boyfriend x="980.459703748351" y="112.28601930853"/>
+	<sprite x="-1558.77206274818" sprite="fakeairy" y="20.2109039135518" type="none" name="fakeairy"/>
+</stage>

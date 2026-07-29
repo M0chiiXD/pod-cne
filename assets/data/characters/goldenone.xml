@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character holdTime="4.7" x="-370" camx="120" y="120" scale="0.8" camy="110" color="#AF8E2E">
+	<anim x="-150" y="-50" anim="goldenone idle" name="idle"/>
+	<anim x="-150" y="-50" fps="12" anim="goldenone left" name="singLEFT"/>
+	<anim x="-150" y="-50" fps="12" anim="goldenone up" name="singUP"/>
+	<anim x="-150" y="-50" fps="12" anim="goldenone down" name="singDOWN"/>
+	<anim x="-150" y="-50" fps="12" anim="goldenone right" name="singRIGHT"/>
+</character>

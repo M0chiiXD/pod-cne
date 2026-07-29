@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character holdTime="2" antialiasing="false" x="-1480" camx="-690" y="-650" scale="10" camy="790" color="#00D7FF">
+	<anim fps="12" anim="cakedfirey left" name="singLEFT"/>
+	<anim fps="12" anim="cakedfirey up" name="singUP"/>
+	<anim fps="12" anim="cakedfirey down" name="singDOWN"/>
+	<anim fps="12" anim="cakedfirey right" name="singRIGHT"/>
+	<anim fps="6" anim="cakedfirey idle" name="idle"/>
+</character>

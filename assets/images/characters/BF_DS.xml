@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="BF_DS.png">
+<SubTexture name="BF_DS idle0000" x="706" y="673" width="175" height="245" frameX="-79" frameY="-64" frameWidth="360" frameHeight="360" />
+<SubTexture name="BF_DS idle0001" x="186" y="924" width="180" height="240" frameX="-80" frameY="-70" frameWidth="360" frameHeight="360" />
+<SubTexture name="BF_DS idle0002" x="1194" y="221" width="186" height="220" frameX="-68" frameY="-91" frameWidth="360" frameHeight="360" />
+<SubTexture name="BF_DS idle0003" x="1019" y="242" width="172" height="238" frameX="-75" frameY="-74" frameWidth="360" frameHeight="360" />
+<SubTexture name="BF_DS idle0004" x="1019" y="0" width="175" height="242" frameX="-76" frameY="-68" frameWidth="360" frameHeight="360" />
+<SubTexture name="BF_DS left0000" x="366" y="924" width="194" height="240" frameX="-50" frameY="-70" frameWidth="360" frameHeight="360" />
+<SubTexture name="BF_DS left0001" x="0" y="924" width="186" height="241" frameX="-56" frameY="-68" frameWidth="360" frameHeight="360" />
+<SubTexture name="BF_DS up0000" x="565" y="0" width="203" height="260" frameX="-64" frameY="-49" frameWidth="360" frameHeight="360" />
+<SubTexture name="BF_DS up0001" x="565" y="260" width="203" height="260" frameX="-64" frameY="-49" frameWidth="360" frameHeight="360" />
+<SubTexture name="BF_DS right0000" x="419" y="673" width="287" height="246" frameX="-73" frameY="-68" frameWidth="360" frameHeight="360" />
+<SubTexture name="BF_DS right0001" x="768" y="0" width="251" height="252" frameX="-109" frameY="-62" frameWidth="360" frameHeight="360" />
+<SubTexture name="BF_DS right0002" x="768" y="252" width="245" height="252" frameX="-102" frameY="-60" frameWidth="360" frameHeight="360" />
+<SubTexture name="BF_DS right0003" x="0" y="673" width="238" height="251" frameX="-98" frameY="-62" frameWidth="360" frameHeight="360" />
+<SubTexture name="BF_DS down0000" x="786" y="924" width="259" height="228" frameX="-36" frameY="-84" frameWidth="360" frameHeight="360" />
+<SubTexture name="BF_DS down0001" x="560" y="924" width="226" height="232" frameX="-54" frameY="-80" frameWidth="360" frameHeight="360" />
+<SubTexture name="BF_DS down0002" x="238" y="673" width="181" height="247" frameX="-75" frameY="-65" frameWidth="360" frameHeight="360" />
+<SubTexture name="BF_DS down0003" x="1194" y="0" width="222" height="221" frameX="-55" frameY="-91" frameWidth="360" frameHeight="360" />
+<SubTexture name="BF_DS miss0000" x="0" y="0" width="565" height="673" frameX="-329" frameY="-297" frameWidth="1280" frameHeight="1280" />
+</TextureAtlas>

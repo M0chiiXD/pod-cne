@@ -1,0 +1,13 @@
+<!DOCTYPE codename-engine-character>
+<character x="-180" y="90" scale="0.8" icon="connor">
+	<anim name="idle" anim="connor idle" fps="12"/>
+	<anim name="singDOWN" anim="connor down" x="6" y="9" fps="12"/>
+	<anim name="singRIGHT" anim="connor right" x="-3" y="3" fps="12"/>
+	<anim name="singLEFT" anim="connor left" x="4" y="3" fps="12"/>
+	<anim name="singUP" anim="connor up" x="1" y="-5" fps="12"/>
+	<anim name="sadge" anim="connor sad" fps="12"/>
+	<anim name="singUP-alt" anim="connor gnarpyup" x="-120" y="142" fps="12"/>
+	<anim name="singLEFT-alt" anim="connor gnarpyleft" x="56" y="1" fps="12"/>
+	<anim name="singDOWN-alt" anim="connor gnarpydown" x="-98" y="-114" fps="12"/>
+	<anim name="singRIGHT-alt" anim="connor gnarpyright" x="71" y="-21" fps="12"/>
+</character>

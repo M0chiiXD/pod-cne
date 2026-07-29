@@ -1,0 +1,13 @@
+<!DOCTYPE codename-engine-character>
+<character x="-110" camx="-110" y="260" scale="1.6" camy="-60" color="#008700">
+	<anim x="42.5" y="65" fps="12" anim="pibbyicecube up" name="singUP"/>
+	<anim x="38.75" y="61.875" fps="12" anim="pibbyicecube left" name="singLEFT"/>
+	<anim x="41.25" y="60.625" fps="12" anim="pibbyicecube down" name="singDOWN"/>
+	<anim x="34.375" y="61.875" fps="12" anim="pibbyicecube right" name="singRIGHT"/>
+	<anim x="-170" y="82.5" fps="12" anim="original altright" name="singRIGHT-alt"/>
+	<anim x="-25" y="-35" fps="12" anim="original altdown" name="singDOWN-alt"/>
+	<anim x="116.25" y="-7.5" fps="12" anim="original altleft" name="singLEFT-alt"/>
+	<anim x="37.5" y="62.5" fps="60" anim="pibbyicecube idle" name="idle"/>
+	<anim loop="true" x="-6.25" anim="original talk tuah" name="talktuah"/>
+	<anim x="38.125" y="63.125" fps="12" anim="burnedpencil die" name="singUP-alt"/>
+</character>

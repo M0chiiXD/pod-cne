@@ -1,0 +1,13 @@
+<!DOCTYPE codename-engine-character>
+<character x="-140" y="180" scale="0.8" flipX="true" camx="-80" camy="30" isPlayer="true" icon="robloxbf" color="#8CAFFF">
+	<anim name="idle" anim="robloxbf idle" x="78.75" y="83.75" fps="4" loop="true"/>
+	<anim name="singLEFT" anim="robloxbf left" x="175" y="78.75" fps="12"/>
+	<anim name="singDOWN" anim="robloxbf down" x="62.5" y="78.75" fps="12"/>
+	<anim name="singUP" anim="robloxbf up" x="62.5" y="73.75" fps="12"/>
+	<anim name="singRIGHT" anim="robloxbf right" x="66.25" y="91.25" fps="12"/>
+	<anim name="singLEFTmiss" anim="robloxbf miss" x="66.25" y="80" fps="12"/>
+	<anim name="singDOWNmiss" anim="robloxbf miss" x="70" y="87.5" fps="12"/>
+	<anim name="singUPmiss" anim="robloxbf miss" x="71.25" y="81.25"/>
+	<anim name="singRIGHTmiss" anim="robloxbf miss" x="71.25" y="87.5"/>
+	<anim name="hey" anim="robloxbf hey" x="58.75" y="82.5"/>
+</character>

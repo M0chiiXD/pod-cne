@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character>
+<character x="90" camx="-170" y="-20" scale="1" color="#00003C">
+	<anim fps="12" anim="spikegf left" name="danceLeft"/>
+	<anim fps="12" anim="spikegf right" name="danceRight"/>
+</character>

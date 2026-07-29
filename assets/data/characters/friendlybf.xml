@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="-200" y="260" sprite="glassybf" scale="0.92" flipX="true" isPlayer="true" color="#49D6F0">
+	<anim name="idle" anim="glassybf idle" y="-2.18" fps="5"/>
+	<anim name="singDOWN" anim="glassybf down" x="4.35" y="-9.78" fps="12"/>
+	<anim name="singRIGHT" anim="glassybf right" x="45.65" y="-9.79" fps="12"/>
+	<anim name="singLEFT" anim="glassybf left" x="9.78" y="-1.08" fps="12"/>
+	<anim name="singUP" anim="glassybf up" x="1.09" y="6.52" fps="12"/>
+	<anim name="singLEFTmiss" anim="glassybf miss"/>
+	<anim name="singDOWNmiss" anim="glassybf miss"/>
+	<anim name="singRIGHTmiss" anim="glassybf miss"/>
+	<anim name="singUPmiss" anim="glassybf miss"/>
+</character>

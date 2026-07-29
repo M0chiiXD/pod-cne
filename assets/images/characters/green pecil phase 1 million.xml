@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="green pecil phase 1 million.png">
+<SubTexture name="green pecil phase 1 million idle0000" x="892" y="599" width="294" height="570" frameX="-173" frameY="-46" frameWidth="640" frameHeight="640" />
+<SubTexture name="green pecil phase 1 million idle0001" x="607" y="599" width="285" height="571" frameX="-185" frameY="-46" frameWidth="640" frameHeight="640" />
+<SubTexture name="green pecil phase 1 million left0000" x="0" y="599" width="305" height="576" frameX="-121" frameY="-43" frameWidth="640" frameHeight="640" />
+<SubTexture name="green pecil phase 1 million left0001" x="305" y="599" width="302" height="574" frameX="-129" frameY="-42" frameWidth="640" frameHeight="640" />
+<SubTexture name="green pecil phase 1 million up0000" x="343" y="0" width="345" height="597" frameX="-175" frameY="-20" frameWidth="640" frameHeight="640" />
+<SubTexture name="green pecil phase 1 million up0001" x="0" y="0" width="343" height="599" frameX="-173" frameY="-23" frameWidth="640" frameHeight="640" />
+<SubTexture name="green pecil phase 1 million right0000" x="1008" y="0" width="335" height="583" frameX="-172" frameY="-41" frameWidth="640" frameHeight="640" />
+<SubTexture name="green pecil phase 1 million right0001" x="688" y="0" width="320" height="586" frameX="-183" frameY="-35" frameWidth="640" frameHeight="640" />
+<SubTexture name="green pecil phase 1 million down0000" x="1343" y="0" width="317" height="559" frameX="-179" frameY="-63" frameWidth="640" frameHeight="640" />
+<SubTexture name="green pecil phase 1 million down0001" x="1343" y="559" width="310" height="558" frameX="-182" frameY="-57" frameWidth="640" frameHeight="640" />
+</TextureAtlas>

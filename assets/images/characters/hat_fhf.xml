@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="hat_fhf.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="idle0000" x="1590" y="351" width="459" height="339" frameX="-109" frameY="-231" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="idle0001" x="1590" y="0" width="460" height="351" frameX="-109" frameY="-219" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="idle0002" x="450" y="859" width="449" height="364" frameX="-120" frameY="-208" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="idle0003" x="0" y="859" width="450" height="367" frameX="-120" frameY="-205" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="left0000" x="0" y="452" width="524" height="407" frameX="-25" frameY="-165" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="left0001" x="524" y="452" width="530" height="375" frameX="-28" frameY="-195" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="down0000" x="488" y="1226" width="525" height="268" frameX="-80" frameY="-302" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="down0001" x="0" y="1226" width="488" height="331" frameX="-90" frameY="-236" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="right0000" x="1072" y="368" width="484" height="371" frameX="-77" frameY="-199" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="right0001" x="1072" y="0" width="518" height="368" frameX="-77" frameY="-199" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="up0000" x="0" y="0" width="541" height="452" frameX="-39" frameY="-121" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="up0001" x="541" y="0" width="531" height="410" frameX="-50" frameY="-163" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="miss0000" x="899" y="859" width="452" height="359" frameX="-118" frameY="-213" frameWidth="640" frameHeight="640"/>
+</TextureAtlas>

@@ -1,0 +1,16 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="buyfren" flipX="true" isPlayer="true" icon="bfscreweth" color="#00A4FF">
+	<anim name="idle" anim="idle" y="1"/>
+	<anim name="singDOWN" anim="down" x="1" fps="10"/>
+	<anim name="singRIGHT" anim="right" fps="10"/>
+	<anim name="singLEFT" anim="left" fps="10"/>
+	<anim name="singUP" anim="up" fps="10"/>
+	<anim name="singLEFT-alt" anim="box" fps="10"/>
+	<anim name="singRIGHT-alt" anim="beat" fps="10"/>
+	<anim name="singDOWN-alt" anim="box" fps="10"/>
+	<anim name="singUP-alt" anim="beat" fps="10"/>
+	<anim name="singDOWNmiss" anim="miss" fps="10"/>
+	<anim name="singRIGHTmiss" anim="miss" fps="10"/>
+	<anim name="singLEFTmiss" anim="miss" fps="10"/>
+	<anim name="singUPmiss" anim="miss" fps="10"/>
+</character>

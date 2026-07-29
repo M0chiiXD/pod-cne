@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-250" y="180" scale="0.9" antialiasing="false" camx="100" camy="-40" icon="swapernoob" color="#FFFF28">
+	<anim name="idle" anim="swapernoob idle" x="-104.44" y="107.78" fps="6" loop="true"/>
+	<anim name="singLEFT" anim="swapernoob left" x="-104.44" y="102.22" fps="6"/>
+	<anim name="singDOWN" anim="swapernoob down" x="-111.11" y="103.34" fps="6"/>
+	<anim name="singUP" anim="swapernoob up" x="-106.67" y="103.33" fps="6"/>
+	<anim name="singRIGHT" anim="swapernoob right" x="-144.44" y="84.45" fps="6"/>
+</character>

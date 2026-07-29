@@ -1,0 +1,19 @@
+<!DOCTYPE codename-engine-character>
+<character antialiasing="false" x="-260" camx="-80" y="200" scale="1" camy="-80" color="#C30000">
+	<anim x="90" y="141" fps="12" anim="stop left" name="singLEFT"/>
+	<anim x="-57" y="79" fps="12" anim="stop up" name="singUP"/>
+	<anim x="-206" y="138" fps="12" anim="stop right" name="singRIGHT"/>
+	<anim x="7" y="19" fps="12" anim="BF_DS miss0000" name="singLEFTmiss"/>
+	<anim x="-15" y="-19" fps="12" anim="BF_DS miss0000" name="singDOWNmiss"/>
+	<anim x="-46" y="27" fps="12" anim="BF_DS miss0000" name="singUPmiss"/>
+	<anim x="-44" y="22" fps="12" anim="BF_DS miss0000" name="singRIGHTmiss"/>
+	<anim x="-3" y="5" anim="BF HEY" name="hey"/>
+	<anim x="14" y="18" anim="BF hit" name="hurt"/>
+	<anim loop="true" x="-4" anim="BF idle shaking" name="scared"/>
+	<anim x="-10" y="-16" anim="boyfriend dodge" name="dodge"/>
+	<anim x="294" y="267" anim="boyfriend attack" name="attack"/>
+	<anim x="-40" y="-40" anim="bf pre attack" name="pre-attack"/>
+	<anim x="-34" y="-29" anim="greenpencil anim" name="anim"/>
+	<anim x="-66" y="127" fps="12" anim="stop down" name="singDOWN"/>
+	<anim loop="true" x="-60" y="130" fps="4" anim="stop idle" name="idle"/>
+</character>

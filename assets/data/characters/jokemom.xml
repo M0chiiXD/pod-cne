@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-260" y="200" antialiasing="false" camx="-80" camy="-80" icon="jokemom" color="#000000">
+	<anim name="idle" anim="jokemom idle" x="-60" y="130" fps="12" loop="true"/>
+	<anim name="singLEFT" anim="jokemom left" x="-59" y="131" fps="12"/>
+	<anim name="singUP" anim="jokemom up" x="-57" y="129" fps="12"/>
+	<anim name="singRIGHT" anim="jokemom right" x="-77" y="124" fps="12"/>
+	<anim name="singDOWN" anim="jokemom down" x="-87" y="114" fps="12"/>
+</character>

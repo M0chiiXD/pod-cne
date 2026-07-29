@@ -1,0 +1,16 @@
+<!DOCTYPE codename-engine-character>
+<character x="-100" y="100" sprite="burned/burnedpencil_final" icon="newburnedpencil">
+	<anim name="idle" anim="burned pencil idle0" fps="10" loop="true"/>
+	<anim name="singDOWN" anim="burned pencil down0" fps="10"/>
+	<anim name="singRIGHT" anim="burned pencil right00" fps="10"/>
+	<anim name="singLEFT" anim="burned pencil left00" fps="10"/>
+	<anim name="singUP" anim="burned pencil up0" fps="10"/>
+	<anim name="singUP-alt" anim="fakeburnedpencil up0" fps="10"/>
+	<anim name="singDOWN-alt" anim="fakeburnedpencil down0" fps="10"/>
+	<anim name="laugh" anim="burned pencil laugh" fps="12" indices="1, 2, 3"/>
+	<anim name="midlaugh" anim="burned pencil laugh" fps="8" indices="1, 2"/>
+	<anim name="idle-alt" anim="fakeburnedpencil idle0" fps="10" loop="true"/>
+	<anim name="singLEFT-alt" anim="fakeburnedpencil left0" fps="10"/>
+	<anim name="singRIGHT-alt" anim="fakeburnedpencil right0" fps="10"/>
+	<anim name="reveal" anim="fakeburnedpencil reveal0" fps="10"/>
+</character>

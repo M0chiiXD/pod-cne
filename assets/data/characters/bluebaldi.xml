@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="200" sprite="baldiblue" scale="1.85" color="#005EFF">
+	<anim name="idle" anim="baldiblue idle"/>
+	<anim name="singDOWN" anim="baldiblue down" fps="12"/>
+	<anim name="singRIGHT" anim="baldiblue right" fps="12"/>
+	<anim name="singLEFT" anim="baldiblue left" fps="12"/>
+	<anim name="singUP" anim="baldiblue up" fps="12"/>
+</character>

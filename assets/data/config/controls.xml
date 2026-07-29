@@ -1,0 +1,6 @@
+<!DOCTYPE codename-mod-controls>
+<controls>
+    <category name="FREEPLAY">
+        <control name="mixes" saveName="mixes" menuName="MIXES" keyP1="TAB" keyP2=""/>
+    </category>
+</controls>

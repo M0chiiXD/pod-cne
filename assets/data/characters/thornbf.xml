@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="140" y="180" scale="0.9" flipX="true" camx="-120" camy="-100" isPlayer="true" icon="thornbf" color="#3C3787">
+	<anim name="idle" anim="thornbf idle" x="158.89" y="40" fps="12"/>
+	<anim name="singLEFT" anim="thornbf left" x="162.22" y="34.44" fps="12"/>
+	<anim name="singUP" anim="thornbf up" x="158.89" y="40" fps="12"/>
+	<anim name="singRIGHT" anim="thornbf right" x="197.78" y="34.44" fps="12"/>
+	<anim name="singDOWN" anim="thornbf down" x="138.89" y="38.89" fps="12"/>
+	<anim name="singLEFTmiss" anim="thornbf miss" x="141.11" y="25.56" fps="12"/>
+	<anim name="singUPmiss" anim="thornbf miss" x="141.11" y="25.56" fps="12"/>
+	<anim name="singRIGHTmiss" anim="thornbf miss" x="141.11" y="25.56" fps="12"/>
+	<anim name="singDOWNmiss" anim="thornbf miss" x="141.11" y="25.56" fps="12"/>
+</character>

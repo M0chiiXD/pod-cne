@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-stage>
+<stage startCamPosX="670" startCamPosY="580" folder="stages/tnagp/" zoom="1" name="tnagp">
+	<sprite x="279.876541626818" sprite="THE ROOM1" y="230.428742840482" type="none" scale="2.39132794742047" name="room"/>
+	<sprite x="-1001.11198053764" sprite="andehu" y="-425.748737042781" type="none" name="scratc"/>
+	<sprite x="220.609060001735" sprite="johndoewantedposter" y="-19.6672448392089" type="none" scale="0.314982157964981" angle="10.5516418605893" name="john doe"/>
+	<sprite x="469.945622976326" sprite="TheTABLE" y="677.360226411666" type="none" scale="1.4658838045751" name="table"/>
+	<girlfriend x="356.000000909244" y="-1061.99999916302"/>
+	<dad x="443.431457898833" y="-1014.14213528879"/>
+	<boyfriend x="1317.02441402326" y="556.644668742909"/>
+</stage>

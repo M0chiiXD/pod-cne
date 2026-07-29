@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="static.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="static0000" x="504" y="0" width="504" height="379" frameX="2" frameY="2" frameWidth="500" frameHeight="375"/>
+	<SubTexture name="static0001" x="1008" y="379" width="504" height="379" frameX="2" frameY="2" frameWidth="500" frameHeight="375"/>
+	<SubTexture name="static0002" x="0" y="380" width="504" height="379" frameX="2" frameY="2" frameWidth="500" frameHeight="375"/>
+	<SubTexture name="static0003" x="504" y="380" width="504" height="379" frameX="2" frameY="2" frameWidth="500" frameHeight="375"/>
+	<SubTexture name="static0004" x="1008" y="0" width="504" height="379" frameX="2" frameY="2" frameWidth="500" frameHeight="375"/>
+	<SubTexture name="static0005" x="0" y="759" width="504" height="379" frameX="2" frameY="2" frameWidth="500" frameHeight="375"/>
+	<SubTexture name="static0006" x="0" y="0" width="504" height="380" frameX="2" frameY="2" frameWidth="500" frameHeight="376"/>
+</TextureAtlas>

@@ -1,0 +1,7 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/avery/" name="talkwithavery" zoom="0.8">
+	<sprite x="289.98366542368" scroll="0.9" sprite="avery" y="-8.4256310732927" scale="3" name="aver"/>
+	<girlfriend alpha="0" x="328" y="167"/>
+	<dad x="-5.66172884612342" y="88.1079288499728"/>
+	<boyfriend x="881.776119506646" scaley="1.00039283112194" y="107.393712876037"/>
+</stage>

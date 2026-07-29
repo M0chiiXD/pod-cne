@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="menu_beam.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="beam0000" x="732" y="2143" width="615" height="2142" frameX="-610" frameY="2" frameWidth="1914" frameHeight="2266"/>
+	<SubTexture name="beam0001" x="0" y="2143" width="732" height="2150" frameX="-605" frameY="2" frameWidth="1914" frameHeight="2266"/>
+	<SubTexture name="beam0002" x="809" y="0" width="766" height="2142" frameX="-541" frameY="2" frameWidth="1914" frameHeight="2266"/>
+	<SubTexture name="beam0003" x="0" y="0" width="809" height="2143" frameX="-539" frameY="2" frameWidth="1914" frameHeight="2266"/>
+</TextureAtlas>

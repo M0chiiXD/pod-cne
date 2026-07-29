@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="stick_joe" icon="stickjoe">
+	<anim name="idle" anim="idle0" fps="10"/>
+	<anim name="singDOWN" anim="down" fps="10"/>
+	<anim name="singRIGHT" anim="right" fps="10"/>
+	<anim name="singLEFT" anim="left" fps="10"/>
+	<anim name="singUP" anim="up" fps="10"/>
+	<anim name="idle-alt" anim="idle-alt0" fps="10"/>
+	<anim name="inhale" anim="inhale" fps="10"/>
+	<anim name="die" anim="die" fps="10"/>
+</character>

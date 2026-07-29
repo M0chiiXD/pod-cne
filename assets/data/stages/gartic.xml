@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/" name="gartic" zoom="1">
+	<sprite x="-410" sprite="gartic" y="-150" type="none" scale="1.4" name="gartic"/>
+	<girlfriend x="308.414911871572" y="-764.319832249727"/>
+	<dad x="-902.362016050825" y="13.913318430148"/>
+	<boyfriend x="500.621637536298" y="-69.7097152891467"/>
+	<combo x="18" y="17"/>
+</stage>

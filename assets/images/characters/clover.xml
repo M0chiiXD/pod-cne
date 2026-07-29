@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="clover.png"><SubTexture name="clover idle0000" x="0" y="0" width="1284" height="1284" frameX="0" frameY="0" frameWidth="1284" frameHeight="1284" />
+<SubTexture name="clover idle0001" x="1284" y="0" width="1284" height="1284" frameX="0" frameY="0" frameWidth="1284" frameHeight="1284" />
+<SubTexture name="clover left0000" x="2568" y="0" width="1284" height="1284" frameX="0" frameY="0" frameWidth="1284" frameHeight="1284" />
+<SubTexture name="clover left0001" x="0" y="1284" width="1284" height="1284" frameX="0" frameY="0" frameWidth="1284" frameHeight="1284" />
+<SubTexture name="clover up0000" x="1284" y="1284" width="1284" height="1284" frameX="0" frameY="0" frameWidth="1284" frameHeight="1284" />
+<SubTexture name="clover up0001" x="2568" y="1284" width="1284" height="1284" frameX="0" frameY="0" frameWidth="1284" frameHeight="1284" />
+<SubTexture name="clover down0000" x="0" y="2568" width="1284" height="1284" frameX="0" frameY="0" frameWidth="1284" frameHeight="1284" />
+<SubTexture name="clover down0001" x="1284" y="2568" width="1284" height="1284" frameX="0" frameY="0" frameWidth="1284" frameHeight="1284" />
+<SubTexture name="clover right0000" x="2568" y="2568" width="1284" height="1284" frameX="0" frameY="0" frameWidth="1284" frameHeight="1284" />
+<SubTexture name="clover right0001" x="0" y="3852" width="1284" height="1284" frameX="0" frameY="0" frameWidth="1284" frameHeight="1284" />
+<SubTexture name="clover miss0000" x="1284" y="3852" width="1284" height="1284" frameX="0" frameY="0" frameWidth="1284" frameHeight="1284" />
+<SubTexture name="clover miss0001" x="2568" y="3852" width="1284" height="1284" frameX="0" frameY="0" frameWidth="1284" frameHeight="1284" />
+</TextureAtlas>

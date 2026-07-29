@@ -1,0 +1,24 @@
+{
+    "params": [
+        {
+            "name": "Should HUD Shake?",
+            "type": "Bool",
+            "defaultValue": "false"
+        },
+        {
+            "name": "Shake Strength (from 0 to 1)",
+            "type": "String",
+            "defaultValue": 0.5
+        },
+        {
+            "name": "Shake Duration (in Steps)",
+            "type": "String",
+            "defaultValue": "4"
+        },
+        {
+            "name": "Axis",
+            "type": "DropDown('X', 'Y', 'Both')",
+            "defaultValue": "Both"
+        }
+    ]
+}

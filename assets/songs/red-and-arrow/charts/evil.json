@@ -1,0 +1,614 @@
+{
+	"events": [
+		{
+			"params": [
+				1,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 0,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 26915.8878504673,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 31401.8691588785,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 71775.7009345795,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0
+			],
+			"time": 80747.6635514019,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 85233.6448598131,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0
+			],
+			"time": 89719.6261682244,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 103177.570093458,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0
+			],
+			"time": 121121.495327103,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 139065.420560748,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0
+			],
+			"time": 148037.38317757,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 157009.345794392,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0
+			],
+			"time": 165981.308411215,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 170467.289719626,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0
+			],
+			"time": 174953.271028037,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 179439.252336449,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0
+			],
+			"time": 188411.214953271,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 192897.196261683,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0
+			],
+			"time": 197383.177570093,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 210841.121495327,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0,
+				"anim",
+				true,
+				"DANCE"
+			],
+			"time": 222056.074766355,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				0,
+				"anim",
+				true,
+				"DANCE"
+			],
+			"time": 222196.261682242,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				0,
+				"anim",
+				true,
+				"DANCE"
+			],
+			"name": "Play Animation",
+			"time": 222476.635514019
+		},
+		{
+			"params": [
+				0,
+				"anim",
+				true,
+				"DANCE"
+			],
+			"time": 223037.38317757,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				0,
+				"anim",
+				true,
+				"DANCE"
+			],
+			"name": "Play Animation",
+			"time": 223317.757009346
+		},
+		{
+			"params": [
+				0,
+				"anim",
+				true,
+				"DANCE"
+			],
+			"name": "Play Animation",
+			"time": 223878.504672897
+		},
+		{
+			"params": [
+				0,
+				"anim",
+				true,
+				"DANCE"
+			],
+			"time": 224158.878504673,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				0,
+				"anim",
+				true,
+				"DANCE"
+			],
+			"name": "Play Animation",
+			"time": 224299.06542056
+		},
+		{
+			"params": [
+				0,
+				"anim",
+				true,
+				"DANCE"
+			],
+			"time": 224859.813084113,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				0,
+				"anim",
+				true,
+				"DANCE"
+			],
+			"name": "Play Animation",
+			"time": 225140.186915887
+		},
+		{
+			"params": [
+				0,
+				"anim",
+				true,
+				"DANCE"
+			],
+			"name": "Play Animation",
+			"time": 225560.747663551
+		},
+		{
+			"params": [
+				0,
+				"anim",
+				true,
+				"DANCE"
+			],
+			"name": "Play Animation",
+			"time": 225700.93457944
+		},
+		{
+			"params": [
+				0,
+				"anim",
+				true,
+				"DANCE"
+			],
+			"time": 225981.308411214,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				0,
+				"anim",
+				true,
+				"DANCE"
+			],
+			"name": "Play Animation",
+			"time": 226542.056074767
+		},
+		{
+			"params": [
+				0,
+				"anim",
+				true,
+				"DANCE"
+			],
+			"time": 226822.429906541,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				0,
+				"anim",
+				true,
+				"DANCE"
+			],
+			"time": 227383.177570094,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				0,
+				"anim",
+				true,
+				"DANCE"
+			],
+			"name": "Play Animation",
+			"time": 227663.551401869
+		},
+		{
+			"params": [
+				0,
+				"anim",
+				true,
+				"DANCE"
+			],
+			"time": 227803.738317758,
+			"name": "Play Animation"
+		}
+	],
+	"strumLines": [
+		{
+			"keyCount": 4,
+			"notes": [
+				{
+					"id": 1,
+					"sLen": 140.186915887847,
+					"time": 26915.8878504673,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 27196.261682243,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 27336.4485981308,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 140.186915887851,
+					"time": 27476.6355140187,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 27757.0093457944,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 140.186915887851,
+					"time": 27757.0093457944,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 27897.1962616822,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 28037.3831775701,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 28177.5700934579,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 28317.7570093458,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 28457.9439252336,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 28598.1308411215,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 140.186915887851,
+					"time": 28738.3177570093,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 29018.691588785,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 140.186915887854,
+					"time": 29439.2523364486,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 140.186915887843,
+					"time": 29719.6261682243,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 140.186915887854,
+					"time": 30280.3738317757,
+					"type": 0
+				}
+			],
+			"position": "dad",
+			"strumScale": 1,
+			"visible": true,
+			"scrollSpeed": 10,
+			"strumSpacing": 1,
+			"type": 0,
+			"characters": [
+				"red arrow"
+			],
+			"strumPos": [
+				0,
+				50
+			],
+			"vocalsSuffix": "",
+			"strumLinePos": 0.25
+		},
+		{
+			"keyCount": 4,
+			"notes": [
+				{
+					"id": 1,
+					"sLen": 140.186915887843,
+					"time": 31401.8691588785,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 31682.2429906542,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 31822.4299065421,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 140.186915887847,
+					"time": 31962.6168224299,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 32242.9906542056,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 140.186915887854,
+					"time": 32242.9906542056,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 32383.1775700935,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 32523.3644859813,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 32663.5514018692,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 32803.738317757,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 32943.9252336449,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 33084.1121495327,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 140.186915887854,
+					"time": 33224.2990654206,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 33504.6728971963,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 140.186915887847,
+					"time": 33925.2336448598,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 140.186915887847,
+					"time": 34205.6074766355,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 140.186915887854,
+					"time": 34766.3551401869,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 140.186915887854,
+					"time": 35046.7289719626,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 140.186915887854,
+					"time": 35327.1028037383,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 140.186915887854,
+					"time": 35607.476635514,
+					"type": 0
+				}
+			],
+			"position": "boyfriend",
+			"strumScale": 1,
+			"strumSpacing": 1,
+			"visible": true,
+			"type": 1,
+			"characters": [
+				"bf_pio"
+			],
+			"strumPos": [
+				0,
+				50
+			],
+			"vocalsSuffix": "",
+			"strumLinePos": 0.75
+		},
+		{
+			"keyCount": 4,
+			"notes": [],
+			"position": "girlfriend",
+			"visible": false,
+			"type": 2,
+			"characters": [
+				"gf"
+			]
+		}
+	],
+	"codenameChart": true,
+	"scrollSpeed": 3.5,
+	"chartVersion": "1.6.0",
+	"stage": "pio bg",
+	"noteTypes": []
+}

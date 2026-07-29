@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character x="-190" y="200" scale="0.7" antialiasing="false" camx="40" camy="130" color="#000000">
+	<anim name="idle" anim="invisible person idle" x="-255.71" y="-141.43" fps="12"/>
+</character>

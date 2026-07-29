@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="leafy.png"><SubTexture name="leafy idle0000" x="0" y="0" width="20" height="20" frameX="0" frameY="0" frameWidth="20" frameHeight="20" />
+<SubTexture name="leafy miss0000" x="20" y="0" width="20" height="20" frameX="0" frameY="0" frameWidth="20" frameHeight="20" />
+<SubTexture name="leafy right0000" x="40" y="0" width="20" height="20" frameX="0" frameY="0" frameWidth="20" frameHeight="20" />
+<SubTexture name="leafy right0001" x="0" y="20" width="20" height="20" frameX="0" frameY="0" frameWidth="20" frameHeight="20" />
+<SubTexture name="leafy down0000" x="20" y="20" width="20" height="20" frameX="0" frameY="0" frameWidth="20" frameHeight="20" />
+<SubTexture name="leafy down0001" x="40" y="20" width="20" height="20" frameX="0" frameY="0" frameWidth="20" frameHeight="20" />
+<SubTexture name="leafy left0000" x="0" y="40" width="20" height="20" frameX="0" frameY="0" frameWidth="20" frameHeight="20" />
+<SubTexture name="leafy left0001" x="20" y="40" width="20" height="20" frameX="0" frameY="0" frameWidth="20" frameHeight="20" />
+<SubTexture name="leafy up0000" x="40" y="40" width="20" height="20" frameX="0" frameY="0" frameWidth="20" frameHeight="20" />
+<SubTexture name="leafy up0001" x="0" y="60" width="20" height="20" frameX="0" frameY="0" frameWidth="20" frameHeight="20" />
+</TextureAtlas>

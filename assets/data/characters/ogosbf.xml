@@ -1,0 +1,16 @@
+<!DOCTYPE codename-engine-character>
+<character x="90" y="200" scale="0.7" flipX="true" camx="-200" camy="-100" isPlayer="true" color="#4CD6FF">
+	<anim name="singUP" anim="ogosbf up" x="10" y="-5" fps="12"/>
+	<anim name="singLEFT" anim="ogosbf left" x="58.57" y="5.71" fps="12"/>
+	<anim name="singDOWN" anim="ogosbf down" x="-10.71" y="-11.43" fps="12"/>
+	<anim name="singRIGHT" anim="ogosbf right" x="-18.57" y="-2.86" fps="12"/>
+	<anim name="singRIGHT-alt" anim="ogosbf altright" x="-102.86" y="2.86" fps="12"/>
+	<anim name="singDOWN-alt" anim="ogosbf altdown" y="5.71" fps="12"/>
+	<anim name="singUP-alt" anim="ogosbf altup" x="-27.14" y="10" fps="12"/>
+	<anim name="singLEFT-alt" anim="ogosbf altleft" x="7.29" y="5.71" fps="12"/>
+	<anim name="idle" anim="ogosbf idle" fps="12" loop="true"/>
+	<anim name="singLEFTmiss" anim="ogosbf miss" x="-35.71" y="8.57" fps="12"/>
+	<anim name="singDOWNmiss" anim="ogosbf miss" x="-37.14" y="7.14" fps="12"/>
+	<anim name="singUPmiss" anim="ogosbf miss" x="-37.14" y="10"/>
+	<anim name="singRIGHTmiss" anim="ogosbf miss" x="-45.71" y="8.57"/>
+</character>

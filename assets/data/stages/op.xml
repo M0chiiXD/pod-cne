@@ -1,0 +1,7 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/op/" name="op" zoom="0.6">
+	<sprite x="-879.296055349987" sprite="image-95" y="88.6735937550826" type="none" scale="2.08237460967063" name="opbg"/>
+	<girlfriend x="-404.696815569897" y="38.8274545164581"/>
+	<dad x="-1000" y="45"/>
+	<boyfriend x="270" y="65"/>
+</stage>

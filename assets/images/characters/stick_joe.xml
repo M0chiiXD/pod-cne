@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="stick_joe.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="idle0000" x="2056" y="0" width="285" height="459" frameX="-167" frameY="-169" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="idle0001" x="2056" y="1464" width="256" height="489" frameX="-182" frameY="-138" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="idle0002" x="2056" y="963" width="256" height="501" frameX="-182" frameY="-126" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="idle0003" x="2056" y="459" width="256" height="504" frameX="-182" frameY="-123" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="right0000" x="889" y="0" width="439" height="519" frameX="-157" frameY="-79" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="right0001" x="0" y="558" width="433" height="508" frameX="-157" frameY="-95" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="down0000" x="1111" y="1066" width="395" height="242" frameX="-98" frameY="-367" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="down0001" x="745" y="1066" width="366" height="290" frameX="-126" frameY="-327" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="left0000" x="1328" y="540" width="340" height="443" frameX="-29" frameY="-167" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="left0001" x="0" y="1577" width="343" height="435" frameX="-29" frameY="-172" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="up0000" x="0" y="0" width="445" height="558" frameX="-105" frameY="-76" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="up0001" x="445" y="0" width="444" height="535" frameX="-104" frameY="-98" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="idle-alt0000" x="822" y="558" width="392" height="440" frameX="-128" frameY="-171" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="idle-alt0001" x="433" y="558" width="389" height="454" frameX="-130" frameY="-164" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="idle-alt0002" x="373" y="1066" width="372" height="425" frameX="-124" frameY="-176" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="idle-alt0003" x="433" y="558" width="389" height="454" frameX="-130" frameY="-164" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="inhale0000" x="1697" y="1071" width="330" height="501" frameX="-158" frameY="-110" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="inhale0001" x="0" y="1066" width="373" height="511" frameX="-144" frameY="-95" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="inhale0002" x="1697" y="530" width="346" height="541" frameX="-152" frameY="-76" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="inhale0003" x="1328" y="0" width="369" height="540" frameX="-146" frameY="-70" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="inhale0004" x="1697" y="0" width="359" height="530" frameX="-152" frameY="-68" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="inhale0005" x="1697" y="0" width="359" height="530" frameX="-152" frameY="-68" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="die0000" x="343" y="1577" width="527" height="148" frameX="-27" frameY="-455" frameWidth="640" frameHeight="640"/>
+</TextureAtlas>

@@ -1,0 +1,7 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/" name="mirage">
+	<sprite x="150.16683989675" sprite="miragebg" y="177.39465587299" type="none" scalex="2.83940435481723" scaley="1.39253569823059" name="mirager"/>
+	<girlfriend/>
+	<dad x="-4.9660302719019" y="111.555186840312"/>
+	<boyfriend x="982.132510507967" y="125.455257318612"/>
+</stage>

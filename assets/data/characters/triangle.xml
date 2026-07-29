@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character x="-190" y="180" scale="0.7" antialiasing="false" camx="30" camy="120" color="#141414">
+	<anim name="idle" anim="triangle idle" x="-255.71" y="-141.43" fps="12"/>
+	<anim name="singLEFT" anim="triangle left" x="-247.14" y="-124.29" fps="12"/>
+	<anim name="singUP" anim="triangle up" x="-238.57" y="-92.86" fps="12"/>
+	<anim name="singRIGHT" anim="triangle right" x="-268.57" y="-122.86" fps="12"/>
+	<anim name="singDOWN" anim="triangle down" x="-260" y="-167.14" fps="12"/>
+	<anim name="sad" anim="triangle idle" x="-256.14" y="-141.71"/>
+</character>
