@@ -355,10 +355,6 @@ class PlayState extends MusicBeatState
 	 * FunkinText that shows your accuracy.
 	 */
 	public var accuracyTxt:FunkinText;
-	/**
-	 * FunkinText that combines everything above LOL.
-	 */
-	public var scoreyTxt:FunkinText;
 
 	/**
 	 * Score for the current week.
@@ -601,20 +597,14 @@ class PlayState extends MusicBeatState
 	 * All combo ratings.
 	 */
 	public var comboRatings:Array<ComboRating> = [
-		new ComboRating(0, "bro you stink so bad how did you mess up on the FIRST FREAKING NOTE i swear to god i will kill you bro oh my bubble blower you are the worst thing ever oh my godddddd"),
-		new ComboRating(0.1, "uh oh!!!"),
-		new ComboRating(0.4, "getting closer to your DEMISE"),
-		new ComboRating(0.3, "hot"),
-		new ComboRating(0.4, "red"),
-		new ComboRating(0.5, "mid"),
-		new ComboRating(0.6, "Sixty"),
-		new ComboRating(0.69, "ayoooo sus?"),
-		new ComboRating(0.7, "Alright ig"),
-		new ComboRating(0.8, "Nice"),
-		new ComboRating(0.85, "Blue"),
-		new ComboRating(0.9, "Green!"),
-		new ComboRating(0.95, "Packing!"),
-		new ComboRating(0.99, "Wowie Mc Fowey!"),
+		new ComboRating(0, "F", 0xFFFF4444),
+		new ComboRating(0.5, "E", 0xFFFF8844),
+		new ComboRating(0.7, "D", 0xFFFFAA44),
+		new ComboRating(0.8, "C", 0xFFFFFF44),
+		new ComboRating(0.85, "B", 0xFFAAFF44),
+		new ComboRating(0.9, "A", 0xFF88FF44),
+		new ComboRating(0.95, "S", 0xFF44FFFF),
+		new ComboRating(1, "S++", 0xFF44FFFF),
 	];
 
 	public var detailsText:String = "";
@@ -888,7 +878,7 @@ class PlayState extends MusicBeatState
 
 		FlxG.worldBounds.set(0, 0, FlxG.width, FlxG.height);
 
-		healthBarBG = new FlxSprite(0, FlxG.height * 0.9).loadAnimatedGraphic(Paths.image('game/healthBarOverlay'));
+		healthBarBG = new FlxSprite(0, FlxG.height * 0.9).loadAnimatedGraphic(Paths.image('game/healthBar'));
 		healthBarBG.screenCenter(X);
 		healthBarBG.scrollFactor.set();
 		add(healthBarBG);
@@ -915,17 +905,18 @@ class PlayState extends MusicBeatState
 		missesTxt = new FunkinText(healthBarBG.x + 50, healthBarBG.y + 30, Std.int(healthBarBG.width - 100), TEXT_GAME_MISSES.format([misses]), 16);
 		accuracyTxt = new FunkinText(healthBarBG.x + 50, healthBarBG.y + 30, Std.int(healthBarBG.width - 100), TEXT_GAME_ACCURACY.format(["-%", "(N/A)"]), 16);
 		accuracyTxt.addFormat(accFormat, 0, 1);
-		
-		scoreyTxt = new FunkinText(healthBarBG.x + 50, healthBarBG.y + 30, Std.int(healthBarBG.width - 100), 
-		scoreTxt.text + " | " + missesTxt.text + " | " + accuracyTxt.text, 16);
-		scoreyTxt.scrollFactor.set();
-		add(scoreyTxt);
-		scoreyTxt.alignment = CENTER;
 
+		for(text in [scoreTxt, missesTxt, accuracyTxt]) {
+			text.scrollFactor.set();
+			add(text);
+		}
+		scoreTxt.alignment = RIGHT;
+		missesTxt.alignment = CENTER;
+		accuracyTxt.alignment = LEFT;
 		if (updateRatingStuff != null)
 			updateRatingStuff();
 
-		for(e in [healthBar, healthBarBG, iconP1, iconP2, scoreyTxt])
+		for(e in [healthBar, healthBarBG, iconP1, iconP2, scoreTxt, missesTxt, accuracyTxt])
 			e.cameras = [camHUD];
 		#end
 
