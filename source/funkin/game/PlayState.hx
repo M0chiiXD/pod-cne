@@ -344,18 +344,10 @@ class PlayState extends MusicBeatState
 	public var hits:Map<String, Int> = [];
 
 	/**
-	 * FunkinText that shows your score.
+	 * FunkinText that shows all score info.
 	 */
-	public var scoreTxt:FunkinText;
-	/**
-	 * FunkinText that shows your amount of misses.
-	 */
-	public var missesTxt:FunkinText;
-	/**
-	 * FunkinText that shows your accuracy.
-	 */
-	public var accuracyTxt:FunkinText;
-
+	public var scoreyTxt:FunkinText;
+	
 	/**
 	 * Score for the current week.
 	 */
