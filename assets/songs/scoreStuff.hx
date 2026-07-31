@@ -38,8 +38,6 @@ function postCreate() {
 	  missesTxt.y = 610;
 	}
 	
-	healthBar.numDivisions = 1000;
-	
 	FlxG.camera.zoom = defaultCamZoom;
 }
 
