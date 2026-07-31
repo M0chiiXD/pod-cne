@@ -179,7 +179,7 @@ class AssetsLibraryList extends AssetLibrary {
 
 		#if MOD_SUPPORT
 		ModsFolder.modsPath = './${Main.pathBack}mods/';
-		ModsFolder.addonsPath = './${Main.pathBack}addons/';
+		ModsFolder.addonsPath = './${Main.pathBack}packs/';
 		#end
 
 		__defaultLibraries.push(ModsFolder.loadLibraryFromFolder('assets', './${Main.pathBack}assets/', true, SOURCE));

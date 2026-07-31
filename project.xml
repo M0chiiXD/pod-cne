@@ -102,7 +102,7 @@
 	<define name="THREE_D_SUPPORT" unless="STRIPPED_COMPILE" />
 
 	<!-- Comment this out to disable support for Nape integration (flixel.addons.nape) (reduces compile times) !-->
-	<define name="NAPE_ENABLED" unless="STRIPPED_COMPILE" />
+	<!-- define name="NAPE_ENABLED" unless="STRIPPED_COMPILE" (we dont need this right guys) !-->
 
 	<!-- Comment this out to disable video cutscene support, in case of compilation errors. !-->
 	<section if="cpp">
