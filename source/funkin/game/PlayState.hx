@@ -355,6 +355,10 @@ class PlayState extends MusicBeatState
 	 * FunkinText that shows your accuracy.
 	 */
 	public var accuracyTxt:FunkinText;
+	/**
+	 * FunkinText that combines everything above LOL.
+	 */
+	public var scoreyTxt:FunkinText;
 
 	/**
 	 * Score for the current week.
@@ -911,18 +915,17 @@ class PlayState extends MusicBeatState
 		missesTxt = new FunkinText(healthBarBG.x + 50, healthBarBG.y + 30, Std.int(healthBarBG.width - 100), TEXT_GAME_MISSES.format([misses]), 16);
 		accuracyTxt = new FunkinText(healthBarBG.x + 50, healthBarBG.y + 30, Std.int(healthBarBG.width - 100), TEXT_GAME_ACCURACY.format(["-%", "(N/A)"]), 16);
 		accuracyTxt.addFormat(accFormat, 0, 1);
+		
+		scoreyTxt = new FunkinText(healthBarBG.x + 50, healthBarBG.y + 30, Std.int(healthBarBG.width - 100), 
+		scoreTxt.text + " | " + missesTxt.text + " | " + accuracyTxt.text, 16);
+		scoreyTxt.scrollFactor.set();
+		add(scoreyTxt);
+		scoreyTxt.alignment = CENTER;
 
-		for(text in [scoreTxt, missesTxt, accuracyTxt]) {
-			text.scrollFactor.set();
-			add(text);
-		}
-		scoreTxt.alignment = RIGHT;
-		missesTxt.alignment = CENTER;
-		accuracyTxt.alignment = LEFT;
 		if (updateRatingStuff != null)
 			updateRatingStuff();
 
-		for(e in [healthBar, healthBarBG, iconP1, iconP2, scoreTxt, missesTxt, accuracyTxt])
+		for(e in [healthBar, healthBarBG, iconP1, iconP2, scoreyTxt])
 			e.cameras = [camHUD];
 		#end
 
