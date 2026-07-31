@@ -5,7 +5,7 @@
 		title="FNF: Pack of DOOM" main="funkin.backend.system.Main"
 		file="GenericEngine" packageName="com.yoshman29.codenameengine"
 		package="com.yoshman29.codenameengine"
-		version="1.0.1" company="Yoshman29" />
+		version="1.0" company="HyperGeneric" />
 
 	<!--
 		CHANGE THE SAVE PATH & NAME FOR YOUR MOD HERE!
