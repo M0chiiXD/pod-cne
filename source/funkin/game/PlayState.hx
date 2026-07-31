@@ -344,10 +344,18 @@ class PlayState extends MusicBeatState
 	public var hits:Map<String, Int> = [];
 
 	/**
-	 * FunkinText that shows all score info.
+	 * FunkinText that shows your score.
 	 */
-	public var scoreyTxt:FunkinText;
-	
+	public var scoreTxt:FunkinText;
+	/**
+	 * FunkinText that shows your amount of misses.
+	 */
+	public var missesTxt:FunkinText;
+	/**
+	 * FunkinText that shows your accuracy.
+	 */
+	public var accuracyTxt:FunkinText;
+
 	/**
 	 * Score for the current week.
 	 */
@@ -879,17 +887,15 @@ class PlayState extends MusicBeatState
 		healthBarBG = new FlxSprite(0, FlxG.height * 0.9).loadAnimatedGraphic(Paths.image('game/healthBarOverlay'));
 		healthBarBG.screenCenter(X);
 		healthBarBG.scrollFactor.set();
+		add(healthBarBG);
 
 		healthBar = new FlxBar(healthBarBG.x + 4, healthBarBG.y + 4, RIGHT_TO_LEFT, Std.int(healthBarBG.width - 8), Std.int(healthBarBG.height - 8), this,
 			'health', 0, maxHealth);
 		healthBar.scrollFactor.set();
 		var leftColor:Int = dad != null && dad.iconColor != null && Options.colorHealthBar ? dad.iconColor : (opponentMode ? 0xFF66FF33 : 0xFFFF0000);
 		var rightColor:Int = boyfriend != null && boyfriend.iconColor != null && Options.colorHealthBar ? boyfriend.iconColor : (opponentMode ? 0xFFFF0000 : 0xFF66FF33); // switch the colors
-		healthBar.createGradientBar([FlxColor.WHITE, leftColor], [rightColor, FlxColor.WHITE], 1, 200);
-		healthBar.numDivisions = 1000;
-		
+		healthBar.createFilledBar(leftColor, rightColor);
 		add(healthBar);
-		add(healthBarBG);
 
 		if (Flags.DEFAULT_HEALTH != null) health = Flags.DEFAULT_HEALTH;
 		else health = maxHealth / 2;
@@ -900,22 +906,23 @@ class PlayState extends MusicBeatState
 			icon.y = healthBar.y - (icon.height / 2);
 			add(icon);
 		}
-		
-		scoreyTxt = new FunkinText(healthBarBG.x + 50, healthBarBG.y + 35, Std.int(healthBarBG.width - 100), 
-		TEXT_GAME_SCORE.format([songScore]) + " / " + 
-		TEXT_GAME_MISSES.format([misses]) + " / " + 
-		TEXT_GAME_ACCURACY.format(["-%", "[N/A]"]), 17.5);
-		scoreyTxt.font = Paths.font("PhantomMuff.ttf");
-		scoreyTxt.addFormat(accFormat, 0, 1);
-		
-		scoreyTxt.scrollFactor.set();
-		add(scoreyTxt);
-		scoreyTxt.alignment = CENTER;
-		
+
+		scoreTxt = new FunkinText(healthBarBG.x + 50, healthBarBG.y + 30, Std.int(healthBarBG.width - 100), TEXT_GAME_SCORE.format([songScore]), 16);
+		missesTxt = new FunkinText(healthBarBG.x + 50, healthBarBG.y + 30, Std.int(healthBarBG.width - 100), TEXT_GAME_MISSES.format([misses]), 16);
+		accuracyTxt = new FunkinText(healthBarBG.x + 50, healthBarBG.y + 30, Std.int(healthBarBG.width - 100), TEXT_GAME_ACCURACY.format(["-%", "(N/A)"]), 16);
+		accuracyTxt.addFormat(accFormat, 0, 1);
+
+		for(text in [scoreTxt, missesTxt, accuracyTxt]) {
+			text.scrollFactor.set();
+			add(text);
+		}
+		scoreTxt.alignment = RIGHT;
+		missesTxt.alignment = CENTER;
+		accuracyTxt.alignment = LEFT;
 		if (updateRatingStuff != null)
 			updateRatingStuff();
 
-		for(e in [healthBar, healthBarBG, iconP1, iconP2, scoreyTxt])
+		for(e in [healthBar, healthBarBG, iconP1, iconP2, scoreTxt, missesTxt, accuracyTxt])
 			e.cameras = [camHUD];
 		#end
 
