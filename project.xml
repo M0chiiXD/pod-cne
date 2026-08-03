@@ -163,6 +163,7 @@
 
 		<!-- TODO: make it copy this manually, instead of using assets node, so it doesn't manually check for fonts -->
 		<assets path='mods' rename='mods' embed='false' />
+		<assets path='addons' rename='packs' embed='false' />
 	</section>
 
 	<assets path='art/readme.txt' rename='do NOT readme.txt' />
