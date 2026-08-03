@@ -13,10 +13,10 @@ class Checkbox extends TextOption {
 	public var optionName:String;
 
 	private var offsets:Map<String, FlxPoint> = [
-		"unchecked" => FlxPoint.get(0, -70),
-		"checked" => FlxPoint.get(23, -32),
-		"unchecking" => FlxPoint.get(25, -12),
-		"checking" => FlxPoint.get(35, 29)
+		"unchecked" => FlxPoint.get(0, 0),
+		"checked" => FlxPoint.get(0, 0),
+		"unchecking" => FlxPoint.get(0, 0),
+		"checking" => FlxPoint.get(0, 0)
 	];
 
 	override function set_text(v:String) {
@@ -33,8 +33,8 @@ class Checkbox extends TextOption {
 		checkbox.frames = Paths.getFrames('menus/options/checkboxThingie');
 		checkbox.animation.addByPrefix("unchecked", "Check Box unselected0", 24);
 		checkbox.animation.addByPrefix("checked", "Check Box Selected Static0", 24);
-		checkbox.animation.addByPrefix("unchecking", "Check Box deselect animation0", 24, false);
-		checkbox.animation.addByPrefix("checking", "Check Box selecting animation0", 24, false);
+		checkbox.animation.addByPrefix("unchecking", "Check Box deselect animation0", 12, false);
+		checkbox.animation.addByPrefix("checking", "Check Box selecting animation0", 12, false);
 		checkbox.antialiasing = true;
 		checkbox.scale.set(0.75, 0.75);
 		checkbox.updateHitbox();

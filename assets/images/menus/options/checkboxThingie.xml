@@ -1,30 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+Created with Tex-Packer-EX v0.7.1 https://kitzsh.github.io/tex-packer-ex
 -->
-<TextureAtlas imagePath="checkboxThingie.png" width="550" height="512">
-	<SubTexture name="Check Box Selected Static0000" x="250" y="311" width="138" height="143" frameX="-0" frameY="-0" frameWidth="138" frameHeight="143"/>
-	<SubTexture name="Check Box deselect animation0000" x="250" y="177" width="159" height="131" frameX="-0" frameY="-22" frameWidth="159" frameHeight="173"/>
-	<SubTexture name="Check Box deselect animation0001" x="250" y="177" width="159" height="131" frameX="-0" frameY="-22" frameWidth="159" frameHeight="173"/>
-	<SubTexture name="Check Box deselect animation0002" x="123" y="1" width="127" height="173" frameX="-13" frameY="-0" frameWidth="159" frameHeight="173"/>
-	<SubTexture name="Check Box deselect animation0003" x="123" y="1" width="127" height="173" frameX="-13" frameY="-0" frameWidth="159" frameHeight="173"/>
-	<SubTexture name="Check Box deselect animation0004" x="1" y="350" width="142" height="136" frameX="-5" frameY="-33" frameWidth="159" frameHeight="173"/>
-	<SubTexture name="Check Box deselect animation0005" x="1" y="350" width="142" height="136" frameX="-5" frameY="-33" frameWidth="159" frameHeight="173"/>
-	<SubTexture name="Check Box deselect animation0006" x="391" y="311" width="134" height="94" frameX="-9" frameY="-68" frameWidth="159" frameHeight="173"/>
-	<SubTexture name="Check Box deselect animation0007" x="1" y="203" width="111" height="106" frameX="-21" frameY="-55" frameWidth="159" frameHeight="173"/>
-	<SubTexture name="Check Box deselect animation0008" x="1" y="203" width="111" height="106" frameX="-21" frameY="-55" frameWidth="159" frameHeight="173"/>
-	<SubTexture name="Check Box deselect animation0009" x="391" y="408" width="102" height="103" frameX="-25" frameY="-58" frameWidth="159" frameHeight="173"/>
-	<SubTexture name="Check Box deselect animation0010" x="391" y="408" width="102" height="103" frameX="-25" frameY="-58" frameWidth="159" frameHeight="173"/>
-	<SubTexture name="Check Box selecting animation0000" x="412" y="128" width="121" height="82" frameX="-25" frameY="-132" frameWidth="155" frameHeight="214"/>
-	<SubTexture name="Check Box selecting animation0001" x="412" y="128" width="121" height="82" frameX="-25" frameY="-132" frameWidth="155" frameHeight="214"/>
-	<SubTexture name="Check Box selecting animation0002" x="1" y="1" width="119" height="199" frameX="-16" frameY="-0" frameWidth="155" frameHeight="214"/>
-	<SubTexture name="Check Box selecting animation0003" x="123" y="177" width="124" height="170" frameX="-13" frameY="-22" frameWidth="155" frameHeight="214"/>
-	<SubTexture name="Check Box selecting animation0004" x="123" y="177" width="124" height="170" frameX="-13" frameY="-22" frameWidth="155" frameHeight="214"/>
-	<SubTexture name="Check Box selecting animation0005" x="394" y="1" width="155" height="124" frameX="-0" frameY="-90" frameWidth="155" frameHeight="214"/>
-	<SubTexture name="Check Box selecting animation0006" x="394" y="1" width="155" height="124" frameX="-0" frameY="-90" frameWidth="155" frameHeight="214"/>
-	<SubTexture name="Check Box selecting animation0007" x="253" y="1" width="138" height="145" frameX="-12" frameY="-61" frameWidth="155" frameHeight="214"/>
-	<SubTexture name="Check Box selecting animation0008" x="253" y="1" width="138" height="145" frameX="-12" frameY="-61" frameWidth="155" frameHeight="214"/>
-	<SubTexture name="Check Box selecting animation0009" x="250" y="311" width="138" height="143" frameX="-12" frameY="-61" frameWidth="155" frameHeight="214"/>
-	<SubTexture name="Check Box selecting animation0010" x="250" y="311" width="138" height="143" frameX="-12" frameY="-61" frameWidth="155" frameHeight="214"/>
-	<SubTexture name="Check Box unselected0000" x="391" y="408" width="102" height="103" frameX="-0" frameY="-0" frameWidth="159" frameHeight="173"/>
+<TextureAtlas imagePath="checkboxThingie.png" width="997" height="931">
+  <SubTexture name="Check Box deselect animation0000.png" x="669" y="0"  width="328" height="260" frameX="-183" frameY="-179" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Check Box deselect animation0001.png" x="655" y="602"  width="322" height="253" frameX="-184" frameY="-189" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Check Box deselect animation0002.png" x="342" y="0"  width="327" height="337" frameX="-162" frameY="-186" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Check Box deselect animation0003.png" x="0" y="0"  width="342" height="400" frameX="-115" frameY="-104" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Check Box deselect animation0004.png" x="0" y="400"  width="232" height="279" frameX="-196" frameY="-163" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Check Box deselect animation0005.png" x="178" y="679"  width="210" height="234" frameX="-201" frameY="-206" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Check Box Selected Static0000.png" x="655" y="337"  width="325" height="265" frameX="-180" frameY="-176" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Check Box selecting animation0000.png" x="0" y="679"  width="178" height="252" frameX="-183" frameY="-262" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Check Box selecting animation0001.png" x="342" y="337"  width="313" height="266" frameX="-186" frameY="-168" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Check Box unselected0000.png" x="388" y="679"  width="196" height="207" frameX="-210" frameY="-230" frameWidth="640" frameHeight="640"/>
 </TextureAtlas>
