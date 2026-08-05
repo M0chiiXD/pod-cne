@@ -2054,7 +2054,7 @@ class PlayState extends MusicBeatState
 
 	public function displayRating(myRating:String, ?evt:NoteHitEvent):Void 
 	{
-		var event:RatingsShowEvent = EventManager.get(RatingsShowEvent).recycle(comboGroup.recycleLoop(FlxSprite), null, null, null, null, 0.7, true, "game/score/", "", 550, FlxPoint.get(FlxG.random.int(0, 10), FlxG.random.int(140, 175)), 0.2, (Conductor.crochet * 0.001), true, false, false, true, null, FlxPoint.get(comboGroup.x + -40, comboGroup.y + -60), true, myRating, null);
+		var event:RatingsShowEvent = EventManager.get(RatingsShowEvent).recycle(comboGroup.recycleLoop(FlxSprite), null, null, null, null, 0.7, true, "game/score/", "", 450, FlxPoint.get(FlxG.random.int(5, 6), FlxG.random.int(163, 165)), 0.2, (Conductor.crochet * 0.001), true, false, false, true, null, FlxPoint.get(Options.ratingOffsets[0], Options.ratingOffsets[1]), true, myRating, null);
 		gameAndCharsEvent("onRatingsShown", event);
 
 		if (event.cancelled || !event.displayRating) { // TODO: Find a better way for this?
@@ -2097,7 +2097,7 @@ class PlayState extends MusicBeatState
 
 	public function displayCombo(?evt:NoteHitEvent):Void {
 		if (minDigitDisplay >= 0 && (combo == 0 || combo >= minDigitDisplay)) {
-			var event:RatingsShowEvent = EventManager.get(RatingsShowEvent).recycle(null, null, comboGroup.recycleLoop(FlxSprite), null, null, 0.7, true, "game/score/", "", 600, FlxPoint.get(FlxG.random.int(0, 10), 150), 0.2, (Conductor.crochet * 0.001), false, false, evt != null && evt.displayCombo != null ? evt.displayCombo : defaultDisplayCombo, true, null, FlxPoint.get(comboGroup.x, comboGroup.y), true, null, null);
+			var event:RatingsShowEvent = EventManager.get(RatingsShowEvent).recycle(null, null, comboGroup.recycleLoop(FlxSprite), null, null, 0.7, true, "game/score/", "", 450, FlxPoint.get(FlxG.random.int(0, 10), 150), 0.2, (Conductor.crochet * 0.001), false, false, evt != null && evt.displayCombo != null ? evt.displayCombo : defaultDisplayCombo, true, null, FlxPoint.get(Options.ratingOffsets[0], Options.ratingOffsets[1] - 25), true, null, null);
 			gameAndCharsEvent("onRatingsShown", event);
 
 			if (event.cancelled || !event.displayCombo) { // TODO: Find a better way for this?
@@ -2144,7 +2144,7 @@ class PlayState extends MusicBeatState
 			var separatedScore:String = Std.string(combo).addZeros(3);
 			for (i in 0...separatedScore.length)
 			{
-				var event:RatingsShowEvent = EventManager.get(RatingsShowEvent).recycle(null, comboGroup.recycleLoop(FlxSprite), null, 0.5, true, null, null, "game/score/", "", FlxG.random.int(200, 300), FlxPoint.get(FlxG.random.float(-5, 5), FlxG.random.int(140, 160)), 0.2, (Conductor.crochet * 0.002), false, true, false, true, 43, FlxPoint.get(comboGroup.x - 90, comboGroup.y + 80), true, null, null);
+				var event:RatingsShowEvent = EventManager.get(RatingsShowEvent).recycle(null, comboGroup.recycleLoop(FlxSprite), null, 0.5, true, null, null, "game/score/", "", 285, FlxPoint.get(FlxG.random.float(-3, 0), FlxG.random.int(150, 155)), 0.2, (Conductor.crochet * 0.002), false, true, false, true, 43, FlxPoint.get(Options.ratingOffsets[2], Options.ratingOffsets[3]), true, null, null);
 				gameAndCharsEvent("onRatingsShown", event);
 
 				if (event.cancelled || !event.displayNumbers) { // TODO: Find a better way for this?
@@ -2162,7 +2162,7 @@ class PlayState extends MusicBeatState
 				var numScore:FlxSprite = event.numberSprite.loadAnimatedGraphic(Paths.image('${pre}num${separatedScore.charAt(i)}${suf}'));
 				event.position.x += event.numSpacing * i;
 				if (event.resetSprite) {
-					CoolUtil.resetSprite(numScore, event.position.x, event.position.y);
+					CoolUtil.resetSprite(numScore, Options.ratingOffsets[2], Options.ratingOffsets[3]);
 				}
 				numScore.antialiasing = hasEvent && evt.numAntialiasing != null ? evt.numAntialiasing : event.numAntialiasing;
 				numScore.scale.set(numScale, numScale);

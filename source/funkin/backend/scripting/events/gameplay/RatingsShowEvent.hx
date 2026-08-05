@@ -20,7 +20,7 @@ final class RatingsShowEvent extends CancellableEvent
 	/**
 	 * Scale of combo numbers. (may be null)
 	 */
-	public var numScale:Null<Float> = 0.5;
+	public var numScale:Null<Float> = 0.45;
 	/**
 	 * Whenever antialiasing should be enabled on combo numbers. (may be null)
 	 */
@@ -28,7 +28,7 @@ final class RatingsShowEvent extends CancellableEvent
 	/**
 	 * Scale of the rating sprites. (may be null)
 	 */
-	public var ratingScale:Null<Float> = 0.7;
+	public var ratingScale:Null<Float> = 0.65;
 	/**
 	 * Whenever antialiasing should be enabled on ratings. (may be null)
 	 */

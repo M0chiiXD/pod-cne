@@ -2,6 +2,7 @@ package funkin.options.categories;
 
 import flixel.util.FlxTimer;
 import funkin.backend.system.Conductor;
+import funkin.options.ratings.RatingOptions;
 
 class GameplayOptions extends TreeMenuScreen {
 	var __metronome = FlxG.sound.load(Paths.sound(Flags.DEFAULT_CHARTER_METRONOME_SOUND));
@@ -18,6 +19,11 @@ class GameplayOptions extends TreeMenuScreen {
 		add(offsetSetting = new NumOption(getNameID('songOffset'), getDescID('songOffset'), -999, 999, 1, 'songOffset', __changeOffset));
 		add(new SliderOption(getNameID('volumeMusic'), getDescID('volumeMusic'), 0, 1, 1, 5, 'volumeMusic', -1, __changeVolumeMusic));
 		add(new SliderOption(getNameID('volumeSFX'), getDescID('volumeSFX'), 0, 1, 1, 5, 'volumeSFX'));
+		add(new TextOption(getNameID('ratingOffset'), getDescID('ratingOffset'), '', () -> {
+			persistentUpdate = false;
+			persistentDraw = true;
+			parent.openSubState(new RatingOptions());
+		}));
 
 		add(new Separator());
 		add(new TextOption('optionsMenu.advanced', 'optionsTree.gameplay.advanced-desc', ' >', () ->
@@ -37,7 +43,7 @@ class GameplayOptions extends TreeMenuScreen {
 
 		if (offsetSetting.selected) {
 			if (__lastBeat != Conductor.curBeat) {
-				FlxG.camera.zoom += 0.03;
+				FlxG.camera.zoom += 0.005;
 				__lastBeat = Conductor.curBeat;
 			}
 

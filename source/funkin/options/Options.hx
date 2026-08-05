@@ -25,7 +25,7 @@ class Options
 	public static var ghostTapping:Bool = true;
 	public static var flashingMenu:Bool = true;
 	public static var camZoomOnBeat:Bool = true;
-	public static var ratingOffsets:Array<Int> = [600, 600];
+	public static var ratingOffsets:Array<Int> = [0, 0, 0, 0];
 	public static var fpsCounter:Bool = true;
 	public static var autoPause:Bool = true;
 	public static var antialiasing:Bool = true;
