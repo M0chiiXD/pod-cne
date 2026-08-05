@@ -9,6 +9,7 @@ import funkin.options.type.*;
 typedef OptionCategory = {
 	var name:String;
 	var desc:String;
+	var icon:String;
 	var ?state:OneOfThree<TreeMenuScreen, Class<TreeMenuScreen>, (name:String, desc:String) -> TreeMenuScreen>;
 	var ?substate:OneOfThree<MusicBeatSubstate, Class<MusicBeatSubstate>, (name:String, desc:String) -> MusicBeatSubstate>;
 	var ?suffix:String;
@@ -19,29 +20,34 @@ class OptionsMenu extends TreeMenu {
 		{  // name and desc are actually the translations ids!  - Nex
 			name: 'optionsTree.controls-name',
 			desc: 'optionsTree.controls-desc',
+			icon: 'controls',
 			suffix: '',
 			substate: funkin.options.keybinds.KeybindsOptions
 		},
 		{
 			name: 'optionsTree.gameplay-name',
 			desc: 'optionsTree.gameplay-desc',
+			icon: 'gameplay',
 			state: GameplayOptions
 		},
 		{
 			name: 'optionsTree.appearance-name',
 			desc: 'optionsTree.appearance-desc',
+			icon: 'appearance',
 			state: AppearanceOptions
 		},
 		#if TRANSLATIONS_SUPPORT
 		{
 			name: 'optionsTree.language-name',
 			desc: 'optionsTree.language-desc',
+			icon: 'default',
 			state: LanguageOptions
 		},
 		#end
 		{
 			name: 'optionsTree.miscellaneous-name',
 			desc: 'optionsTree.miscellaneous-desc',
+			icon: 'misc',
 			state: MiscOptions
 		}
 	];
@@ -63,7 +69,8 @@ class OptionsMenu extends TreeMenu {
 
 		for (i in mainOptions) if (i.name == "optionsTree.language-name" && Flags.DISABLE_LANGUAGES) mainOptions.remove(i);
 
-		addMenu(new TreeMenuScreen('optionsMenu.header.title', 'optionsMenu.header.desc', [for (o in mainOptions) new TextOption(o.name, o.desc, o.suffix != null ? o.suffix : " >", () -> {
+		addMenu(new TreeMenuScreen('optionsMenu.header.title', 'optionsMenu.header.desc',
+		[for (o in mainOptions) new ImageOption(o.name, o.desc, o.icon, o.suffix != null ? o.suffix : " >", () -> {
 			if (o.substate != null) {
 				persistentUpdate = false;
 				persistentDraw = true;
@@ -110,7 +117,7 @@ class OptionsMenu extends TreeMenu {
 		if (Options.devMode) {
 			if (debugOption == null) {
 				first.insert(CoolUtil.minInt(first.length, mainOptions.length),
-					debugOption = new TextOption('optionsTree.debug-name', 'optionsTree.debug-desc', ' >', () -> addMenu(new DebugOptions()))
+					debugOption = new ImageOption('optionsTree.debug-name', 'optionsTree.debug-desc', 'debug', ' >', () -> addMenu(new DebugOptions()))
 				);
 			}
 		}

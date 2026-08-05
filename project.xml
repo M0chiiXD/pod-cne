@@ -162,7 +162,7 @@
 		<assets path="assets/"    rename="assets"	exclude="*.mp3" unless="web"/>
 
 		<!-- TODO: make it copy this manually, instead of using assets node, so it doesn't manually check for fonts -->
-		<assets path='mods' rename='mods' embed='false' />
+		<assets path='assets/images/editors/' embed='true' />
 		<assets path='addons' rename='packs' embed='false' />
 	</section>
 

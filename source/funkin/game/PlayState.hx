@@ -309,6 +309,11 @@ class PlayState extends MusicBeatState
 	 */
 	public var iconArray:Array<HealthIcon> = [];
 
+
+	/**
+	 * Camera for the Ratings (This allows us to change the offset without downscroll affecting it).
+	 */
+	public var camRatings:FlxCamera;
 	/**
 	 * Camera for the HUD (notes, misses).
 	 */
@@ -691,15 +696,16 @@ class PlayState extends MusicBeatState
 
 		camGame = camera;
 		FlxG.cameras.add(camHUD = new HudCamera(), false);
+		FlxG.cameras.add(camRatings = new FlxCamera(), false);
 		camHUD.bgColor.alpha = 0;
+		camRatings.bgColor.alpha = 0;
 
 		downscroll = Options.downscroll;
 
 		persistentUpdate = true;
 		persistentDraw = true;
 
-		if (SONG == null)
-			SONG = Chart.parse('tutorial', difficulty = 'normal', variation = null);
+		if (SONG == null) SONG = Chart.parse('tutorial', difficulty = 'normal', variation = null);
 
 		scrollSpeed = SONG.scrollSpeed;
 
@@ -729,7 +735,7 @@ class PlayState extends MusicBeatState
 
 		// CHARACTER INITIALIZATION
 		#if REGION
-		comboGroup = new RotatingSpriteGroup(FlxG.width * 0.55, (FlxG.height * 0.5) - 60);
+		comboGroup = new RotatingSpriteGroup(Options.ratingOffsets[0], Options.ratingOffsets[1]);
 		comboGroup.maxSize = Flags.DEFAULT_COMBO_GROUP_MAX_SIZE;
 		#end
 
@@ -2073,6 +2079,7 @@ class PlayState extends MusicBeatState
 		rating.scale.set(ratingScale, ratingScale);
 		rating.antialiasing = hasEvent && evt.ratingAntialiasing != null ? evt.ratingAntialiasing : event.ratingAntialiasing;
 		rating.updateHitbox();
+		rating.camera = camRatings;
 
 		if (event.playTween) {
 			event.tween = FlxTween.tween(rating, {alpha: 0}, event.tweenDuration, {
@@ -2114,6 +2121,7 @@ class PlayState extends MusicBeatState
 			comboSpr.velocity.x += event.velocity.x;
 			comboSpr.scale.set(ratingScale, ratingScale);
 			comboSpr.antialiasing = hasEvent && evt.ratingAntialiasing != null ? evt.ratingAntialiasing : event.ratingAntialiasing;
+			comboSpr.camera = camRatings;
 			comboSpr.updateHitbox();
 
 			if (event.playTween) {
@@ -2163,6 +2171,7 @@ class PlayState extends MusicBeatState
 				numScore.acceleration.y = event.acceleration;
 				numScore.velocity.y -= event.velocity.y;
 				numScore.velocity.x = event.velocity.x;
+				numScore.camera = camRatings;
 
 				if (event.playTween) {
 					event.tween = FlxTween.tween(numScore, {alpha: 0}, event.tweenDuration, {
