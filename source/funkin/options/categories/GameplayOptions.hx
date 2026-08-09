@@ -20,8 +20,8 @@ class GameplayOptions extends TreeMenuScreen {
 		add(new SliderOption(getNameID('volumeMusic'), getDescID('volumeMusic'), 0, 1, 1, 5, 'volumeMusic', -1, __changeVolumeMusic));
 		add(new SliderOption(getNameID('volumeSFX'), getDescID('volumeSFX'), 0, 1, 1, 5, 'volumeSFX'));
 		add(new TextOption(getNameID('ratingOffset'), getDescID('ratingOffset'), '', () -> {
-			persistentUpdate = false;
-			persistentDraw = true;
+			parent.persistentDraw = true;
+			parent.persistentUpdate = false;
 			parent.openSubState(new RatingOptions());
 		}));
 
