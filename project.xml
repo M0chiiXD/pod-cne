@@ -160,10 +160,10 @@
 	<section unless="TEST_BUILD">
 		<assets path="assets/"    rename="assets"	exclude="*.ogg" if="web"/>
 		<assets path="assets/"    rename="assets"	exclude="*.mp3" unless="web"/>
+		<assets path="assets/images/editors/" embed="true" />
 
 		<!-- TODO: make it copy this manually, instead of using assets node, so it doesn't manually check for fonts -->
-		<assets path='assets/images/editors/' embed='true' />
-		<assets path='addons' rename='packs' embed='false' />
+		<assets path="addons" rename="packs" embed="false"/>
 	</section>
 
 	<assets path='art/readme.txt' rename='do NOT readme.txt' />
