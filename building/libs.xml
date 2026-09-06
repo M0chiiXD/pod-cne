@@ -4,12 +4,13 @@
 		<print pretty="true">Preparing installation...</print>
 
 		<!-- OpenFL & Lime (Required for Flixel) -->
-		<git name="openfl" url="https://github.com/CodenameCrew/cne-openfl" ref="old" />
-		<lib name="lime" version="8.1.2" />
+		<git name="hxcpp" url="https://github.com/CodenameCrew/cne-hxcpp"/>
+		<git name="openfl" url="https://github.com/CodenameCrew/cne-openfl" ref="cne" skipDeps="true"/>
+		<git name="lime" url="https://github.com/CodenameCrew/cne-lime" ref="cne" skipDeps="true"/>
 
 		<!-- Flixel -->
-		<git name="flixel" url="https://github.com/CodenameCrew/cne-flixel" ref="old" />
-		<git name="flixel-addons" url="https://github.com/CodenameCrew/cne-flixel-addons" ref="old" />
+		<git name="flixel" url="https://github.com/CodenameCrew/cne-flixel" ref="cne" />
+		<git name="flixel-addons" url="https://github.com/CodenameCrew/cne-flixel-addons" ref="cne" />
 
 		<!-- Other Libraries -->
 		<git name="hscript-improved" url="https://github.com/CodenameCrew/hscript-improved" ref="codename-dev" />
@@ -29,8 +30,6 @@
 		<!-- For building lime -->
 		<lib global="true" name="hxp" /> <lib name="hxp" />
 		<lib global="true" name="format" /> <lib name="format" />
-
-		<git name="hxcpp" url="https://github.com/CodenameCrew/cne-hxcpp" ref="old" />
 
 		<git name="flixel-animate" url="https://github.com/CodenameCrew/cne-flixel-animate/" ref="old" skipDeps="true"/>
 	</if>
