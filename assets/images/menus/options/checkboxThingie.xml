@@ -2,15 +2,15 @@
 <!--
 Created with Tex-Packer-EX v0.7.1 https://kitzsh.github.io/tex-packer-ex
 -->
-<TextureAtlas imagePath="checkboxThingie.png" width="997" height="931">
-  <SubTexture name="Check Box deselect animation0000.png" x="669" y="0"  width="328" height="260" frameX="-183" frameY="-179" frameWidth="640" frameHeight="640"/>
-  <SubTexture name="Check Box deselect animation0001.png" x="655" y="602"  width="322" height="253" frameX="-184" frameY="-189" frameWidth="640" frameHeight="640"/>
-  <SubTexture name="Check Box deselect animation0002.png" x="342" y="0"  width="327" height="337" frameX="-162" frameY="-186" frameWidth="640" frameHeight="640"/>
-  <SubTexture name="Check Box deselect animation0003.png" x="0" y="0"  width="342" height="400" frameX="-115" frameY="-104" frameWidth="640" frameHeight="640"/>
-  <SubTexture name="Check Box deselect animation0004.png" x="0" y="400"  width="232" height="279" frameX="-196" frameY="-163" frameWidth="640" frameHeight="640"/>
-  <SubTexture name="Check Box deselect animation0005.png" x="178" y="679"  width="210" height="234" frameX="-201" frameY="-206" frameWidth="640" frameHeight="640"/>
-  <SubTexture name="Check Box Selected Static0000.png" x="655" y="337"  width="325" height="265" frameX="-180" frameY="-176" frameWidth="640" frameHeight="640"/>
-  <SubTexture name="Check Box selecting animation0000.png" x="0" y="679"  width="178" height="252" frameX="-183" frameY="-262" frameWidth="640" frameHeight="640"/>
-  <SubTexture name="Check Box selecting animation0001.png" x="342" y="337"  width="313" height="266" frameX="-186" frameY="-168" frameWidth="640" frameHeight="640"/>
-  <SubTexture name="Check Box unselected0000.png" x="388" y="679"  width="196" height="207" frameX="-210" frameY="-230" frameWidth="640" frameHeight="640"/>
+<TextureAtlas imagePath="checkboxThingie.png" width="499" height="466">
+  <SubTexture name="Check Box deselect animation0000.png" x="334.5" y="0"  width="164" height="130" frameX="-91.5" frameY="-89.5" frameWidth="320" frameHeight="320"/>
+  <SubTexture name="Check Box deselect animation0001.png" x="327.5" y="301"  width="161" height="126.5" frameX="-92" frameY="-94.5" frameWidth="320" frameHeight="320"/>
+  <SubTexture name="Check Box deselect animation0002.png" x="171" y="0"  width="163.5" height="168.5" frameX="-81" frameY="-93" frameWidth="320" frameHeight="320"/>
+  <SubTexture name="Check Box deselect animation0003.png" x="0" y="0"  width="171" height="200" frameX="-57.5" frameY="-52" frameWidth="320" frameHeight="320"/>
+  <SubTexture name="Check Box deselect animation0004.png" x="0" y="200"  width="116" height="139.5" frameX="-98" frameY="-81.5" frameWidth="320" frameHeight="320"/>
+  <SubTexture name="Check Box deselect animation0005.png" x="89" y="339.5"  width="105" height="117" frameX="-100.5" frameY="-103" frameWidth="320" frameHeight="320"/>
+  <SubTexture name="Check Box Selected Static0000.png" x="327.5" y="168.5"  width="162.5" height="132.5" frameX="-90" frameY="-88" frameWidth="320" frameHeight="320"/>
+  <SubTexture name="Check Box selecting animation0000.png" x="0" y="339.5"  width="89" height="126" frameX="-91.5" frameY="-131" frameWidth="320" frameHeight="320"/>
+  <SubTexture name="Check Box selecting animation0001.png" x="171" y="168.5"  width="156.5" height="133" frameX="-93" frameY="-84" frameWidth="320" frameHeight="320"/>
+  <SubTexture name="Check Box unselected0000.png" x="194" y="339.5"  width="98" height="103.5" frameX="-105" frameY="-115" frameWidth="320" frameHeight="320"/>
 </TextureAtlas>

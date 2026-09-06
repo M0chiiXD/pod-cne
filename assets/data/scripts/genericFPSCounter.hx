@@ -30,7 +30,6 @@ import funkin.backend.system.framerate.Framerate;
 import funkin.backend.system.framerate.SystemInfo;
 import funkin.backend.utils.MemoryUtil;
 import funkin.backend.utils.WindowUtils;
-import funkin.backend.utils.NdllUtil;
 
 var genericFPS:TextField;
 var underlay:Sprite;
@@ -73,16 +72,14 @@ function new() {
     Main.instance.addChild(genericFPS);
 }
 
-var taskMem = NdllUtil.getFunction("processinfo", "processinfo_get_memory_usage", 0);
-
 function update(elapsed:Float) {
     fpsNum = Framerate.fpsCounter.fpsNum.text;
 	if(FlxG.keys.justPressed.F3) swapDebugCase(1);
 	
 	Framerate.instance.visible = false;
 
-	curGCMemory = Framerate.memoryCounter.memory;
-	curTaskMemory = taskMem();
+	curGCMemory = MemoryUtil.currentMemUsage();
+	curTaskMemory = MemoryUtil.currentProcessMemUsage();
 	if (curGCMemory > maxGCMemory) maxGCMemory = curGCMemory;			
 	if (curTaskMemory > maxTaskMemory) maxTaskMemory = curTaskMemory;
 	

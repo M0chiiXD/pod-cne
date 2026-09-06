@@ -2,10 +2,10 @@
 <project>
 	<!-- _________________________ Application Settings _________________________ -->
 	<app
-		title="FNF: Pack of DOOM" main="funkin.backend.system.Main"
-		file="GenericEngine" packageName="com.yoshman29.codenameengine"
+		title="FNF: Pack of DOOM" 		main="funkin.backend.system.Main"
+		file="GenericEngine" 					packageName="com.yoshman29.codenameengine"
 		package="com.yoshman29.codenameengine"
-		version="1.0" company="HyperGeneric" />
+		version="1.0" 									company="HyperGeneric" />
 
 	<!--
 		CHANGE THE SAVE PATH & NAME FOR YOUR MOD HERE!
@@ -98,7 +98,7 @@
 	<!-- Comment this out to use the default OpenFL assets system for the assets/ folder. !-->
 	<define name="USE_ADAPTED_ASSETS" unless="web" />
 
-	<!-- Comment this out to disable support for Away3D Flixel Integration (reduces compile times) !-->
+	<!-- Comment this out to disable support for Foxlite 3D Rendering (reduces compile times) !-->
 	<define name="THREE_D_SUPPORT" unless="STRIPPED_COMPILE" />
 
 	<!-- Comment this out to disable support for Nape integration (flixel.addons.nape) (reduces compile times) !-->
@@ -131,7 +131,8 @@
 	<haxelib name="flixel-addons" />
 
 	<haxelib name="hxvlc" if="VIDEO_CUTSCENES" />
-	<haxelib name="away3d" if="THREE_D_SUPPORT" />
+	<haxelib name="away3d" if="THREE_D_SUPPORT"/>
+	<haxelib name="foxlite" if="THREE_D_SUPPORT"/>
 	<haxelib name="format" />
 	<haxelib name="flixel-animate" />
 	<haxelib name="nape-haxe4" if="NAPE_ENABLED"/>

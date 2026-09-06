@@ -18,7 +18,8 @@
 		<lib name="hxvlc" version="1.9.3" skipDeps="true" />
 
 		<!-- Documentation and other features -->
-		<git name="away3d" url="https://github.com/CodenameCrew/away3d" />
+		<!-- <git name="away3d" url="https://github.com/CodenameCrew/away3d" /> -->
+		<git name="foxlite" url="https://github.com/dwdvIl/foxlite" skipDeps="true"/>
 		<!-- <lib name="dox" /> -->
 		<lib name="markdown" />
 		<lib name="hxcpp-debug-server" />

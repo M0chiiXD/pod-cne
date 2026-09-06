@@ -60,7 +60,7 @@ function postCreate() {
 
 var scoreLerp;
 function postUpdate() {	
-	scoreLerp = FlxMath.lerp(scoreLerp, PlayState.instance.songScore, 0.1);
+	scoreLerp = lerp(scoreLerp, PlayState.instance.songScore, 0.1);
 	var acc = FlxMath.roundDecimal(Math.max(accuracy, 0) * 100, 2);
 	missesTxt.text = "Score: " + Std.parseInt(scoreLerp) + " | " + "Misses: " + misses + " | " + "Accuracy: " + acc + "% - " + getSongRank(acc);
 }

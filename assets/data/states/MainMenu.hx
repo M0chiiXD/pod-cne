@@ -299,7 +299,7 @@ function update(elapsed:Float) {
     }
 	
 	if (FlxG.keys.justPressed.EIGHT) {
-        FlxG.switchState(new ModState("gallerySubstates/overloke")); 
+        FlxG.switchState(new ModState("RatingOffsetSubState")); 
     }
 	
 	introtxt.setPosition(logo.x + 160, logo.y + 460);
