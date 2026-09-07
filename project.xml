@@ -126,6 +126,7 @@
 
 	<haxedef name="no-deprecation-warnings"/>
 	<haxedef name="DISCORD_DISABLE_IO_THREAD" if="DISCORD_RPC"/>
+	<haxedef name="cne"/>
 
 	<haxelib name="flixel" />
 	<haxelib name="flixel-addons" />
