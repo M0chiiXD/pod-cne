@@ -16,9 +16,10 @@ function create() {
 	redOverlay.visible = false;
 }
 
-static function triggerEVIL() {
+static function triggerEVIL(?overlay:Bool) {
 	red.uActive = 1.0;
-	redOverlay.visible = true;
+	if (overlay != null) redOverlay.visible = overlay;
+	else redOverlay.visible = true;
 }
 
 static function hideEVIL() {

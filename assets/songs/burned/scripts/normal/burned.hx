@@ -8,7 +8,6 @@ var camStatic = FlxG.save.data.camStable;
 static var burnedvar:String;
 
 importScript("data/scripts/burnedHUD");
-importScript("data/scripts/VideoHandler");
 importScript("data/scripts/cameraOffsetMove");
 
 var burn = Paths.font("vcr.ttf");
@@ -34,7 +33,7 @@ function create(){
 	miniscene.screenCenter();
 	miniscene.visible = false;
 	
-	VideoHandler.load(["burnedcutscene1", "doorframe"]); //2nd vid is for testing
+	VideoUtil.load(["burnedcutscene1", "doorframe"], [":no-audio"], camHUD); //2nd vid is for testing
 	
 	dadHealth = "Pencil";
 	bfHealth = "Azure";
@@ -45,7 +44,7 @@ function postCreate() blur.blend = BlendMode.ADD;
 function onSongStart() //camHUD.fade(FlxColor.BLACK, 5, true);
 
 var reveal:Bool = false;
-function onDadHit(e) if (reveal) if (health > 0.2) health -= 0.02;
+function onDadHit(e) { if (reveal) if (health > 0.2) health -= 0.02; }
 
 var angle:Bool = false;
 var bouncy:Bool = false;
@@ -76,12 +75,12 @@ function stepHit(curStep:Int) {
 			blur.playAnim("idle");
 		case 1536:
 			FlxTween.tween(blur, {alpha: 0}, 0.15, {ease: FlxEase.quadInOut, onComplete: (_) -> blur.destroy() });
-		case 2014:
-			VideoHandler.playNext();
+		case 2016:
+			VideoUtil.playNext();
 		case 2144:
 			camGame.visible = false;
 		case 2180:
-			VideoHandler.destroyCur();
+			VideoUtil.destroyCur();
 			camHUD.fade(FlxColor.BLACK, 1.4, true);
 			loadNextBG(1);
 		case 2192:
@@ -115,9 +114,9 @@ function stepHit(curStep:Int) {
 			loadNextBG(3);
 			camGame.visible = true;
 		case 2848:
-			VideoHandler.playNext();
+			VideoUtil.playNext();
 		case 2880:
-			VideoHandler.destroyCur();
+			VideoUtil.destroyCur();
 			camGame.visible = camHUD.visible = false;
 	}
 }

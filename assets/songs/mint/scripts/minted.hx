@@ -50,8 +50,6 @@ function onSongStart() {
 	camGame.fade(FlxColor.BLACK, 6.5, true);
 }
 
-public var bloomBop:Bool = false;
-public var minty:Bool = false;
 function stepHit(curStep:Int) {
 	switch (curStep) {
 		case 126:
@@ -64,17 +62,33 @@ function stepHit(curStep:Int) {
 		case 145:
 			FlxTween.tween(titlecard, {y: 700}, 1, {ease: FlxEase.quadIn});
 			FlxTween.tween(titlecard.scale, {x: 1, y: 1}, 1, {ease: FlxEase.quadInOut});
+		case 256: bloomBop = false;
+		case 320: bloomBop = true;
+		case 368: bloomBop = false;
+		case 384: bloomBop = true;
+		case 640: 
+			bloomFX = [18, 0.68, 0.05, 4];
+		case 768: bloomBop = false;
 		case 900:
 			FlxTween.tween(black, {alpha: 0.5}, 1, {ease: FlxEase.quadIn});
 			FlxTween.tween(spotlight1, {alpha: 1}, 2, {ease: FlxEase.quadIn});
 		case 956:
 			FlxTween.tween(spotlight2, {alpha: 1}, 2, {ease: FlxEase.quadIn});
+		case 992: 
+			bloomBop = true;
+			bloomFX = [18, 0.85, 0.085, 1];
+		case 1008: bloomBop = false;
 		case 1024:
 			for (c in [spotlight1, spotlight2, black]) FlxTween.tween(c, {alpha: 0}, 0.5, {ease: FlxEase.quadIn});
 			minty = true;
 			waveSpeed = 2.0;
-		case 1280:
-			minty = false;
+			bloomBop = true;
+		case 1280: minty = false;
+		case 1400: bloomBop = false;
+		case 1408: 
+			bloomBop = true;
+			bloomFX = [18, 0.885, 0.0765, 1];
+		case 1536: bloomBop = false;
     }
 }
 

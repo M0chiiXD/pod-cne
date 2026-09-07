@@ -27,6 +27,11 @@ function create() {
 var colorMap:Array = [0xFFFF00FF, 0xFF00FFFF, 0xFFFFFF00, 0xFF008000, 0xFF800080];
 var curColor:Int = 0;
 
+public var minty:Bool = false;
+public var bloomBop:Bool = false;
+public var beatBop:Int = 2;
+public var bloomFX:Array = [18, 0.85, 0.085, 2];
+
 function beatHit() {
 	if (minty) {
 		curColor = FlxG.random.int(0, colorMap.length - 1, [curColor]);
@@ -37,12 +42,12 @@ function beatHit() {
 		white.visible = false;
 	}
 
-	if (bloomBop && curBeat % 2 == 0) bloom.strength = 0.85;
+	if (bloomBop && curBeat % bloomFX[3] == 0) bloom.strength = bloomFX[1];
 	
 	white.alpha = 0.55;
 	FlxTween.tween(white, {alpha: 0.2}, 0.55, {ease: FlxEase.cubeInOut});
 }
 
 function update() {
-	bloom.strength = lerp(bloom.strength, 0.05, 0.085);
+	bloom.strength = lerp(bloom.strength, 0.05, bloomFX[2]);
 }

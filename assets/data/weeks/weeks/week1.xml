@@ -1,6 +1,4 @@
 <!DOCTYPE codename-engine-week>
-<week name="DADDY DEAREST" chars="dad,bf,gf" sprite="week1">
-	<song>Bopeebo</song>
-	<song>Fresh</song>
-	<song>Dadbattle</song>
+<week name="Discord" sprite="Menu_Discord">
+	<song>Discord</song>
 </week>

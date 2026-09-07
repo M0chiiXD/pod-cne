@@ -1,0 +1,14 @@
+{
+    "params": [
+        {
+            "name": "Character",
+            "type": " StrumLine",
+            "defaultValue": 0
+        },
+        {
+            "name": "Suffix (Leave blank to turn off animSuffix)",
+            "type": "String",
+            "defaultValue": ""
+        }
+    ]
+}

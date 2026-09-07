@@ -3,7 +3,7 @@ var phant = Paths.font("PhantomMuff.ttf");
 var text:String;
 var wavy= new CustomShader("waterDistortion");
 var timer = 0;
-var tottalTimer:Float = FlxG.random.float(100, 1000);
+var totalTimer:Float = FlxG.random.float(100, 1000);
 
 function create(){
 	warnbg = new FlxSprite();
@@ -68,7 +68,7 @@ function update(elapsed:Float){
 		curWarnSwitch(curWarn);
 	}
 
-	wavy?.time = (tottalTimer += elapsed);
+	wavy?.time = (totalTimer += elapsed);
 }
 
 function curWarnSwitch(swap:Int){
@@ -82,9 +82,7 @@ function curWarnSwitch(swap:Int){
 
 function triggerMenu1() {
 	text = "This mod contains: \n\nFlashing lights, Loud and/or triggering noises, \nMinor jumpscares, Copious amounts of camera shaking, \nand some amount of Copyrighted Material";
-	FlxTween.cancelTweensOf(warningTitle);
-	FlxTween.cancelTweensOf(warningText1);
-	FlxTween.cancelTweensOf(warningEndText);
+	for(o in[warningTitle,warningText1,warningEndText,warnbg])FlxTween.cancelTweensOf(o);
 	FlxTween.tween(warningTitle, {y: 95}, 1, {ease: FlxEase.quartOut});
 	FlxTween.tween(warningText1, {alpha: 1}, 1, {ease: FlxEase.quartOut});
 	FlxTween.tween(warningText1, {y: 226}, 1, {ease: FlxEase.quartOut});
@@ -95,10 +93,7 @@ function triggerMenu1() {
 
 function triggerMenu2() {
 	text = "If you'd like to change these settings, \nyou may adjust them below";
-	FlxTween.cancelTweensOf(warningTitle);
-	FlxTween.cancelTweensOf(warningText1);
-	FlxTween.cancelTweensOf(warningEndText);
-	
+	for(o in[warningTitle,warningText1,warningEndText,warnbg])FlxTween.cancelTweensOf(o);
 	FlxTween.tween(warningTitle, {y: 95 - 65}, 1, {ease: FlxEase.quartOut});
 	FlxTween.tween(warningText1, {y: 226 - 110}, 1, {ease: FlxEase.quartOut});
 	FlxTween.tween(warningEndText, {y: 550 + 86}, 1, {ease: FlxEase.quartOut});
@@ -109,9 +104,7 @@ function triggerMenu2() {
 
 function triggerMenu3() {
 	text = "With that done, \nPress ACCEPT to start playing!";
-	FlxTween.cancelTweensOf(warningTitle);
-	FlxTween.cancelTweensOf(warningText1);
-	FlxTween.cancelTweensOf(warningEndText);
+	for(o in[warningTitle,warningText1,warningEndText,warnbg])FlxTween.cancelTweensOf(o);
 	FlxTween.tween(warningTitle, {y: warningTitle.y + 48}, 1, {ease: FlxEase.quartOut});
 	FlxTween.tween(warningText1, {y: warningText1.y + 170}, 1, {ease: FlxEase.quartOut});
 	FlxTween.tween(warningEndText, {y: warningEndText.y - 86}, 1, {ease: FlxEase.quartOut});
@@ -121,6 +114,6 @@ function triggerMenu3() {
 
 function triggerMenuEnd() {
 	//ill add stuff soon
-	FlxTween.tween(FlxG.sound.music, { pitch: -3, volume: 0.3 }, 0.8); 
+	FlxTween.tween(FlxG.sound.music, { pitch: -3, volume: 0.3 }, 0.8);
 	FlxG.switchState(new ModState("SplashState")); 
 }

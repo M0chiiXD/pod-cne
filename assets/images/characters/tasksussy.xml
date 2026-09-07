@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="tasksussy.png"><SubTexture name="tasksussy down0000" x="0" y="0" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="tasksussy down0001" x="644" y="0" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="tasksussy idle0000" x="1288" y="0" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="tasksussy idle0001" x="0" y="644" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="tasksussy idle0002" x="644" y="644" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="tasksussy idle0003" x="1288" y="644" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="tasksussy left0000" x="0" y="1288" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="tasksussy left0001" x="644" y="1288" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="tasksussy right0000" x="1288" y="1288" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="tasksussy right0001" x="0" y="1932" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="tasksussy up0000" x="644" y="1932" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="tasksussy up0001" x="1288" y="1932" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+</TextureAtlas>

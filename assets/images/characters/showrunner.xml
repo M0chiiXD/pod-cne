@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="showrunner.png"><SubTexture name="showrunner down0000" x="0" y="0" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+<SubTexture name="showrunner down0001" x="772" y="0" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+<SubTexture name="showrunner down0002" x="1544" y="0" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+<SubTexture name="showrunner idle0000" x="2316" y="0" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+<SubTexture name="showrunner idle0001" x="0" y="772" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+<SubTexture name="showrunner idle0002" x="772" y="772" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+<SubTexture name="showrunner idle0003" x="1544" y="772" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+<SubTexture name="showrunner left0000" x="2316" y="772" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+<SubTexture name="showrunner left0001" x="0" y="1544" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+<SubTexture name="showrunner left0002" x="772" y="1544" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+<SubTexture name="showrunner right0000" x="1544" y="1544" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+<SubTexture name="showrunner right0001" x="2316" y="1544" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+<SubTexture name="showrunner right0002" x="0" y="2316" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+<SubTexture name="showrunner up0000" x="772" y="2316" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+<SubTexture name="showrunner up0001" x="1544" y="2316" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+<SubTexture name="showrunner up0002" x="2316" y="2316" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+</TextureAtlas>

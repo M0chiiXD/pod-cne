@@ -1,6 +1,4 @@
 <!DOCTYPE codename-engine-week>
-<week name="SPOOKY MONTH" chars="spooky,bf,gf" sprite="week2">
-	<song>Spookeez</song>
-	<song>South</song>
-	<song hide="true">Monster</song>
+<week name="Mirage" sprite="Menu_Mirage">
+	<song>mirage</song>
 </week>

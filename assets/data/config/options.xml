@@ -1,6 +1,6 @@
 <!DOCTYPE codename-mod-options>
 <!-- TEMPLATE FOR CUSTOM OPTIONS!!! -->
-<menu name="Mod Options" desc="The finer details. Modify your POD settings here!", icon="default">
+<menu name="Mod Options" desc="The finer details. Modify your POD settings here!">
 	<checkbox id="camStable" name="Anti-Shaking" desc="Disables nauseating camera events"/>
 	<number id="strumBg" name="Strum BG Alpha" min="0" max="100" change="10" desc="Change the strum background's alpha!"/>
 	<choice id="noteSkin" name="NoteSkin" desc="Change your default noteskin!">

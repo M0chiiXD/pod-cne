@@ -1,5 +1,3 @@
-importScript("data/scripts/VideoHandler");
-
 var titlecard;
 
 function create() {	
@@ -13,14 +11,15 @@ function create() {
     titlecard.cameras = [camHUD];
     insert(0, titlecard);
 	
-	VideoHandler.load(["doorframe"]);
+	VideoUtil.loadFromUrl(["https://cdn.discordapp.com/attachments/1428179727822098463/1432301658863304797/doorframe.mp4?ex=6a9004de&is=6a8eb35e&hm=f3ec2f19f38ce0a3617d05ff7ed420664765ba5d9aa93685418bc9eb37bcb2d6&"], [], camHUD);
 	
+	camHUD.fade(FlxColor.BLACK, 0, false);
 	camGame.fade(FlxColor.BLACK, 0, false);
 }
 
-function postCreate() {
-	camHUD.alpha = 0;
-	VideoHandler.playNext();
+function onSongStart(){
+	camHUD.fade(FlxColor.BLACK, 0, true);
+	VideoUtil.playNext();
 }
 
 function stepHit(curStep:Int) {

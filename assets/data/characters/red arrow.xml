@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character x="-90" y="170" scale="1.4" antialiasing="false" camx="50" color="#FF1031">
+<character x="-90" y="170" scale="1.4" antialiasing="false" camx="50" icon="red arrow" color="#FF1031">
 	<anim name="singLEFT" anim="red arrow left" x="7.14" y="-4.28" fps="12"/>
 	<anim name="singUP" anim="red arrow up" x="-0.72" y="1.43" fps="12"/>
 	<anim name="singRIGHT" anim="red arrow right" x="14.28" y="-1.43" fps="12"/>

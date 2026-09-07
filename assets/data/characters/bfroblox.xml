@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character y="80" sprite="bf roblox" scale="0.9" flipX="true" isPlayer="true" icon="bfroblox">
+<character y="80" sprite="bf roblox" scale="0.9" flipX="true" camx="-200" centercam="true" isPlayer="true" icon="bfroblox">
 	<anim name="idle" anim="bf roblox idle" fps="6" loop="true"/>
 	<anim name="singDOWN" anim="bf roblox down" x="-4.44" y="-6.67" fps="12"/>
 	<anim name="singRIGHT" anim="bf roblox right" fps="12"/>

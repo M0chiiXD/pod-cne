@@ -1,8 +1,7 @@
-importScript("data/scripts/VideoHandler");
 importScript("data/scripts/squareResize");
 
 function create() {
-	VideoHandler.load(["trans"], 0.65);
+	VideoUtil.load(["trans"], [], camHUD);
 }
 
 function postCreate() {
@@ -17,7 +16,7 @@ function postCreate() {
 
 function stepHit(curStep:Int) {
 	if (curStep == 55) {
-		VideoHandler.playNext();
+		VideoUtil.playNext();
 	} else if (curStep == 62) {
 		FlxTween.tween(titlecard, { y: 100 }, 1.2, {ease: FlxEase.bounceOut});
 	} else if (curStep == 100) {

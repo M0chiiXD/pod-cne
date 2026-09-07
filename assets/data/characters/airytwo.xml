@@ -1,9 +1,30 @@
 <!DOCTYPE codename-engine-character>
-<character x="-330" y="60" scale="1.1" flipX="true" camx="160" camy="40" isPlayer="true" icon="airytwo" color="#FF00AF" holdTime="3">
-	<anim name="idle" anim="airytwo idle" x="-43.64" y="-32.73" fps="12"/>
-	<anim name="singLEFT" anim="airytwo left" x="-44.55" y="-31.82" fps="12"/>
-	<anim name="singDOWN" anim="airytwo down" x="-40" y="-17.27" fps="12"/>
-	<anim name="singUP" anim="airytwo up" x="-18.18" y="-4.55" fps="12"/>
-	<anim name="singRIGHT" anim="airytwo right" x="-22.73" y="-32.73" fps="12"/>
-	<anim name="meow" anim="airytwo meow" x="-42.73" y="-32.73" fps="12"/>
+<character x="-300" y="60" flipX="true" camx="160" camy="40" isPlayer="true" color="#FF00AF" holdTime="3">
+	<anim name="idle" anim="airytwo idle" fps="12"/>
+	<anim name="singLEFT" anim="airytwo left" x="0.45" y="3.18" fps="12"/>
+	<anim name="singDOWN" anim="airytwo down" x="-14" y="6.73" fps="12"/>
+	<anim name="singUP" anim="airytwo up" x="11.82" y="2.45" fps="12"/>
+	<anim name="singRIGHT" anim="airytwo right" x="-22.73" y="7.27" fps="12"/>
+	<anim name="meow" anim="airytwo meow" x="-17.73" y="2.27" fps="12"/>
+	<anim name="caramel" anim="airytwo caramel" x="-25" y="14" fps="12" loop="true"/>
+	<anim name="idle-paws" anim="airytwo paws0" x="-15" y="5" fps="12" loop="true"/>
+	<anim name="singLEFT-paws" anim="airytwo pawsleft" x="-15" fps="12"/>
+	<anim name="singRIGHT-paws" anim="airytwo pawsright" x="-16" y="5" fps="12"/>
+	<anim name="singUP-paws" anim="airytwo pawsup" x="-20" y="10" fps="12"/>
+	<anim name="singDOWN-paws" anim="airytwo pawsdown" x="-10" y="-25" fps="12"/>
+	<anim name="idle-pump" anim="airytwo pump0" x="-5" y="5" fps="12" loop="true"/>
+	<anim name="singLEFT-pump" anim="airytwo pumpleft" x="5" y="5" fps="12"/>
+	<anim name="singDOWN-pump" anim="airytwo pumpdown" x="-15" fps="12"/>
+	<anim name="singUP-pump" anim="airytwo pumpup" x="-14" y="2" fps="12"/>
+	<anim name="singRIGHT-pump" anim="airytwo pumpright" x="-15" fps="12"/>
+	<anim name="idle-durr" anim="airytwo durr0" fps="12" loop="true"/>
+	<anim name="singLEFT-durr" anim="airytwo durrleft" fps="12"/>
+	<anim name="singUP-durr" anim="airytwo durrup" x="5" y="5" fps="12"/>
+	<anim name="singRIGHT-durr" anim="airytwo durrright" y="5" fps="12"/>
+	<anim name="singDOWN-durr" anim="airytwo durrdown" x="-5" y="5" fps="12"/>
+	<anim name="feet" anim="airytwo feet" x="50" y="-5" fps="16" loop="true"/>
+	<anim name="singLEFTmiss" anim="airytwo miss"/>
+	<anim name="singUPmiss" anim="airytwo miss"/>
+	<anim name="singDOWNmiss" anim="airytwo miss"/>
+	<anim name="singRIGHTmiss" anim="airytwo miss"/>
 </character>

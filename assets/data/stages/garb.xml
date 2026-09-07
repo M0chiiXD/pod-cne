@@ -1,7 +1,8 @@
 <!DOCTYPE codename-engine-stage>
 <stage folder="stages/connormaxxing/" name="garb">
-	<sprite x="233.746831928957" sprite="garb1" y="332.265019081449" type="none" scalex="2.25498440271208" scaley="2.48190724320207" name="garb1"/>
-	<girlfriend x="302.857142857143" y="21.4285714285713"/>
-	<dad x="54" y="160"/>
-	<boyfriend x="798" y="145"/>
+	<sprite x="350" sprite="garb2" y="186" type="none" scale="5.08212011097677" name="garb2"/>
+	<sprite x="15.246795504384" sprite="garb1" y="159.462394720154" type="none" scalex="2.25498440271208" scaley="2.48190724320207" name="garb1"/>
+	<girlfriend scalex="0.999999999979379" x="200.421441963043" scaley="0.999999999935376" y="198.197864408975"/>
+	<dad x="-30" y="150"/>
+	<boyfriend x="640" y="138"/>
 </stage>

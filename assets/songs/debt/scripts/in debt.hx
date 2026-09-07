@@ -1,7 +1,5 @@
-importScript("data/scripts/VideoHandler");
-
 function create() {
-	VideoHandler.load(["debtintro"], 0.75);
+	VideoUtil.load(["debtintro"], [], camHUD);
 }
 
 function postCreate() {
@@ -22,7 +20,7 @@ function postCreate() {
 
 	apple.playAnim("walk");
 	
-	camHUD.alpha = 0;
+	camHUD.fade(FlxColor.BLACK, 0, false);
 	camGame.fade(FlxColor.BLACK, 0, false);
 }
 
@@ -32,12 +30,14 @@ function beatHit() {
 }
 
 
-function onSongStart() VideoHandler.playNext();
+function onSongStart(){
+	camHUD.fade(FlxColor.BLACK, 0, true);
+	VideoUtil.playNext();
+}
 
 
 function stepHit(curStep:Int) {
 	if (curStep == 64) {
-		camHUD.alpha = 1;
 		camGame.fade(FlxColor.BLACK, 0, true);
 		FlxTween.tween(titlecard, { y: 125 }, 1.2, {ease: FlxEase.quintOut});
 		FlxTween.tween(titlecard, {alpha: 1}, 1.2, {ease: FlxEase.quintOut});

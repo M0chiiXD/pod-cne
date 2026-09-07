@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character color="#D7F6FF">
+	<anim name="idle" anim="tasksussy idle" fps="12"/>
+	<anim name="singDOWN" anim="tasksussy down" fps="16"/>
+	<anim name="singRIGHT" anim="tasksussy right" fps="16"/>
+	<anim name="singLEFT" anim="tasksussy left" fps="16"/>
+	<anim name="singUP" anim="tasksussy up" fps="16"/>
+</character>

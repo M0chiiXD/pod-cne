@@ -1,6 +1,6 @@
 <!DOCTYPE codename-engine-stage>
 <stage folder="stages/pioraa/" name="pio bg" zoom="0.8">
-	<sprite x="-131.999999997772" sprite="sky" y="-560.000000000402" type="none" scalex="2.70133333333333" scaley="2.73827160493827" name="sprite_4"/>
+	<sprite x="-131.999999997772" sprite="sky" y="-560.000000000402" type="none" scalex="2.70133333333333" scaley="5" name="sky"/>
 	<sprite x="-62" sprite="trees_back" y="247" type="none" scalex="2.03" scrollx="0.9" scaley="2.06" name="sprite_6"/>
 	<sprite x="-135.1156864388" sprite="ground" y="115.107964030256" type="none" scalex="2.48923545058581" scaley="2.50401159926241" name="sprite_3"/>
 	<sprite x="-273.86509970593" sprite="star 1" y="283.650067746447" type="beat" scalex="0.845210903759257" scaley="0.72006147783909" name="star1"/>

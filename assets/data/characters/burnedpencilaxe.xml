@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="burnedpencilphase2" icon="chasepencil" color="#000000">
+	<anim name="idle" anim="burnedpencilphase2 idle" fps="8" loop="true"/>
+	<anim name="singDOWN" anim="burnedpencilphase2 down" fps="12"/>
+	<anim name="singRIGHT" anim="burnedpencilphase2 right" fps="12"/>
+	<anim name="singLEFT" anim="burnedpencilphase2 left" fps="12"/>
+	<anim name="singUP" anim="burnedpencilphase2 up" fps="12"/>
+</character>

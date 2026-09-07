@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character icon="chromaticsussy">
+	<anim name="idle" anim="chromaticsussy idle" fps="4" loop="true"/>
+	<anim name="singDOWN" anim="chromaticsussy down" fps="12"/>
+	<anim name="singRIGHT" anim="chromaticsussy right" fps="12"/>
+	<anim name="singLEFT" anim="chromaticsussy left" fps="12"/>
+	<anim name="singUP" anim="chromaticsussy up" fps="12"/>
+</character>

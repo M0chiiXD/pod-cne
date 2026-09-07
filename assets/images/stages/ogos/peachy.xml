@@ -1,6 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TextureAtlas imagePath="peachy.png"><SubTexture name="peachy idle0000" x="0" y="0" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
-<SubTexture name="peachy idle0001" x="772" y="0" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
-<SubTexture name="peachy idle0002" x="0" y="772" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
-<SubTexture name="peachy idle0003" x="772" y="772" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+<TextureAtlas imagePath="peachy.png"><SubTexture name="peachy happy0000" x="0" y="0" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="peachy happy0001" x="644" y="0" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="peachy happy0002" x="0" y="644" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="peachy happy0003" x="644" y="644" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="peachy idle0000" x="0" y="1288" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="peachy idle0001" x="644" y="1288" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="peachy idle0002" x="0" y="1932" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="peachy idle0003" x="644" y="1932" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
 </TextureAtlas>

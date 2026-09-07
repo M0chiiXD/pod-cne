@@ -1,0 +1,16 @@
+{
+	"customValues": {},
+	"color": "#232C54",
+	"opponentModeAllowed": true,
+	"icon": "face",
+	"difficulties": [
+		"normal",
+		"evil"
+	],
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Carnivorous",
+	"needsVoices": false,
+	"beatsPerMeasure": 4,
+	"bpm": 181
+}

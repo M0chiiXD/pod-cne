@@ -1,0 +1,15 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages\carnivorous/" name="carnivorous">
+	<sprite x="-447" y="-150.047619047619" type="none" scrollx="0.3" name="sky" scrolly="0.4" sprite="Sky" scalex="1.46761904761905" scaley="1.48897810218978"/>
+	<sprite x="-420" y="-136" type="none" scrollx="0.33" name="stars" scrolly="0.4" sprite="Stars" scalex="1.44" scaley="1.48"/>
+	<sprite x="-458.781253697212" sprite="Moon" y="5.7222675414887" type="none" scalex="1.28723148740406" scrollx="0.2" scaley="1.50364866045685" name="moon"/>
+	<sprite x="-422.581884132484" y="-141.073390263107" type="none" scrollx="0.6" name="back_tree" scrolly="0.75" sprite="Backtree" scalex="1.55466667617187" scaley="1.50324134145723"/>
+	<sprite x="-442.701022975794" y="-136.155742750601" type="none" scrollx="0.7" name="middle_tree" scrolly="0.85" sprite="Midtree" scalex="1.5747546302038" scaley="1.49096548138054"/>
+	<sprite x="-433.071902071219" scroll="0.9" sprite="Fronttree" y="-156.249865388166" type="none" scalex="1.6300676905902" scaley="1.53779306161063" name="front_tree"/>
+	<sprite x="-463.453383031981" sprite="Ground" y="-103.5077673092" type="none" scalex="1.62258562851623" scaley="1.47250121319414" name="ground"/>
+	<girlfriend/>
+	<dad x="-30.1076477383248" y="145.254833995939"/>
+	<boyfriend x="806.769552621701" y="111.313708498985"/>
+	<sprite x="-302.53690151481" sprite="Fronts" y="-246.293389151018" type="none" scalex="1.75345930082762" scrollx="1.4" scaley="1.75634733669712" name="frontstuff"/>
+	<sprite x="-332" y="-139" type="none" name="lighting" sprite="Lighting" scroll="0" scalex="1.37" alpha="0.6" scaley="1.5"/>
+</stage>

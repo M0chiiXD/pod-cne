@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="azureballphase2" flipX="true" isPlayer="true" icon="chaseazure" color="#1B00FF">
+	<anim name="idle" anim="azureballphase2 idle" fps="8" loop="true"/>
+	<anim name="singDOWN" anim="azureballphase2 down" fps="12"/>
+	<anim name="singRIGHT" anim="azureballphase2 right" fps="12"/>
+	<anim name="singLEFT" anim="azureballphase2 left" fps="12"/>
+	<anim name="singUP" anim="azureballphase2 up" fps="12"/>
+</character>

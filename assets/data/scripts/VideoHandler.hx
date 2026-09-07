@@ -24,7 +24,9 @@ public var VideoHandler:T = {
 		camVideos = new FlxCamera();
         camVideos.bgColor = FlxColor.BLACK;
         camVideos.visible = false;
+		FlxG.cameras.remove(camHUD, false);
 		FlxG.cameras.add(camVideos, false);
+		FlxG.cameras.add(camHUD, false);
 		
 		var prevAutoPause:Bool = FlxG.autoPause;
         FlxG.autoPause = false;

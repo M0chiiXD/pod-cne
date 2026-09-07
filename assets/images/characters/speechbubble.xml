@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="speechbubble.png"><SubTexture name="speechbubble down0000" x="0" y="0" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble down0001" x="962" y="0" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble emodown0000" x="1924" y="0" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble emodown0001" x="2886" y="0" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble emoidle0000" x="3848" y="0" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble emoidle0001" x="4810" y="0" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble emoidle0002" x="0" y="724" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble emoleft0000" x="962" y="724" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble emoleft0001" x="1924" y="724" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble emoright0000" x="2886" y="724" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble emoright0001" x="3848" y="724" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble emoup0000" x="4810" y="724" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble emoup0001" x="0" y="1448" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble hyperdown0000" x="962" y="1448" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble hyperdown0001" x="1924" y="1448" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble hyperidle0000" x="2886" y="1448" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble hyperidle0001" x="3848" y="1448" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble hyperidle0002" x="4810" y="1448" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble hyperidle0003" x="0" y="2172" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble hyperleft0000" x="962" y="2172" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble hyperleft0001" x="1924" y="2172" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble hyperright0000" x="2886" y="2172" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble hyperright0001" x="3848" y="2172" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble hyperup0000" x="4810" y="2172" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble hyperup0001" x="0" y="2896" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble idle0000" x="962" y="2896" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble idle0001" x="1924" y="2896" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble idle0002" x="2886" y="2896" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble idle0003" x="3848" y="2896" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble idle0004" x="4810" y="2896" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble left0000" x="0" y="3620" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble left0001" x="962" y="3620" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble miss0000" x="1924" y="3620" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble miss0001" x="2886" y="3620" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble miss0002" x="3848" y="3620" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble miss0003" x="4810" y="3620" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble miss0004" x="0" y="4344" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble miss0005" x="962" y="4344" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble miss0006" x="1924" y="4344" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble right0000" x="2886" y="4344" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble right0001" x="3848" y="4344" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble up0000" x="4810" y="4344" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+<SubTexture name="speechbubble up0001" x="0" y="5068" width="962" height="724" frameX="0" frameY="0" frameWidth="962" frameHeight="724" />
+</TextureAtlas>

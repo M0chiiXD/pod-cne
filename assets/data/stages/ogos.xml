@@ -1,13 +1,24 @@
 <!DOCTYPE codename-engine-stage>
 <stage folder="stages/ogos/" name="ogos">
-	<sprite x="-1137.10851510263" sprite="bg" y="-135.909384978402" type="none" scaley="1.26007351368666" name="background"/>
-	<sprite x="918.493596317635" sprite="five" y="40.0705147336821" type="none" scalex="0.442028738402655" scaley="0.476147856611789" name="five"/>
+	<sprite x="-1375.21157116621" scroll="0.5" sprite="sky" y="-625.225039524838" type="none" scale="1.05" name="sky"/>
+	<sprite x="-1034" scroll="1.1" sprite="trees" y="-296" fps="3" name="trees">
+		<anim name="idle" anim="trees idle" fps="5" loop="true" />
+	</sprite>
+	<sprite x="-1041.97186511189" sprite="ground" y="-317.121897334059" type="none" name="ground"/>
+	<sprite x="876.356046249234" sprite="five" y="43.2034149152523" type="none" scale="0.75" name="five"/>
 	<sprite x="-532.999999999682" sprite="kelp" y="-312.999999999852" type="beat" scalex="0.39" scaley="0.4" name="kelp"/>
-	<sprite x="120.952396861086" sprite="geary" y="65.199056893527" scalex="0.53861341389918" skewy="-0.0380952380952385" scaley="0.565753714288147" name="geary"/>
+	<sprite x="-650" sprite="lightpole" y="20" type="none" scale="0.9" name="lightpole"/>
+	<sprite x="454.109988164472" sprite="chocolateball" y="39.9007098653674" type="none" scale="0.7" name="chocolateball"/>
+	<sprite x="-1361" sprite="saltshaker" y="40" scale="0.8" skewy="-0.04" name="saltshaker"/>
+	<sprite x="161" sprite="geary" y="120" scalex="0.54" skewy="-0.04" scaley="0.57" name="geary"/>
 	<girlfriend x="313.800316197964" y="-1103.73297441335"/>
+	<sprite x="2012" sprite="scribbley" y="88.0000000000001" type="none" scale="0.8" name="scribbley"/>
+	<sprite x="-496" sprite="compass" y="116" type="none" scale="0.7" name="compass"/>
 	<dad x="-45.2758516545302" y="-2.39522231497989"/>
 	<boyfriend x="688.454369256956" y="18.4543692569565"/>
-	<sprite x="-528.628910238225" sprite="trafficguy" y="470.485005104928" type="beat" scalex="0.846707021342551" angle="-0.63" scaley="0.867784987318466" name="trafficguy"/>
-	<sprite x="1028.52547390357" sprite="peachy" y="394.263728392042" type="beat" scalex="0.686212711581858" scaley="0.759483940026096" name="peachy"/>
-	<sprite x="601.399026729574" sprite="lemon" y="553.830742130237" type="beat" scalex="0.826885714815789" scaley="0.891436804206512" name="lemon"/>
+	<sprite x="-780.628910238225" sprite="trafficcone" y="350.485005104928" type="none" scale="0.9" angle="-0.63" name="trafficcone"/>
+	<sprite x="1241.39902672957" sprite="lemon" y="350.830742130237" type="beat" scalex="0.826885714815789" scaley="0.891436804206512" name="lemon"/>
+	<sprite x="928.52547390357" sprite="peachy" y="454.263728392042" type="beat" scalex="0.686212711581858" scaley="0.759483940026096" name="peachy"/>
+	<sprite x="-1555.09295557979" sprite="burger" y="257.032132573548" type="none" scalex="0.85778390677214" scaley="0.824321296598669" name="burger"/>
+	<sprite x="-1771.27508155209" sprite="sandwichyw" y="286.705638284135" type="none" scalex="0.835849856827136" scaley="0.865695337404021" name="sandwichyw"/>
 </stage>

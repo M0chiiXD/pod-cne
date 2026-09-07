@@ -2,7 +2,8 @@
 	"opponentModeAllowed": true,
 	"icon": "face",
 	"difficulties": [
-		"normal"
+		"normal",
+		"evil"
 	],
 	"color": "#232C54",
 	"coopAllowed": true,

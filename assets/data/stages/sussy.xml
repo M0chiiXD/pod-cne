@@ -1,10 +1,12 @@
 <!DOCTYPE codename-engine-stage>
-<stage folder="stages/sussys/" name="sussy" zoom="0.7">
-	<sprite x="-99.503915040742" sprite="1sky" y="109.248098993925" type="none" scalex="1.75874818736301" scrollx="0.25" scaley="1.70881751051113" name="sky"/>
-	<sprite x="-266.449791103849" y="47.6508101031554" type="none" angle="0.35" scrollx="0.6" name="clouds" scrolly="0.75" sprite="1cloud" scalex="1.85870998864698" scaley="2.07796949110134"/>
-	<sprite x="-261" sprite="fts" y="289" type="none" alpha="0" scale="2.62" name="wiaeouw"/>
-	<sprite x="-65.8207169492572" sprite="1mainland" y="-50.7758328048299" type="none" scalex="2.09237125549291" scaley="2.01955166560966" name="mainland"/>
-	<girlfriend alpha="0" x="479" y="184"/>
-	<dad x="299.538830027871" y="105.838270403855"/>
-	<boyfriend x="1355.37985673937" y="358.746070612699"/>
+<stage startCamPosX="870" startCamPosY="-170" folder="stages/sussys/" zoom="1.3" name="sussy">
+	<sprite x="-839.492760464011" sprite="1sky" y="-92.5670406669664" type="none" scalex="2.51214391743159" scrollx="0.25" scaley="2.25660146101926" name="sky"/>
+	<sprite x="-375" scroll="0.8" sprite="brownsussytower" y="-149" type="none" scale="2" name="brownsussytower"/>
+	<sprite x="120.389755254081" scroll="0.9" sprite="treebg" y="-187.610244745775" type="none" scale="2" name="treebg"/>
+	<sprite x="139.999999702367" scroll="0.95" sprite="clouds" y="-542.881958232276" type="none" scale="2" name="clouds"/>
+	<sprite x="-38" sprite="bgnormalred" y="-130" type="none" scale="2" name="bgnormalred"/>
+	<dad x="446.102955312064" y="72.0224415722934"/>
+	<boyfriend x="1016.430360092" y="102.246752054251"/>
+	<sprite x="-143.378940681965" scroll="1.4" sprite="bush" y="758.040865887604" type="none" scale="2" name="bush"/>
+	<girlfriend alpha="0" x="247.232651287762" y="-680.772366296357"/>
 </stage>

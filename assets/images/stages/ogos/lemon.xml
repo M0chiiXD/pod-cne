@@ -1,6 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TextureAtlas imagePath="lemon.png"><SubTexture name="lemon idle0000" x="0" y="0" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
-<SubTexture name="lemon idle0001" x="772" y="0" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
-<SubTexture name="lemon idle0002" x="0" y="772" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
-<SubTexture name="lemon idle0003" x="772" y="772" width="772" height="772" frameX="0" frameY="0" frameWidth="772" frameHeight="772" />
+<TextureAtlas imagePath="lemon.png"><SubTexture name="lemon happy0000" x="0" y="0" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="lemon happy0001" x="644" y="0" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="lemon happy0002" x="0" y="644" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="lemon happy0003" x="644" y="644" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="lemon idle0000" x="0" y="1288" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="lemon idle0001" x="644" y="1288" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="lemon idle0002" x="0" y="1932" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="lemon idle0003" x="644" y="1932" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
 </TextureAtlas>

@@ -1,0 +1,14 @@
+{
+	"opponentModeAllowed": true,
+	"icon": "face",
+	"difficulties": [
+		"normal"
+	],
+	"color": "#852C00",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Devour",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 122
+}

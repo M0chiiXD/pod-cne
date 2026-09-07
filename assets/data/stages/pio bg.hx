@@ -5,3 +5,14 @@ function postCreate() {
 	star2.addAnim("idle", "star 2 idle", 12, false);
 	brown.addAnim("idle", "brown idle", 12, false);
 }
+
+function stepHit(curStep:Int) {
+	switch (curStep){
+		case 768: 
+			for (bgGuys in [sprite_3, sprite_5, sprite_6, star1, star2, brown, blacktriangle, texty, lightinging]) 
+				bgGuys.visible = false;
+		case 1024:
+			for (bgGuys in [sprite_3, sprite_5, sprite_6, star1, star2, brown, blacktriangle, texty, lightinging]) 
+				bgGuys.visible = true;
+    }
+}

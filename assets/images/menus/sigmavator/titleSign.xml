@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="titleSign.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="idle0000" x="0" y="0" width="426" height="370" frameX="2" frameY="2" frameWidth="422" frameHeight="366"/>
+	<SubTexture name="static0000" x="426" y="0" width="426" height="370" frameX="2" frameY="2" frameWidth="422" frameHeight="366"/>
+	<SubTexture name="static0001" x="0" y="370" width="426" height="370" frameX="2" frameY="2" frameWidth="422" frameHeight="366"/>
+	<SubTexture name="static0002" x="852" y="0" width="426" height="370" frameX="2" frameY="2" frameWidth="422" frameHeight="366"/>
+	<SubTexture name="static0003" x="426" y="370" width="426" height="370" frameX="2" frameY="2" frameWidth="422" frameHeight="366"/>
+</TextureAtlas>

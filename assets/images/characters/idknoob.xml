@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="idknoob.png"><SubTexture name="idknoob die0000" x="0" y="0" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="idknoob die0001" x="644" y="0" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="idknoob die0002" x="1288" y="0" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="idknoob die0003" x="1932" y="0" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="idknoob die0004" x="0" y="644" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="idknoob die0005" x="644" y="644" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="idknoob die0006" x="1288" y="644" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="idknoob die0007" x="1932" y="644" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="idknoob die0008" x="0" y="1288" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="idknoob die0009" x="644" y="1288" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="idknoob die0010" x="1288" y="1288" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="idknoob down0000" x="1932" y="1288" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="idknoob down0001" x="0" y="1932" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="idknoob idle0000" x="644" y="1932" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="idknoob idle0001" x="1288" y="1932" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="idknoob idle0002" x="1932" y="1932" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="idknoob idle0003" x="0" y="2576" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="idknoob left0000" x="644" y="2576" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="idknoob left0001" x="1288" y="2576" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="idknoob right0000" x="1932" y="2576" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="idknoob right0001" x="0" y="3220" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="idknoob up0000" x="644" y="3220" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+<SubTexture name="idknoob up0001" x="1288" y="3220" width="644" height="644" frameX="0" frameY="0" frameWidth="644" frameHeight="644" />
+</TextureAtlas>

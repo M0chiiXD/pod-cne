@@ -1,0 +1,19 @@
+<!DOCTYPE codename-engine-character>
+<character x="-90" y="190" scale="0.9" antialiasing="false" camx="50" icon="red arrow" color="#FF1031">
+	<anim name="idle" anim="redarrow idle" fps="12"/>
+	<anim name="singDOWN" anim="redarrow down" x="2" fps="12"/>
+	<anim name="singRIGHT" anim="redarrow right" x="-10" y="-6" fps="12"/>
+	<anim name="singLEFT" anim="redarrow left" x="-20" y="-5" fps="12"/>
+	<anim name="singUP" anim="redarrow up" fps="12"/>
+	<anim name="idle-emo" anim="redarrow emoidle" fps="12"/>
+	<anim name="singUP-emo" anim="redarrow emoup" fps="12"/>
+	<anim name="singDOWN-emo" anim="redarrow emodown" fps="12"/>
+	<anim name="singLEFT-emo" anim="redarrow emoleft" x="1" y="-2" fps="12"/>
+	<anim name="singRIGHT-emo" anim="redarrow emoright" y="2" fps="12"/>
+	<anim name="idle-hyper" anim="redarrow hyperidle" fps="12" loop="true"/>
+	<anim name="singUP-hyper" anim="redarrow hyperup" y="20" fps="20"/>
+	<anim name="singDOWN-hyper" anim="redarrow hyperdown" x="45" y="-87.22" fps="20"/>
+	<anim name="singLEFT-hyper" anim="redarrow hyperleft" x="75.89" y="-20.55" fps="20"/>
+	<anim name="singRIGHT-hyper" anim="redarrow hyperright" x="-22.78" y="-3.22" fps="20"/>
+	<anim name="silly" anim="redarrow silly" y="2" loop="true"/>
+</character>

@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character x="200" y="100" sprite="idknoob" scale="0.7" camx="100" icon="idkthisnoob">
+	<anim name="idle" anim="idknoob idle" fps="4" loop="true"/>
+	<anim name="singDOWN" anim="idknoob down" fps="12"/>
+	<anim name="singRIGHT" anim="idknoob right" fps="12"/>
+	<anim name="singLEFT" anim="idknoob left" fps="12"/>
+	<anim name="singUP" anim="idknoob up" fps="12"/>
+	<anim name="idknoob die" anim="idknoob die" fps="8"/>
+</character>

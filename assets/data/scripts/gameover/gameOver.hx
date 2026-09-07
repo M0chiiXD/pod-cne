@@ -7,24 +7,16 @@ static var burnedvar:String;
 
 lossSFX = null;
 
-var path = Paths.file("videos/deaths/" + PlayState.SONG.meta.name + ".mp4");
-
-var burnedpath1 = Paths.file("videos/deaths/" + PlayState.SONG.meta.name + "-pre.mp4");
-var burnedpath2 = Paths.file("videos/deaths/" + PlayState.SONG.meta.name + "-mid.mp4");
+var path = "deaths/" + PlayState.SONG.meta.name;
 
 function create(e) {
-	if (Assets.exists(path)) {
-		if (gameover.load(Assets.getPath(path))) gameover.play();
+	if (Assets.exists(Paths.video(path))) {
+		if (gameover.load(Paths.video(path))) gameover.play();
 		e.cancel();
 		FlxG.addChildBelowMouse(gameover);
 	} else if (PlayState.SONG.meta.name == "burned") {
 		e.cancel();
-		switch(burnedvar) {
-			case "pre": 
-				gameover.load(Assets.getPath(burnedpath1));
-			case "mid": 
-				gameover.load(Assets.getPath(burnedpath2));
-		}
+		if (gameover.load(Paths.video(path + "-" + burnedvar))) gameover.play();
 			gameover.play();
 			FlxG.addChildBelowMouse(gameover);
 	}
@@ -32,8 +24,11 @@ function create(e) {
 
 function update() {
 	if (controls.BACK || controls.ACCEPT) {
-		gameover.dispose();
-		FlxG.removeChild(gameover);
 		FlxG.switchState(new PlayState());
 	} 
+}
+
+function destroy(){
+	gameover.dispose();
+	FlxG.removeChild(gameover);
 }

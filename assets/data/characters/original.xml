@@ -1,13 +1,14 @@
 <!DOCTYPE codename-engine-character>
-<character x="-150" y="100" scale="1.2" icon="original" color="#4CD6FF">
+<character x="-288" y="50" scale="1.2" camy="50" icon="original" color="#4CD6FF">
 	<anim name="singUP" anim="original up" x="13.5" y="-12.16" fps="12"/>
-	<anim name="singLEFT" anim="original left" x="25.67" y="-2.67" fps="12"/>
-	<anim name="singDOWN" anim="original down" x="1.5" y="-11.17" fps="12"/>
-	<anim name="singRIGHT" anim="original right" x="-42.33" y="-8.67" fps="12"/>
-	<anim name="singRIGHT-alt" anim="original altright" x="-158" y="65" fps="12"/>
-	<anim name="singDOWN-alt" anim="original altdown" x="-60.16" y="-57.34" fps="12"/>
-	<anim name="singUP-alt" anim="original altup" x="-23.67" y="73.83" fps="12"/>
+	<anim name="singLEFT" anim="original left" x="-1.33" y="-7.67" fps="12"/>
+	<anim name="singDOWN" anim="original down" x="-23.5" y="-16.17" fps="12"/>
+	<anim name="singRIGHT" anim="original right" x="-7.33" y="1.33" fps="12"/>
+	<anim name="singRIGHT-alt" anim="original altright" x="-103" y="5" fps="12"/>
+	<anim name="singDOWN-alt" anim="original altdown" x="-25.16" y="-7.34" fps="12"/>
+	<anim name="singUP-alt" anim="original altup" x="1.33" y="-1.17" fps="12"/>
 	<anim name="singLEFT-alt" anim="original altleft" x="124" y="-8" fps="12"/>
-	<anim name="idle" anim="original idle" fps="12" loop="true"/>
-	<anim name="talktuah" anim="original talk tuah" x="-7.67" loop="true"/>
+	<anim name="idle" anim="original idle" fps="4" loop="true"/>
+	<anim name="talktuah" anim="original talk tuah" x="-12.67" y="-15" loop="true"/>
+	<anim name="idle-alt" anim="original altidle" fps="12" loop="true"/>
 </character>

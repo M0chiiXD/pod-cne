@@ -7,6 +7,11 @@ import funkin.savedata.FunkinSave;
 import funkin.backend.assets.ModsFolder;
 import funkin.backend.system.framerate.Framerate;
 import funkin.editors.EditorPicker;
+import AspectUtil;
+import VideoUtil;
+
+static var AspectUtil = new AspectUtil();
+static var VideoUtil = new VideoUtil();
 
 importScript('data/scripts/genericFPSCounter');
 
@@ -20,20 +25,6 @@ function new() {
 	} catch(e:Any) { trace(e); }
 }
 
-static var redirectStates:Map<FlxState, String> = [
-	TitleState => "MainMenu",
-	MainMenuState => "MainMenu",
-	StoryMenuState => "StoryModeState",
-	FreeplayState => "ElevatorFreeplay",
-	CreditsMain => "CreditsState",
-];
-
-function preStateSwitch() {   
-    for(redirectState in redirectStates.keys())
-		if(Std.isOfType(FlxG.game._requestedState, redirectState))
-            FlxG.game._requestedState = new ModState(redirectStates.get(redirectState));
-}
-
 function postStateSwitch(){
     if(Std.isOfType(FlxG.state, PlayState)) {
 		window.title += ' - ' + PlayState.SONG.meta.displayName;
@@ -44,11 +35,6 @@ function postStateSwitch(){
 }
 
 function update(elapsed:Float):Void {
-	// comment this out before release
-	if (FlxG.keys.justPressed.SEVEN) {
-		openSubState(new EditorPicker());
-    }
-	
 	// thank u inferno :D
 	// this is kinda bugged but its fine lmao
     if (FlxG.keys.justPressed.F11){

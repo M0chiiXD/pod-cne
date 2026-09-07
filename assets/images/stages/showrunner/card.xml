@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="card.png"><SubTexture name="card painkiller0000" x="0" y="0" width="644" height="484" frameX="0" frameY="0" frameWidth="644" frameHeight="484" />
+<SubTexture name="card pursuit0000" x="644" y="0" width="644" height="484" frameX="0" frameY="0" frameWidth="644" frameHeight="484" />
+<SubTexture name="card ruggedgem0000" x="1288" y="0" width="644" height="484" frameX="0" frameY="0" frameWidth="644" frameHeight="484" />
+<SubTexture name="card slowburn0000" x="0" y="484" width="644" height="484" frameX="0" frameY="0" frameWidth="644" frameHeight="484" />
+<SubTexture name="card swaperoo0000" x="644" y="484" width="644" height="484" frameX="0" frameY="0" frameWidth="644" frameHeight="484" />
+<SubTexture name="card idle0000" x="1288" y="484" width="644" height="484" frameX="0" frameY="0" frameWidth="644" frameHeight="484" />
+<SubTexture name="card reveal0000" x="0" y="968" width="644" height="484" frameX="0" frameY="0" frameWidth="644" frameHeight="484" />
+<SubTexture name="card reveal0001" x="644" y="968" width="644" height="484" frameX="0" frameY="0" frameWidth="644" frameHeight="484" />
+<SubTexture name="card reveal0002" x="1288" y="968" width="644" height="484" frameX="0" frameY="0" frameWidth="644" frameHeight="484" />
+</TextureAtlas>

@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character color="#1FF8FF">
+	<anim name="idle" anim="biolumisussy idle"/>
+	<anim name="singDOWN" anim="biolumisussy down" fps="16"/>
+	<anim name="singRIGHT" anim="biolumisussy right" fps="16"/>
+	<anim name="singLEFT" anim="biolumisussy left" fps="16"/>
+	<anim name="singUP" anim="biolumisussy up" fps="16"/>
+</character>

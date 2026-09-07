@@ -1,5 +1,3 @@
-import funkin.ui.FunkinText;
-import flixel.text.FlxText;
 import flixel.text.FlxTextBorderStyle;
 import flixel.util.FlxAxes;
 
@@ -28,25 +26,21 @@ function create(event) {
     add(coolPortrait);*/
 	
 	//right
-	wrp1 = new FlxSprite(980, 480);
-	wrp1.scale.set(1.1, 1.1);
-    wrp1.cameras = [pauseCam];
-	wrp1.loadGraphic(Paths.image("menus/pause/joem"));
+	wrp1 = new FlxSprite(FlxG.width - 340, 480).loadGraphic(Paths.image("menus/pause/joem"));
+    wrp1.camera = pauseCam;
 	
 	//left (i got things mixed sry chat)
-	wrp2 = new FlxSprite(-100, 480);
-	wrp2.scale.set(1.1, 1.1);
-    wrp2.cameras = [pauseCam];
-	wrp2.loadGraphic(Paths.image("menus/pause/joem"));
+	wrp2 = new FlxSprite(-60, 480).loadGraphic(Paths.image("menus/pause/joem"));
+    wrp2.camera = pauseCam;
 	
 	//pos fixer for smooth shi
 	wrp1.x += 300;
 	wrp2.x -= 300;
 	
-	bg = new FlxSprite(-10, 10);
-	bg.scale.set(1.1, 1.1);
-    bg.cameras = [pauseCam];
-	bg.loadGraphic(Paths.image("menus/pause/bg"));
+	bg = new FlxSprite(0, 0).loadGraphic(Paths.image("menus/pause/bg"));
+	bg.setGraphicSize(FlxG.width, FlxG.height);
+	bg.updateHitbox();
+    bg.camera = pauseCam;
 	
 	add(bg);
 	add(wrp1);
@@ -63,7 +57,7 @@ function create(event) {
 
 	var i = 2;
 	for(e in menuItems) {
-		text = new FlxText(260, -33 + (i * 55) + 130, 0, e, 40, true);
+		text = new FlxText(FlxG.width / 3.95, -33 + (i * 55) + 130, 0, e, 40, true);
 		text.font = Paths.font("SourceCodePro.ttf");
 		text.antialiasing = true;
 		text.borderStyle = FlxTextBorderStyle.SHADOW;
@@ -89,7 +83,7 @@ function create(event) {
 	
 	FlxG.cameras.add(pauseCam, false);
 	
-	FlxTween.tween(pauseCam, {zoom: 0.95}, 0.5, {ease: FlxEase.cubeOut});
+	FlxTween.tween(pauseCam, {zoom: 1}, 0.5, {ease: FlxEase.cubeOut});
 	
 	FlxTween.tween(wrp1, {x: wrp1.x - 300}, 0.6, {ease: FlxEase.quadOut});
 	FlxTween.tween(wrp2, {x: wrp2.x + 300}, 0.6, {ease: FlxEase.quadOut});

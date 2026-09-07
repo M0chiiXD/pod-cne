@@ -2,15 +2,10 @@ import openfl.Lib;
 import openfl.utils.Assets;
 import openfl.display.BlendMode;
 
-import flixel.FlxG;
 import flixel.FlxCamera.FlxCameraFollowStyle;
-import flixel.util.FlxCollision;
-import flixel.util.helpers.FlxRange;
-import flixel.tweens.FlxEase;
 import flixel.addons.display.FlxBackdrop;
 import flixel.effects.particles.FlxTypedEmitter;
 import flixel.effects.particles.FlxParticle;
-import lime.app.Application;
 
 import funkin.backend.MusicBeatState;
 import funkin.menus.credits.CreditsMain;
@@ -254,7 +249,7 @@ function makeIsland(spr:String, posX:Int, posY:Int) {
 
 var rockLock:FlxTypedEmitter<FlxParticle>;
 function postCreate() {
-	CoolUtil.playMusic(Paths.music("doomMenu"), false);
+	CoolUtil.playMusic(Paths.music("freakyMenu"), false);
 	
 	fog1.blend = fog2.blend = fog3.blend = BlendMode.HARDLIGHT;
 	
@@ -299,7 +294,7 @@ function update(elapsed:Float) {
     }
 	
 	if (FlxG.keys.justPressed.EIGHT) {
-        FlxG.switchState(new ModState("RatingOffsetSubState")); 
+        FlxG.switchState(new ModState("Sigmavator"));
     }
 	
 	introtxt.setPosition(logo.x + 160, logo.y + 460);

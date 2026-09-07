@@ -59,4 +59,5 @@ function postUpdate(elapsed:Float) {
 	iconP2.x = 322;
 }
 
-function onStrumCreation(note) note.sprite = "game/notes/default_burned";
+function onStrumCreation(note) note.sprite = "game/notes/bloody";
+function onNoteCreation(note) note.noteSprite = "game/notes/bloody";

@@ -1,0 +1,22 @@
+<!DOCTYPE codename-engine-character>
+<character x="-250" y="200" sprite="speechbubble" scale="0.7" antialiasing="false" flipX="true" camx="-80" isPlayer="true" icon="bf_pio" color="#39FFE1">
+	<anim name="idle" anim="speechbubble idle" y="-2" fps="9"/>
+	<anim name="singLEFT" anim="speechbubble left" x="5" y="-2" fps="12"/>
+	<anim name="singDOWN" anim="speechbubble down" x="-8" y="-3" fps="12"/>
+	<anim name="singUP" anim="speechbubble up" x="-15" fps="12"/>
+	<anim name="singRIGHT" anim="speechbubble right" x="-10" fps="12"/>
+	<anim name="idle-emo" anim="speechbubble emoidle" fps="4" loop="true"/>
+	<anim name="singLEFT-emo" anim="speechbubble emoleft" fps="12"/>
+	<anim name="singDOWN-emo" anim="speechbubble emodown" x="-30" y="-5" fps="12"/>
+	<anim name="singUP-emo" anim="speechbubble emoup" x="-35" fps="12"/>
+	<anim name="singRIGHT-emo" anim="speechbubble emoright" x="-35" y="-5" fps="12"/>
+	<anim name="idle-hyper" anim="speechbubble hyperidle" fps="30" loop="true"/>
+	<anim name="singLEFT-hyper" anim="speechbubble hyperleft" fps="12"/>
+	<anim name="singDOWN-hyper" anim="speechbubble hyperdown" fps="12"/>
+	<anim name="singUP-hyper" anim="speechbubble hyperup" fps="12"/>
+	<anim name="singRIGHT-hyper" anim="speechbubble hyperright" x="-10" fps="12"/>
+	<anim name="singLEFTmiss" anim="speechbubble miss" fps="12"/>
+	<anim name="singDOWNmiss" anim="speechbubble miss" fps="12"/>
+	<anim name="singUPmiss" anim="speechbubble miss" fps="12"/>
+	<anim name="singRIGHTmiss" anim="speechbubble miss" fps="12"/>
+</character>
