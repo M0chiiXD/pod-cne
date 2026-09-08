@@ -4,11 +4,11 @@
 	<print pretty="true">Preparing installation...</print>
 
 		<!-- OpenFL & Lime (Required for Flixel) -->
-		<git name="openfl" url="https://github.com/CodenameCrew/cne-openfl" ref="cne" />
+		<git name="openfl" url="https://github.com/M0chiiXD/pod-openfl/" ref="pod" />
 		<lib name="lime" version="8.1.2" />
 
 		<!-- Flixel -->
-		<!-- <git name="flixel" url="https://github.com/CodenameCrew/cne-flixel" ref="old" /> -->
+		<!-- <git name="flixel" url="https://github.com/M0chiiXD/pod-flixel/" ref="old" /> -->
 		<git name="flixel-addons" url="https://github.com/CodenameCrew/cne-flixel-addons" ref="old" />
 
 		<!-- Other Libraries -->
