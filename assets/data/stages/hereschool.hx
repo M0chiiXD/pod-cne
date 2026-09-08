@@ -1,45 +1,70 @@
-import flx3d.Flx3DView;
-import flx3d.Flx3DUtil;
-import openfl.system.System;
-import away3d.core.base.Geometry;
-
-import flixel.FlxCamera;
-
-import flx3d.Flx3DCamera;
-import flixel.FlxCamera;
-import away3d.cameras.lenses.PerspectiveLens;
+import flixel.addons.util.FlxScene;
+import foxlite.FoxScene;
+import foxlite.FoxModel;
+import foxlite.FoxShader;
+import foxlite.texture.FoxTexture;
+import foxlite.material.FoxMaterial;
+import foxlite.mesh.FoxQuadMesh;
+import foxlite.stencil.FoxStencilAction;
+import foxlite.sky.FoxPanoramaSky;
+import foxlite.flixel.FoxFlxSprite;
+import foxlite.funkin.FoxFunkinSprite;
+import foxlite.cache.FoxCache;
+import foxlite.lights.FoxDirectionalLight;
+import foxlite.flixel.FoxRenderMetrics;
+import foxlite.renderer.FoxRenderer;
+import foxlite.loaders.FoxLoaderUtil;
+import flixel.FlxG;
+import openfl.filters.BitmapFilter;
+import foxlite.extras.FoxFPSCamera;
 
 var studentPassersL:Array = ["pin", "bully_final"];
 var studentPassersR:Array = ["JumpRope", "GottaSweep"];
 
-var viewCam:FlxCamera;
-var stage;
+var cam:FoxFPSCamera;
+
+var pencil:FoxFlxSprite;
+var baldi:FoxFlxSprite;
+
+var school;
 var blackOverlay:FlxSprite;
 var thinkpad:FlxSprite;
 
 function create() {
-	Flx3DUtil.is3DAvailable();
-	view = new Flx3DView(0, 0, FlxG.width / 2.5, FlxG.height / 2.5);
-	view.screenCenter();
-	view.scrollFactor.set();
-	view.antialiasing = true;
-	view.scale.set(5, 5);
-	view.view.camera.lens.far = 100000000;
+	FoxRenderer.initLibs();
+	FoxLoaderUtil.initPathClass(Paths);
+	
+	var scene = new FoxScene(FlxG.width, FlxG.height);
+	scene.scrollFactor.set(0, 0);
+	scene.zoomFactor = 0;
 
-    view.addModel(Paths.obj("haha baldi"), function(model) {
-        if (Std.string(model.asset.assetType) == "mesh") {
-            model.asset.scale(250);
-            model.asset.x = 320;
-            model.asset.y = -230;
-            model.asset.rotationY = 0;
-            model.asset.z = -220;
-            stage = model.asset;
-        }
-    }, Paths.image("stages/baldi/Atlas_00003"), false);
+	cam = new FoxFPSCamera();
+	scene.foxCameras.push(cam);
+	cam.enableControls = false;
+
+	school = new FoxModel();
+	school.loadOBJ("models/haha baldi.obj", ["NO_ALPHA_SCISSOR", "NO_SHADOW_CODE"]);
+	scene.add(school);
 	
-	insert(1, view);
+	add(scene);
 	
-	blackOverlay = new FlxSprite(0, 720);
+	var basics = FoxShader.fromAsset("foxlite/basic", ["UNSHADED"]);
+	
+	pencil = new FoxFunkinSprite(bf, FoxMaterial.create(["BILLBOARD", ["bitmap" => FoxTexture.wrap(bf.pixels)]]), .0027);
+	pencil.material.renderPriority = 2;
+	scene.add(pencil);
+	pencil.y = .9;
+	pencil.x = 1.25;
+	pencil.z = 1.2;
+
+	baldi = new FoxFunkinSprite(dad, FoxMaterial.create(basics), .0027);
+	baldi.material.renderPriority = 2;
+	scene.add(baldi);
+	baldi.y = .78;
+	baldi.x = -1.45;
+	baldi.z = 1.2;
+	
+/*	blackOverlay = new FlxSprite(0, 720);
     blackOverlay.makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
     blackOverlay.scrollFactor.set(0, 0);
     blackOverlay.alpha = 1;
@@ -128,26 +153,25 @@ function create() {
 	charRight.scale.set(3.3, 3.3);
 	charRight.updateHitbox();
 	charRight.cameras = [camGame];
-	add(charRight);
+	add(charRight);*/
 }
 
 function update(_) {
-    view.view.camera.x = FlxG.camera.scroll.x / 3 + 300;
-    view.view.camera.y = -FlxG.camera.scroll.y / 3.5 - 30;
-    view.view.camera.z = -1150 + (FlxG.camera.zoom * 10);
-	
-	whiteout.alpha = blackout.alpha = thinkpad.alpha;
-}
-
-var camR:Float = 0;
-function postUpdate(elapsed:Float) {		
-	if (curCameraTarget == 0) camR = -2;
-	else if (curCameraTarget == 1) camR = 2;
-    stage.rotationY = FlxMath.lerp(stage.rotationY, camR, 0.5 * 15 * elapsed);
+//	whiteout.alpha = blackout.alpha = thinkpad.alpha;
+	var cg = PlayState.instance.camGame;
+	var ch = PlayState.instance.camHUD;
+	var x = cg.scroll.x;
+	var y = cg.scroll.y;
+	cam.position.setTo(
+		(x * .005 + 0.05) * 0.3,
+		0.8 + y * .001 + .05, 2.5
+	);
+//	cam.rotation.x = -0.3 - y*.001;
+	cam.rotation.y = x*.0001;
 }
 
 function destroy() {
-    view.destroy();
+	FoxCache.instance.freeResources();
 }
 
 var leftRun:Float = FlxG.random.int(784, 1152);
