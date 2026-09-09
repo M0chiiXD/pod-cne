@@ -4,7 +4,7 @@
 	<print pretty="true">Preparing installation...</print>
 
 		<!-- OpenFL & Lime (Required for Flixel) -->
-		<git name="openfl" version="9,4,0" />
+		<git name="openfl" version="9.4.0"/>
 		<lib name="lime" version="8.1.2" />
 
 		<!-- Flixel -->
@@ -15,10 +15,12 @@
 		<git name="hscript-improved" url="https://github.com/CodenameCrew/hscript-improved" ref="codename-dev" />
 		<git name="hxdiscord_rpc" url="https://github.com/CodenameCrew/cne-hxdiscord_rpc" ref="old" skipDeps="true" />
 		<lib name="funkin-modchart" skipDeps="true" />
-		<lib name="hxvlc" version="1.9.3" skipDeps="true" />
+		<lib name="hxvlc" version="2.3.0" skipDeps="true" />
 
 		<!-- Documentation and other features -->
-		<git name="away3d" url="https://github.com/CodenameCrew/away3d" />
+		<!-- <git name="away3d" url="https://github.com/CodenameCrew/away3d" /> -->
+		<git name="foxlite" url="https://github.com/dwdvIl/foxlite" skipDeps="true"/>
+
 		<!-- <lib name="dox" /> -->
 		<lib name="markdown" />
 		<lib name="hxcpp-debug-server" />
@@ -43,12 +45,12 @@
 		</if>
 
 		<!-- Lime Building -->
-		<if cond="build-lime || all">
+		<!-- <if cond="build-lime || all">
 			<print pretty="true">Rebuilding Lime...</print>
 
-		<!-- Build lime -->
+			<!- - Build lime - ->
 			<cmd inLib="lime" cmd="haxelib run lime rebuild . $PLATFORM -release -clean" />
 			<cmd inLib="lime" dir="tools" cmd="haxe tools.hxml" />
-		</if>
+		</if> -->
 
 </libraries>
