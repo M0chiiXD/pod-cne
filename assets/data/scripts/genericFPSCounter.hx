@@ -1,7 +1,8 @@
 // special thanks to swordcube, bobbyDX, and Anti for figuring out the systems
-// special thanks to Vortex for the processing NDLL, and Zoro for the vRAM tracking
-// full FPS script built by m0chimyra <3
+// special thanks to Vortex for the original processing NDLL, and Zoro for the vRAM tracking
+// full FPS script built by m0chimyra (@joemfunni)
 
+//im leaving these imports unchanged because im too laxy to clean ts </3
 import Sys;
 import Type;
 
@@ -9,9 +10,6 @@ import Main;
 
 import haxe.Timer;
 
-import flixel.FlxG;
-import flixel.FlxBasic;
-import flixel.FlxSubState;
 import flixel.util.FlxStringUtil;
 
 import openfl.Assets;
@@ -30,7 +28,6 @@ import funkin.backend.system.framerate.Framerate;
 import funkin.backend.system.framerate.SystemInfo;
 import funkin.backend.utils.MemoryUtil;
 import funkin.backend.utils.WindowUtils;
-import funkin.backend.utils.NdllUtil;
 
 var genericFPS:TextField;
 var underlay:Sprite;
@@ -46,10 +43,9 @@ var fpsUpdateTimer:Float = 999999;
 //CHANGE TO FALSE IF YOU'RE USING A CUSTOM FONT!
 var useDefaultFont:Bool = true;
 var defaultFont = Framerate.fontName;
-var currentDebug:Int = 0;
 
 // CHANGE THIS TO YOUR CUSTOM FONT NAME!!
-var customFont = Paths.getFontName("SourceCodePro.ttf");
+var customFont = Paths.font("SourceCodePro.ttf");
 
 function new() {
     underlay = new Sprite();
@@ -61,7 +57,7 @@ function new() {
     underlay.y = 9;
     Main.instance.addChild(underlay);
 	
-	var format:TextFormat = new TextFormat(useDefaultFont ? defaultFont : customFont, 15, 0xFFFFFFFF);
+	var format:TextFormat = new TextFormat(useDefaultFont ? defaultFont : Paths.getFontName(customFont), 15, 0xFFFFFFFF);
 
     genericFPS = new TextField();
     genericFPS.x = 6;
@@ -71,18 +67,19 @@ function new() {
     genericFPS.defaultTextFormat = format;
 	genericFPS.setTextFormat(genericFPS.defaultTextFormat);
     Main.instance.addChild(genericFPS);
+
+	Framerate.instance.visible = false;
 }
 
-var taskMem = NdllUtil.getFunction("processinfo", "processinfo_get_memory_usage", 0);
-
-function update(elapsed:Float) {
-    fpsNum = Framerate.fpsCounter.fpsNum.text;
-	if(FlxG.keys.justPressed.F3) swapDebugCase(1);
-	
+var currentDebug:Int = 0;
+function postUpdate(elapsed:Float) {
 	Framerate.instance.visible = false;
 
-	curGCMemory = Framerate.memoryCounter.memory;
-	curTaskMemory = taskMem();
+    fpsNum = Framerate.fpsCounter.fpsNum.text;
+	if(FlxG.keys.justPressed.F3) swapDebugCase(1);
+
+	curGCMemory = MemoryUtil.currentMemUsage();
+	curTaskMemory = MemoryUtil.currentProcessMemUsage();
 	if (curGCMemory > maxGCMemory) maxGCMemory = curGCMemory;			
 	if (curTaskMemory > maxTaskMemory) maxTaskMemory = curTaskMemory;
 	
@@ -100,9 +97,9 @@ function update(elapsed:Float) {
 		}
 			
 		var vRAMUsage = 
-		FlxStringUtil.formatBytes(FlxG.stage.context3D.gl.getParameter(openfl.display3D.Context3D.__glMemoryCurrentAvailable)) 
+		formatByte(FlxG.stage.context3D.gl.getParameter(openfl.display3D.Context3D.__glMemoryCurrentAvailable)) 
 		+ " / " + 
-		FlxStringUtil.formatBytes(FlxG.stage.context3D.gl.getParameter(openfl.display3D.Context3D.__glMemoryTotalAvailable));
+		formatByte(FlxG.stage.context3D.gl.getParameter(openfl.display3D.Context3D.__glMemoryTotalAvailable));
 			
 		var bitmapCount:Int = 0;
 		for(_ in FlxG.bitmap._cache.keys()) bitmapCount++;
