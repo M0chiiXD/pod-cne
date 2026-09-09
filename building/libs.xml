@@ -4,7 +4,7 @@
 	<print pretty="true">Preparing installation...</print>
 
 		<!-- OpenFL & Lime (Required for Flixel) -->
-		<git name="openfl" url="https://github.com/M0chiiXD/pod-openfl/" ref="pod" />
+		<git name="openfl" version="9,4,0" />
 		<lib name="lime" version="8.1.2" />
 
 		<!-- Flixel -->
@@ -44,11 +44,11 @@
 
 		<!-- Lime Building -->
 		<if cond="build-lime || all">
-		<print pretty="true">Rebuilding Lime...</print>
+			<print pretty="true">Rebuilding Lime...</print>
 
 		<!-- Build lime -->
-		<cmd inLib="lime" cmd="haxelib run lime rebuild . $PLATFORM -release -clean" />
-		<cmd inLib="lime" dir="tools" cmd="haxe tools.hxml" />
+			<cmd inLib="lime" cmd="haxelib run lime rebuild . $PLATFORM -release -clean" />
+			<cmd inLib="lime" dir="tools" cmd="haxe tools.hxml" />
 		</if>
 
 </libraries>

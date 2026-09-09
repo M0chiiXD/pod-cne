@@ -2144,7 +2144,7 @@ class PlayState extends MusicBeatState
 			var separatedScore:String = Std.string(combo).addZeros(3);
 			for (i in 0...separatedScore.length)
 			{
-				var event:RatingsShowEvent = EventManager.get(RatingsShowEvent).recycle(null, comboGroup.recycleLoop(FlxSprite), null, 0.5, true, null, null, "game/score/", "", 285, FlxPoint.get(FlxG.random.float(-3, 0), FlxG.random.int(150, 155)), 0.2, (Conductor.crochet * 0.002), false, true, false, true, 43, FlxPoint.get(Options.ratingOffsets[2] * (43 + i), Options.ratingOffsets[3]), true, null, null);
+				var event:RatingsShowEvent = EventManager.get(RatingsShowEvent).recycle(null, comboGroup.recycleLoop(FlxSprite), null, 0.5, true, null, null, "game/score/", "", FlxG.random.int(230, 250), FlxPoint.get(FlxG.random.float(-5, 0), FlxG.random.int(150, 160)), 0.25, (Conductor.crochet * 0.002), false, true, false, true, 43, FlxPoint.get(Options.ratingOffsets[2], Options.ratingOffsets[3]), true, null, null);
 				gameAndCharsEvent("onRatingsShown", event);
 
 				if (event.cancelled || !event.displayNumbers) { // TODO: Find a better way for this?
