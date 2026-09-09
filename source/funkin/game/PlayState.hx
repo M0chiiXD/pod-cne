@@ -695,8 +695,8 @@ class PlayState extends MusicBeatState
 		(scripts = new ScriptPack("PlayState")).setParent(this);
 
 		camGame = camera;
-		FlxG.cameras.add(camHUD = new HudCamera(), false);
 		FlxG.cameras.add(camRatings = new FlxCamera(), false);
+		FlxG.cameras.add(camHUD = new HudCamera(), false);
 		camHUD.bgColor.alpha = 0;
 		camRatings.bgColor.alpha = 0;
 
