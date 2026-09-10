@@ -55,18 +55,27 @@ function new() {
     underlay.alpha = 0.555;
     underlay.x = 5;
     underlay.y = 9;
-    Main.instance.addChild(underlay);
+	Main.instance.addChild(underlay);
 	
-	var format:TextFormat = new TextFormat(useDefaultFont ? defaultFont : Paths.getFontName(customFont), 15, 0xFFFFFFFF);
+	var fpsFormat:TextFormat = new TextFormat(useDefaultFont ? defaultFont : Paths.getFontName(customFont), 15, 0xFFFFFFFF);
+	debugFormat = new TextFormat(useDefaultFont ? defaultFont : Paths.getFontName(customFont), 13, 0xFFFFFFFF);
 
-    genericFPS = new TextField();
-    genericFPS.x = 6;
-    genericFPS.y = 10;
-    genericFPS.text = "FPS COUNTER BROKEN :/";
-    genericFPS.autoSize = 1;
-    genericFPS.defaultTextFormat = format;
-	genericFPS.setTextFormat(genericFPS.defaultTextFormat);
-    Main.instance.addChild(genericFPS);
+    fpsText = new TextField();
+    fpsText.x = 6;
+    fpsText.y = 10;
+    fpsText.autoSize = 1;
+    fpsText.defaultTextFormat = fpsFormat;
+	fpsText.setTextFormat(fpsText.defaultTextFormat);
+    Main.instance.addChild(fpsText);
+	
+	debugTxt = new TextField();
+    debugTxt.x = 6;
+    debugTxt.y = 28;
+    debugTxt.text = "FPS COUNTER BROKEN :/";
+    debugTxt.autoSize = 1;
+    debugTxt.defaultTextFormat = debugFormat;
+	debugTxt.setTextFormat(debugTxt.defaultTextFormat);
+    Main.instance.addChild(debugTxt);
 
 	Framerate.instance.visible = false;
 }
@@ -83,10 +92,16 @@ function postUpdate(elapsed:Float) {
 	if (curGCMemory > maxGCMemory) maxGCMemory = curGCMemory;			
 	if (curTaskMemory > maxTaskMemory) maxTaskMemory = curTaskMemory;
 	
+	var fps:String = "";
 	var text:String = "";
 	
+	fps = "FPS: " + fpsNum;
+	
 	if (currentDebug == 0){
-		text = "FPS: " + fpsNum + " • Memory: " + formatByte(curGCMemory) + " / " +  formatByte(maxGCMemory);
+		debugFormat.size = 13;
+		debugTxt.defaultTextFormat = debugFormat;
+		text = "GC: " + formatByte(curGCMemory)
+		+ " • Task: " + formatByte(curTaskMemory);
 		underlay.visible = true;
 	} else if (currentDebug == 1) {
 		var objCount:Int = 0;
@@ -103,20 +118,20 @@ function postUpdate(elapsed:Float) {
 			
 		var bitmapCount:Int = 0;
 		for(_ in FlxG.bitmap._cache.keys()) bitmapCount++;
+		
+		debugFormat.size = 15;
+		debugTxt.defaultTextFormat = debugFormat;
 			
-		text = "FPS: " + fpsNum;
-		text += "\nGC MEM: " + formatByte(curGCMemory) + " / " + formatByte(maxGCMemory);
-		text += "\nTask MEM: " + formatByte(curTaskMemory) + " / " +  formatByte(maxTaskMemory);
+		text = "GC Mem: " + formatByte(curGCMemory) + " / " + formatByte(maxGCMemory);
+		text += "\nTask Mem: " + formatByte(curTaskMemory) + " / " +  formatByte(maxTaskMemory);
 		text += "\nvRAM Usage: " + vRAMUsage;
-		text += "\n\n<---Mod Info--->";
-		text += "\nMod Name: " + if (Flags.MOD_NAME == "") "None" else Flags.MOD_NAME;
-		text += "\nMod Author: " + if (Flags.MOD_AUTHOR == "") "None" else Flags.MOD_AUTHOR;
 		text += "\n\n<---Build Info--->";
-		text += "\nBuild Num: " + Flags.VERSION;
+		text += "\nVersion: V" + Flags.VERSION;
 		text += "\nCommit Hash: " + Flags.COMMIT_HASH.toLowerCase();
-		text += "\n\n<---Flixel Info--->";
+		text += "\n\n<---State Info--->";
 		text += "\n" + getStateInfo("State");
 		text += "\n" + getStateInfo("SubState");
+		text += "\n\n<---Flixel Info--->";
 		text += "\nTotal Objects: " + objCount;
 		text += '\nCached Bitmaps: ${bitmapCount}';
 		text += '\nCached Sounds: ${FlxG.sound.list.length} \nFlxGame Child Count: ${FlxG.game.numChildren}';
@@ -127,13 +142,18 @@ function postUpdate(elapsed:Float) {
 		text += "\n\n<---System Info--->";
 		text += "\nSystem: " + Capabilities.os;
 	} else if (currentDebug == 2) {
+		fps = "";
 		text = "";
-		genericFPS.width = genericFPS.textWidth + 10;
 		underlay.visible = false;
 	}
-	genericFPS.text = text;
-	setUnderlaySize(genericFPS.width + 3, genericFPS.height + 2);
-	underlay.y = genericFPS.y = Framerate.instance.y + 4;
+	
+	fpsText.text = fps;
+	debugTxt.text = text;
+	setUnderlaySize(debugTxt.width + 5, fpsText.height + debugTxt.height);
+	underlay.y = fpsText.y;
+	debugTxt.y = fpsText.y + 18;
+	fpsText.y = Framerate.instance.y + 4;
+	underlay.y -= 1;
 }
 
 function swapDebugCase(num:Int) currentDebug = FlxMath.wrap(currentDebug + num, 0, 2);
@@ -172,7 +192,8 @@ function getStateInfo(type:String) {
 function formatByte(target:Float) return CoolUtil.getSizeString(target).toUpperCase();
 
 function destroy() {
-	Main.instance.removeChild(genericFPS);
+	Main.instance.removeChild(fpsText);
+	Main.instance.removeChild(debugTxt);
 	Main.instance.removeChild(underlay);
 	Framerate.instance.visible = true;
 }
