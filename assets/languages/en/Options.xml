@@ -144,6 +144,8 @@
 	</group>
 
 	<group name="MiscOptions" prefix="MiscOptions.">
+		<str id="hideFPSCounter-name">Hide FPS/Debug Counter</str>
+		<str id="hideFPSCounter-desc">If checked, will hide the Framerate and Debug counter shown on the top left of the screen.</str>
 		<str id="forceCrash-name">Force Crash</str>
 		<str id="forceCrash-desc">Select this option to force a crash.</str>
 
@@ -167,6 +169,9 @@
 	<group name="DebugOptions" prefix="DebugOptions.">
 		<str id="title">Debug Options</str>
 		<str id="desc">Use this menu to enable or disable debug options.</str>
+
+		<str id="useGCMemory-name">Use GC Memory</str>
+		<str id="useGCMemory-desc">If checked, will show the GC memory in the Framerate counter instead of the Task memory.</str>
 
 		<str id="showConsole-name">Show Console</str>
 		<str id="showConsole-desc">Select this to show the debug console, which contains log information about the game.</str>

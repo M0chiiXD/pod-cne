@@ -27,6 +27,8 @@ class Options
 	public static var camZoomOnBeat:Bool = true;
 	public static var ratingOffsets:Array<Int> = [0, 0, 0, 0];
 	public static var fpsCounter:Bool = true;
+	public static var hideFPSCounter:Bool = false;
+	public static var useGCMemory:Bool = false;
 	public static var autoPause:Bool = true;
 	public static var antialiasing:Bool = true;
 	public static var volume:Float = 1;

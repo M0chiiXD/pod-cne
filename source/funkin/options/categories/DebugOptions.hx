@@ -4,6 +4,7 @@ class DebugOptions extends TreeMenuScreen {
 	public function new() {
 		super('DebugOptions.title', 'DebugOptions.desc', 'DebugOptions.');
 
+		add(new Checkbox(getNameID("useGCMemory"), getDescID("useGCMemory"), "useGCMemory"));
 		#if windows
 		add(new TextOption(getNameID("showConsole"), getDescID("showConsole"), () -> funkin.backend.utils.NativeAPI.allocConsole()));
 		#end

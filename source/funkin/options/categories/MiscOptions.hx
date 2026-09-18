@@ -6,6 +6,7 @@ class MiscOptions extends TreeMenuScreen {
 	public function new() {
 		super('optionsTree.miscellaneous-name', 'optionsTree.miscellaneous-desc', 'MiscOptions.');
 
+		add(new Checkbox(getNameID('hideFPSCounter'), getDescID('hideFPSCounter'), 'hideFPSCounter'));
 		add(new Checkbox(getNameID('devMode'), getDescID('devMode'), 'devMode'));
 		add(new Checkbox(getNameID('allowConfigWarning'), getDescID('allowConfigWarning'), 'allowConfigWarning'));
 		#if UPDATE_CHECKING
