@@ -33,7 +33,6 @@ class VideoUtil {
 			var loop:Bool = false;
 
 			var video:FlxVideoSprite = new FlxVideoSprite();
-			video.load(Paths.video(vid), options);
 			video.camera = camera;
 			video.bitmap.onFormatSetup.add(function() {
 				if (!dynamic) {
@@ -45,12 +44,9 @@ class VideoUtil {
 
 			videoList.push(video);
 
-			if (video != null && video.bitmap != null) {
-				video.play();
-				video.pause();
-				video?.bitmap?.time = 0;
-				trace("Loaded Video: " + vid);
-			}
+			video.bitmap.precache(Paths.video(vid), options);
+			video?.bitmap?.time = 0;
+			trace("Loaded Video: " + vid);
 
 			video.bitmap.onEndReached.add(function() {
 				destroyCur();
