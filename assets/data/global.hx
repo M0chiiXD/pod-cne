@@ -25,6 +25,20 @@ function new() {
 	} catch(e:Any) { trace(e); }
 }
 
+static var redirectStates:Map<FlxState, String> = [
+	TitleState => "MainMenu",
+	MainMenuState => "MainMenu",
+	StoryMenuState => "StoryModeState",
+	FreeplayState => "Sigmavator",
+	CreditsMain => "CreditsState",
+];
+
+function preStateSwitch() {   
+    for(redirectState in redirectStates.keys())
+		if(Std.isOfType(FlxG.game._requestedState, redirectState))
+            FlxG.game._requestedState = new ModState(redirectStates.get(redirectState));
+}
+
 function postStateSwitch(){
     if(Std.isOfType(FlxG.state, PlayState)) {
 		window.title += ' - ' + PlayState.SONG.meta.displayName;
