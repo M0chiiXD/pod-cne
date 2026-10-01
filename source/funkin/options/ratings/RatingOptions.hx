@@ -9,8 +9,7 @@ using StringTools;
 class RatingOptions extends MusicBeatSubstate {
 	public static var instance:RatingOptions;
 
-	public function translate(id:String, ?args:Array<Dynamic>)
-		return TU.translate(id, args);
+	public function translate(id:String, ?args:Array<Dynamic>) return TU.translate(id, args);
 
 	public var camRatings:FlxCamera;
 
