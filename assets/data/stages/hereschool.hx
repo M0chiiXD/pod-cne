@@ -64,7 +64,7 @@ function create() {
 	baldi.x = -1.45;
 	baldi.z = 1.2;
 	
-/*	blackOverlay = new FlxSprite(0, 720);
+	blackOverlay = new FlxSprite(0, 720);
     blackOverlay.makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
     blackOverlay.scrollFactor.set(0, 0);
     blackOverlay.alpha = 1;
@@ -153,7 +153,7 @@ function create() {
 	charRight.scale.set(3.3, 3.3);
 	charRight.updateHitbox();
 	charRight.cameras = [camGame];
-	add(charRight);*/
+	add(charRight);
 }
 
 function update(_) {
