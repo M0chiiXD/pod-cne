@@ -103,7 +103,8 @@ class Main extends Sprite
 		WindowUtils.init();
 		SaveWarning.init();
 		MemoryUtil.init();
-		@:privateAccess FlxG.game.getTimer = getTimer;
+		@:privateAccess
+		FlxG.game.getTimer = getTimer;
 		FunkinCache.init();
 		Paths.assetsTree = new AssetsLibraryList();
 
@@ -146,9 +147,10 @@ class Main extends Sprite
 		#end
 
 		ModsFolder.init();
-		
 		#if MOD_SUPPORT
-		if (FileSystem.exists("mods/autoload.txt")) modToLoad = File.getContent("mods/autoload.txt").trim();
+		if (FileSystem.exists("mods/autoload.txt"))
+			modToLoad = File.getContent("mods/autoload.txt").trim();
+
 		ModsFolder.switchMod(modToLoad.getDefault(Options.lastLoadedMod));
 		#end
 
@@ -171,22 +173,6 @@ class Main extends Sprite
 		}
 
 		game.addChildAt(game.soundTray = daSndTray, index);
-	}
-	
-	static var persistShaderKeys:Map<String, Bool>;
-
-	public static function refreshShaders() @:privateAccess {
-		if (persistShaderKeys == null) {
-			persistShaderKeys = [for (k in Lib.current.stage.context3D.__programs.keys()) k => true];
-		}
-		else {
-			for (key => program in Lib.current.stage.context3D.__programs) {
-				if (persistShaderKeys.get(key) || Type.resolveClass(key) != null) continue;
-
-				program.dispose();
-				Lib.current.stage.context3D.__programs.remove(key);
-			}
-		}
 	}
 
 	public static function initTransition() {
